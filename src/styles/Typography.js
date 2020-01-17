@@ -7,8 +7,8 @@ const Typography = createGlobalStyle`
 
 @font-face {
   font-family: "Monument Extended";
-  src: local('Monument Extended'), url("/fonts/MonumentExtended-Regular.woff2") format("woff2"),
-    url("/fonts/MonumentExtended-Regular.woff") format("woff");
+  src: url("./fonts/MonumentExtended-Regular.woff2") format("woff2"),
+    url("./fonts/MonumentExtended-Regular.woff") format("woff");
   font-style: normal;
 }
 
