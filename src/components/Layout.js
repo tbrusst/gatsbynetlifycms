@@ -6,6 +6,7 @@ import "./all.sass";
 import useSiteMetadata from "./SiteMetadata";
 import { withPrefix } from "gatsby";
 import GlobalStyle from "../styles/GlobalStyle";
+import "./fonts.scss";
 
 const TemplateWrapper = ({ children }) => {
   const { title, description } = useSiteMetadata();
