@@ -1,29 +1,34 @@
 ---
 templateKey: blog-post
-title: A beginners’ guide to brewing with Chemex
+title: Otto Brewerytown
 date: 2017-01-04T15:04:10.000Z
+description: >-
+  During my time at Cohere, we were tasked with designing and developing a
+  promotional site for a new housing development in Philadelphia’s up and coming
+  neighborhood, Brewerytown. Otto is a revolutionary condo development named as
+  a tribute to Brewerytown’s original architect, Otto Wolf.
 featuredpost: false
-featuredimage: /img/chemex.jpg
-description: Brewing with a Chemex probably seems like a complicated, time-consuming ordeal, but once you get used to the process, it becomes a soothing ritual that's worth the effort every time.
+featuredimage: /img/brendanrusso_otto_main.jpg
 tags:
   - brewing
   - chemex
 ---
-![chemex](/img/chemex.jpg)
+![Otto Header](//a.storyblok.com/f/52110/7168x4032/a043ddf51a/brendanrusso_otto_header.jpg)
 
-This week we’ll **take** a look at all the steps required to make astonishing coffee with a Chemex at home. The Chemex Coffeemaker is a manual, pour-over style glass-container coffeemaker that Peter Schlumbohm invented in 1941, and which continues to be manufactured by the Chemex Corporation in Chicopee, Massachusetts.
+## Context
+During my time at Cohere, we were tasked with designing and developing a promotional site for a new housing development in Philadelphia’s up and coming neighborhood, Brewerytown. Otto is a revolutionary condo development named as a tribute to Brewerytown’s original architect, Otto Wolf. 
 
-In 1958, designers at the [Illinois Institute of Technology](https://www.spacefarm.digital) said that the Chemex Coffeemaker is _"one of the best-designed products of modern times"_, and so is included in the collection of the Museum of Modern Art in New York City.
+![Otto iPad](//a.storyblok.com/f/52110/7111x4000/e441891293/brendanrusso_otto_ipad.jpg)
+![Otto Mobile](//a.storyblok.com/f/52110/5333x3000/cbdd8a11a6/brendanrusso_otto_mobile.jpg)
 
-## The little secrets of Chemex brewing
+## Execution
+In an attempt to create faster and more efficient components, we decided to utilize Vue.js to power animations and data changes. By utilizing the virtual DOM instead of affecting the DOM itself, content updates and page animations are completely seamless and provide a better experience for users. We were especially proud of the transition we were able to create between pricing information simply by manipulating the content inside of a single tag.
 
-The Chemex Coffeemaker consists of an hourglass-shaped glass flask with a conical funnel-like neck (rather than the cylindrical neck of an Erlenmeyer flask) and uses proprietary filters, made of bonded paper (thicker-gauge paper than the standard paper filters for a drip-method coffeemaker) that removes most of the coffee oils, brewing coffee with a taste that is different than coffee brewed in other coffee-making systems; also, the thicker paper of the Chemex coffee filters may assist in removing cafestol, a cholesterol-containing compound found in coffee oils. Here’s three important tips newbies forget about:
+![Otto Slider](//a.storyblok.com/f/52110/960x540/d8c961bbab/brendanrusso_otto_slider.gif)
+![Otto Ticker](//a.storyblok.com/f/52110/960x540/6d9b143c88/brendanrusso_otto_ticker.gif)
 
-1. Always buy dedicated Chemex filters.
-2. Use a scale, don’t try to eyeball it.
-3. Never skip preheating the glass.
-4. Timing is key, don’t forget the clock.
+## Results
+The client ended up not wanting to use our version of the site and moved in a different direction completely. This was somewhat satisfying but my peers and I were proud of the work we had done and I believe it stands as testament to my developing web, motion, and now Vue skillset.
 
-The most visually distinctive feature of the Chemex is the heatproof wooden collar around the neck, allowing it to be handled and poured when full of hot water. This is turned, then split in two to allow it to fit around the glass neck. The two pieces are held loosely in place by a tied leather thong. The pieces are not tied tightly and can still move slightly, retained by the shape of the conical glass.
+![Otto Grid](//a.storyblok.com/f/52110/6222x3500/b87cde7bbe/brendanrusso_otto_grid.jpg)
 
-For a design piece that became popular post-war at a time of Modernism and precision manufacture, this juxtaposition of natural wood and the organic nature of a hand-tied knot with the laboratory nature of glassware was a distinctive feature of its appearance.
