@@ -72,12 +72,6 @@ class BlogRoll extends React.Component {
                     />
                   </div>
                 ) : null}
-                {post.frontmatter.featuredimage ? (
-                  <div className="featured-thumbnail">
-                    <img src={post.frontmatter.featuredimage} alt="" />
-                  </div>
-                ) : null}
-                <img src={post.frontmatter.featuredimage} alt="" />
 
                 <Link
                   className="title has-text-primary is-size-4"
