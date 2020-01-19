@@ -26,6 +26,8 @@ p {
 
 a {
   text-decoration: none;
+  font-family: ${bodyfont};
+  color: ${props => props.theme.primary}
 }
 
 h1 {
