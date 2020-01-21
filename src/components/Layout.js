@@ -11,7 +11,7 @@ import "./fonts.scss";
 const TemplateWrapper = ({ children }) => {
   const { title, description } = useSiteMetadata();
   return (
-    <div>
+    <div style={{ overflowX: "hidden" }}>
       <Helmet>
         <html lang="en" />
         <title>{title}</title>

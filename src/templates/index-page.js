@@ -105,8 +105,8 @@ const Grid = styled.div`
   grid-template-rows: repeat(3, 1fr);
   grid-column-gap: 30px;
   grid-row-gap: 30px;
-  grid-template-rows: auto auto auto;
-  margin-bottom: 30px;
+  grid-template-rows: 10rem auto auto;
+  margin-bottom: 5rem;
   @media (min-width: 500px) {
     padding: 0 2rem;
   }
