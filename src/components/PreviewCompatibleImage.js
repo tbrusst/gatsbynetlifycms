@@ -5,8 +5,9 @@ import Img from "gatsby-image";
 const PreviewCompatibleImage = ({ imageInfo }) => {
   const imageStyle = {
     borderRadius: "10px",
-    minHeight: "250px",
-    margin: "0 0 15px 0"
+
+    margin: "0 0 15px 0",
+    minHeight: "250px"
   };
   const { alt = "", childImageSharp, image } = imageInfo;
 

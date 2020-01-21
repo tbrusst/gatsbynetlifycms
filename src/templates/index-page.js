@@ -15,9 +15,10 @@ const LogoDiv = styled.div`
   background: no-repeat center;
   background-size: contain;
   height: 20rem;
-  right: 10%;
-  width: 100%;
+
+  width: 90%;
   position: absolute;
+
   @media (min-width: 768px) {
     height: 20rem;
     right: auto;
@@ -32,8 +33,8 @@ const LogoDiv = styled.div`
 const ImageDiv = styled.div`
   background: no-repeat center;
   background-size: cover;
-  height: 20rem;
-  width: 50%;
+  height: 17rem;
+  width: 60%;
   z-index: 10;
   left: 20%;
   bottom: 5%;
@@ -104,7 +105,8 @@ const Grid = styled.div`
   grid-template-rows: repeat(3, 1fr);
   grid-column-gap: 30px;
   grid-row-gap: 30px;
-  grid-template-rows: 20vh auto 40vh;
+  grid-template-rows: auto auto auto;
+  margin-bottom: 30px;
   @media (min-width: 500px) {
     padding: 0 2rem;
   }
@@ -128,7 +130,7 @@ const Grid = styled.div`
 `;
 
 const Title = styled.div`
-  grid-area: 1 / 1 / 2 / 13;
+  grid-area: 1 / 1 / 2 / 12;
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -143,12 +145,13 @@ const Title = styled.div`
 `;
 
 const ImageLogoHold = styled.div`
-  grid-area: 2 / 1 / 3 / 13;
+  grid-area: 2 / 1 / 3 / 12;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   margin-top: 0rem;
+
   @media (min-width: 768px) {
     grid-area: 2 / 1 / 3 / 7;
   }
@@ -158,9 +161,10 @@ const ImageLogoHold = styled.div`
 `;
 
 const TextSection = styled.div`
-  grid-area: 3 / 1 / 4 / 13;
+  grid-area: 3 / 1 / 4 / 12;
   display: flex;
   flex-direction: column;
+  z-index: 100;
   p {
     padding-bottom: 15px;
   }
@@ -172,7 +176,7 @@ const TextSection = styled.div`
 
     margin-top: -3rem;
 
-    grid-area: 2 / 7 / 3 / 13;
+    grid-area: 2 / 7 / 3 / 12;
   }
   @media (min-width: 950px) {
     grid-area: 2 / 7 / 3 / 12;
@@ -196,18 +200,27 @@ export const IndexPageTemplate = ({
 }) => (
   <>
     <Grid>
-      <Title>
-        <h4>{heading}</h4>
-        <h1>{title}</h1>
+      <Title id="header-title">
+        <h4 id="title">{heading}</h4>
+        <div id="brendan-wrap" className="text-title-wrap">
+          <h1 id="brendan">Brendan</h1>
+        </div>
+        <div id="russo-wrap" className="text-title-wrap">
+          <h1 id="russo">Russo</h1>
+        </div>
       </Title>
 
       <ImageLogoHold>
         <ImageDiv
+          id="header-image"
           style={{ backgroundImage: "url(" + headshot + ")" }}
         ></ImageDiv>
-        <LogoDiv style={{ backgroundImage: "url(" + logo + ")" }}></LogoDiv>
+        <LogoDiv
+          id="header-logo"
+          style={{ backgroundImage: "url(" + logo + ")" }}
+        ></LogoDiv>
       </ImageLogoHold>
-      <TextSection>
+      <TextSection id="header-text-section">
         <p>
           I am currently working part-time as a UX Designer at a software
           startup called Setvi . I studied Interactive Digital Media at Drexel
@@ -229,101 +242,6 @@ export const IndexPageTemplate = ({
       </TextSection>
     </Grid>
     <BlogRoll />
-    {/* <div
-      className="full-width-image margin-top-0"
-      style={{
-        backgroundImage: `url(${
-          !!image.childImageSharp ? image.childImageSharp.fluid.src : image
-        })`,
-        backgroundPosition: `top left`,
-        backgroundAttachment: `fixed`
-      }}
-    >
-      <div
-        style={{
-          display: "flex",
-          height: "150px",
-          lineHeight: "1",
-          justifyContent: "space-around",
-          alignItems: "left",
-          flexDirection: "column"
-        }}
-      >
-        <h1
-          className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
-          style={{
-            boxShadow:
-              "rgb(255, 68, 0) 0.5rem 0px 0px, rgb(255, 68, 0) -0.5rem 0px 0px",
-            backgroundColor: "rgb(255, 68, 0)",
-            color: "white",
-            lineHeight: "1",
-            padding: "0.25em"
-          }}
-        >
-          {title}
-        </h1>
-        <h3
-          className="has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen"
-          style={{
-            boxShadow:
-              "rgb(255, 68, 0) 0.5rem 0px 0px, rgb(255, 68, 0) -0.5rem 0px 0px",
-            backgroundColor: "rgb(255, 68, 0)",
-            color: "white",
-            lineHeight: "1",
-            padding: "0.25em"
-          }}
-        >
-          {subheading}
-        </h3>
-      </div>
-    </div>
-    <section className="section section--gradient">
-      <div className="container">
-        <div className="section">
-          <div className="columns">
-            <div className="column is-10 is-offset-1">
-              <div className="content">
-                <div className="content">
-                  <div className="tile">
-                    <h1 className="title">{mainpitch.title}</h1>
-                  </div>
-                  <div className="tile">
-                    <h3 className="subtitle">{mainpitch.description}</h3>
-                  </div>
-                </div>
-                <div className="columns">
-                  <div className="column is-12">
-                    <h3 className="has-text-weight-semibold is-size-2">
-                      {heading}
-                    </h3>
-                    <p>{description}</p>
-                  </div>
-                </div>
-                <Features gridItems={intro.blurbs} />
-                <div className="columns">
-                  <div className="column is-12 has-text-centered">
-                    <Link className="btn" to="/products">
-                      See all products
-                    </Link>
-                  </div>
-                </div>
-                <div className="column is-12">
-                  <h3 className="has-text-weight-semibold is-size-2">
-                    Latest stories
-                  </h3>
-                  <BlogRoll />
-                  <div className="column is-12 has-text-centered">
-                    <Link className="btn" to="/blog">
-                      Read more
-                    </Link>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section> */}
   </>
 );
 
