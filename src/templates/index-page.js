@@ -10,12 +10,14 @@ import headshot from "../img/brendanrusso_headshot.jpg";
 import logo from "../img/brendanrusso_logo.svg";
 import styled from "styled-components";
 import { theme } from "../styles/GlobalStyle";
+import circle from "../img/circle.png";
+import doubleCircle from "../img/double-circle.png";
 
 const LogoDiv = styled.div`
   background: no-repeat center;
   background-size: contain;
   height: 20rem;
-
+  z-index: 550;
   width: 90%;
   position: absolute;
 
@@ -28,6 +30,11 @@ const LogoDiv = styled.div`
   }
   @media (min-width: 1100px) {
     height: 30rem;
+    width: 120%;
+  }
+  @media (min-width: 1400px) {
+    height: 30rem;
+    width: 90%;
   }
 `;
 const ImageDiv = styled.div`
@@ -35,11 +42,14 @@ const ImageDiv = styled.div`
   background-size: cover;
   height: 17rem;
   width: 60%;
-  z-index: 10;
+  z-index: 600;
   left: 20%;
   bottom: 5%;
   position: relative;
   border-radius: 20px;
+  @media (min-width: 400px) {
+    width: 50%;
+  }
   @media (min-width: 768px) {
     height: 18rem;
     width: 65%;
@@ -100,20 +110,21 @@ const MainButton = styled.button`
 `;
 
 const Grid = styled.div`
-  display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: repeat(3, 1fr);
-  grid-column-gap: 30px;
-  grid-row-gap: 30px;
-  grid-template-rows: 10rem auto auto;
+  z-index: 400;
+  display: flex;
+  flex-direction: column;
+
   margin-bottom: 5rem;
+  position: relative;
   @media (min-width: 500px) {
     padding: 0 2rem;
   }
 
   @media (min-width: 768px) {
+    display: grid;
     grid-row-gap: 0px;
     grid-column-gap: 60px;
+    grid-template-columns: repeat(12, 1fr);
     grid-template-rows: repeat(2, 1fr);
     padding: 0 1rem;
     max-height: 100vh;
@@ -135,7 +146,7 @@ const Title = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  z-index: 11;
+  z-index: 900;
   @media (min-width: 768px) {
     grid-area: 1 / 1 / 2 / 8;
   }
@@ -145,15 +156,15 @@ const Title = styled.div`
 `;
 
 const ImageLogoHold = styled.div`
-  grid-area: 2 / 1 / 3 / 12;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  margin-top: 0rem;
+  margin: 2rem 0;
 
   @media (min-width: 768px) {
     grid-area: 2 / 1 / 3 / 7;
+    margin: 0;
   }
   @media (min-width: 1100px) {
     grid-area: 2 / 3 / 3 / 7;
@@ -164,7 +175,7 @@ const TextSection = styled.div`
   grid-area: 3 / 1 / 4 / 12;
   display: flex;
   flex-direction: column;
-  z-index: 100;
+  z-index: 500;
   p {
     padding-bottom: 15px;
   }
@@ -176,10 +187,10 @@ const TextSection = styled.div`
 
     margin-top: -3rem;
 
-    grid-area: 2 / 7 / 3 / 12;
+    grid-area: 2 / 7 / 3 / 13;
   }
   @media (min-width: 950px) {
-    grid-area: 2 / 7 / 3 / 12;
+    grid-area: 2 / 7 / 3 / 13;
     p {
       padding-bottom: 30px;
     }
@@ -200,7 +211,7 @@ export const IndexPageTemplate = ({
 }) => (
   <>
     <Grid>
-      <Title id="header-title">
+      <Title id="header-title" className="leftSide">
         <h4 id="title">{heading}</h4>
         <div id="brendan-wrap" className="text-title-wrap">
           <h1 id="brendan">Brendan</h1>
@@ -210,7 +221,7 @@ export const IndexPageTemplate = ({
         </div>
       </Title>
 
-      <ImageLogoHold>
+      <ImageLogoHold className="leftSide">
         <ImageDiv
           id="header-image"
           style={{ backgroundImage: "url(" + headshot + ")" }}
@@ -241,6 +252,14 @@ export const IndexPageTemplate = ({
         <MainButton>Contact Me</MainButton>
       </TextSection>
     </Grid>
+    <div id="circle-wrapper">
+      <div className="circle-hold" id="double-circle">
+        <img src={doubleCircle} alt="" />
+      </div>
+      <div className="circle-hold" id="circle">
+        <img src={circle} alt="" />
+      </div>
+    </div>
     <BlogRoll />
   </>
 );

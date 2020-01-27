@@ -5,6 +5,8 @@ import PreviewCompatibleImage from "./PreviewCompatibleImage";
 import styled from "styled-components";
 
 const BlogRollWrapper = styled.div`
+  z-index: 700;
+  position: relative;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
@@ -31,7 +33,7 @@ const BlogRollWrapper = styled.div`
 
 const BlogPreview = styled.div`
   width: 100%;
-  margin: 0 0 30px 0;
+  margin: 0 0 60px 0;
   @media (min-width: 500px) {
   }
   @media (min-width: 768px) {
@@ -58,7 +60,7 @@ class BlogRoll extends React.Component {
     const { edges: posts } = data.allMarkdownRemark;
 
     return (
-      <BlogRollWrapper>
+      <BlogRollWrapper id="blog-roll">
         {posts &&
           posts.map(({ node: post }) => (
             <BlogPreview key={post.id}>

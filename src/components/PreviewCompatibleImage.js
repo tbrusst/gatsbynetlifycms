@@ -7,7 +7,7 @@ const PreviewCompatibleImage = ({ imageInfo }) => {
     borderRadius: "10px",
 
     margin: "0 0 15px 0",
-    minHeight: "250px"
+    height: "100%"
   };
   const { alt = "", childImageSharp, image } = imageInfo;
 
