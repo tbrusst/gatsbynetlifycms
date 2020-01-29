@@ -13,6 +13,10 @@ import { theme } from "../styles/GlobalStyle";
 import circle from "../img/circle.png";
 import doubleCircle from "../img/double-circle.png";
 
+setTimeout(function() {
+  document.body.style.overflow = "hidden visible";
+}, 5000);
+
 const LogoDiv = styled.div`
   background: no-repeat center;
   background-size: contain;

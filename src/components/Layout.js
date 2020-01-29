@@ -6,6 +6,7 @@ import Navbar from "../components/Navbar";
 import useSiteMetadata from "./SiteMetadata";
 import { withPrefix } from "gatsby";
 import GlobalStyle from "../styles/GlobalStyle";
+
 import "./fonts.scss";
 import "./animations.scss";
 import "./header.scss";
@@ -14,7 +15,7 @@ import "./blogroll.scss";
 const TemplateWrapper = ({ children }) => {
   const { title, description } = useSiteMetadata();
   return (
-    <div style={{ overflowX: "hidden" }}>
+    <div style={{ overflow: "hidden", width: "100vw" }}>
       <Helmet>
         <html lang="en" />
         <title>{title}</title>
