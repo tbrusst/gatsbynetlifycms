@@ -13,10 +13,6 @@ import { theme } from "../styles/GlobalStyle";
 import circle from "../img/circle.png";
 import doubleCircle from "../img/double-circle.png";
 
-setTimeout(function() {
-  document.body.style.overflow = "hidden visible";
-}, 5000);
-
 const LogoDiv = styled.div`
   background: no-repeat center;
   background-size: contain;
@@ -221,7 +217,7 @@ export const IndexPageTemplate = ({
           <h1 id="brendan">Brendan</h1>
         </div>
         <div id="russo-wrap" className="text-title-wrap">
-          <h1 id="russo">Ruso</h1>
+          <h1 id="russo">Russo</h1>
         </div>
       </Title>
 
