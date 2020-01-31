@@ -9,6 +9,7 @@ import GlobalStyle from "../styles/GlobalStyle";
 import "./fonts.scss";
 import "./animations.scss";
 import "./header.scss";
+import "./blog-post.scss";
 import "./blogroll.scss";
 
 const TemplateWrapper = ({ children }) => {
