@@ -221,7 +221,7 @@ export const IndexPageTemplate = ({
           <h1 id="brendan">Brendan</h1>
         </div>
         <div id="russo-wrap" className="text-title-wrap">
-          <h1 id="russo">Russo</h1>
+          <h1 id="russo">Ruso</h1>
         </div>
       </Title>
 
