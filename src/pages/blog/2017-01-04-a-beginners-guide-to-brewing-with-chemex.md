@@ -8,10 +8,11 @@ description: >-
   neighborhood, Brewerytown. Otto is a revolutionary condo development named as
   a tribute to Brewerytown’s original architect, Otto Wolf.
 featuredpost: false
-featuredimage: /img/brendanrusso_otto_main.jpg
+featuredimage: /img/brendanrusso_otto_header.jpg
 tags:
-  - brewing
-  - chemex
+  - UX/UI
+  - Motion Design
+  - Front End Development
 ---
 ![Otto Header](//a.storyblok.com/f/52110/7168x4032/a043ddf51a/brendanrusso_otto_header.jpg)
 
