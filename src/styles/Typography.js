@@ -34,9 +34,10 @@ h1 {
   font-family: ${headingfont};
   font-size: 3rem;
   text-transform: uppercase;
-
-  
   font-weight: normal;
+
+
+
   @media only screen and (min-width: 768px) {
     font-size: 5rem;
     line-height: 4.5rem;

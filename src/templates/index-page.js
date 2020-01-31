@@ -13,6 +13,10 @@ import { theme } from "../styles/GlobalStyle";
 import circle from "../img/circle.png";
 import doubleCircle from "../img/double-circle.png";
 
+setTimeout(function() {
+  document.body.style.overflow = "hidden visible";
+}, 5000);
+
 const LogoDiv = styled.div`
   background: no-repeat center;
   background-size: contain;
@@ -89,6 +93,7 @@ const MainButton = styled.button`
 
   @media (min-width: 768px) {
     max-width: 50%;
+    padding: 10px 40px;
   }
   @media (min-width: 950px) {
     padding: 12px 30px;
@@ -100,12 +105,11 @@ const MainButton = styled.button`
     max-width: 50%;
   }
   @media (min-width: 1440px) {
-    padding: 15px 30px;
-    max-width: 40%;
+    padding: 15px 50px;
   }
 
   @media (min-width: 1800px) {
-    max-width: 30%;
+    max-width: 40%;
   }
 `;
 
@@ -116,6 +120,7 @@ const Grid = styled.div`
 
   margin-bottom: 5rem;
   position: relative;
+  padding: 2rem 1rem 0 1rem;
   @media (min-width: 500px) {
     padding: 0 2rem;
   }
@@ -248,8 +253,9 @@ export const IndexPageTemplate = ({
           Please contact me with any questions you may have or with any
           information regarding opportunities in related fields.
         </p>
-
-        <MainButton>Contact Me</MainButton>
+        <a href="mailto:@russobrendanm@gmail.com">
+          <MainButton>Contact Me</MainButton>
+        </a>
       </TextSection>
     </Grid>
     <div id="circle-wrapper">

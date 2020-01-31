@@ -15,7 +15,7 @@ import "./blogroll.scss";
 const TemplateWrapper = ({ children }) => {
   const { title, description } = useSiteMetadata();
   return (
-    <div style={{ overflowX: "hidden" }}>
+    <div style={{ overflow: "hidden", width: "100vw" }}>
       <Helmet>
         <html lang="en" />
         <title>{title}</title>

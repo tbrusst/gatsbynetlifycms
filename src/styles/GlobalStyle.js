@@ -11,11 +11,13 @@ const theme = {
 const GlobalStyle = () => (
   <>
     <style>
-      {"\
+      {
+        "\
         *{\
-          box-sizing: border-box;\
+          box-sizing: border-box; margin: 0px;\
         }\
-      "}
+      "
+      }
     </style>
     <Typography theme={theme} />
     <GridLayout />

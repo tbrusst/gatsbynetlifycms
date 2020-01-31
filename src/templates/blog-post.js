@@ -21,13 +21,13 @@ export const BlogPostTemplate = ({
   return (
     <section>
       {helmet || ""}
-      <div>
-        <Link>
-          <p>Back</p>
-        </Link>
-      </div>
 
       <div id="blog-post-wrapper">
+        <div id="back-button">
+          <Link to="//">
+            <p>Back</p>
+          </Link>
+        </div>
         <h1>{title}</h1>
         <p>{description}</p>
         {tags && tags.length ? (
@@ -52,7 +52,7 @@ export const BlogPostTemplate = ({
             />
           </div>
         ) : null}
-        <PostContent content={content} />
+        <PostContent className="blog-content-wrapper" content={content} />
       </div>
     </section>
   );
@@ -77,7 +77,7 @@ const BlogPost = ({ data }) => {
         description={post.frontmatter.description}
         featuredimage={post.frontmatter.featuredimage}
         helmet={
-          <Helmet titleTemplate="%s | Blog">
+          <Helmet titleTemplate="%s | Brendan Russo">
             <title>{`${post.frontmatter.title}`}</title>
             <meta
               name="description"
