@@ -2,16 +2,13 @@
 templateKey: blog-post
 title: SETVI
 date: 2017-01-04T15:04:10.000Z
-description: >-
-  We’re proud to announce that we’ll be offering a small batch of Jamaica Blue
-  Mountain coffee beans in our store next week.
+description: UI Design System
 featuredpost: false
 featuredimage: /img/brendanrusso_setvi_main.jpg
 tags:
-  - jamaica
-  - green beans
-  - flavor
-  - tasting
+  - UX/UI
+  - Design System
+  - Product Design
 ---
 ![Setvi Design System Mockup](//a.storyblok.com/f/52110/1800x1200/f3e7b525a9/brendanrusso_setvi_main.jpg)
 
