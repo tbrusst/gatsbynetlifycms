@@ -2,27 +2,13 @@
 templateKey: blog-post
 title: Frankford Arsenal
 date: 2016-12-17T15:04:10.000Z
-description: >-
-  During my time at Cohere I was able to work on a promotional website for
-  Frankford Arsenal, an upcoming workspace in Northeast Philly with a rich
-  history.
-
-
-  The aesthetic for Frankford Arsenal revolved around promoting a modern
-  approach to the workplace. The Frankford Arsenal was a large munitions factory
-  in Philadelphia from 1816-1977. It was, during its early years, the largest
-  ammunition plant in America. At one point, it employed 22,000 people. Not just
-  factory workers, but scientists, engineers, and innovators.
-
-
-  Now, the Arsenal is becoming a new workplace. One for modern companies to
-  inhabit with the same sense of innovation. It will become a new hub for the
-  surrounding community, just as it was so many years ago.
+description: Promotional Website
 featuredpost: false
 featuredimage: /img/frankfordarsenal_fullexteriorshot.jpg
 tags:
-  - flavor
-  - tasting
+  - UX/UI
+  - Motion Design
+  - Front End Development
 ---
 ![Frankford Arsenal](//a.storyblok.com/f/52110/1000x568/96ccc7a900/frankfordarsenal_fullexteriorshot.jpg)
 
