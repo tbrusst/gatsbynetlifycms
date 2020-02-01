@@ -2,11 +2,7 @@
 templateKey: blog-post
 title: Otto Brewerytown
 date: 2017-01-04T15:04:10.000Z
-description: >-
-  During my time at Cohere, we were tasked with designing and developing a
-  promotional site for a new housing development in Philadelphia’s up and coming
-  neighborhood, Brewerytown. Otto is a revolutionary condo development named as
-  a tribute to Brewerytown’s original architect, Otto Wolf.
+description: Promotional Site
 featuredpost: false
 featuredimage: /img/brendanrusso_otto_header.jpg
 tags:
@@ -14,9 +10,6 @@ tags:
   - Motion Design
   - Front End Development
 ---
-
-![Otto Header](//a.storyblok.com/f/52110/7168x4032/a043ddf51a/brendanrusso_otto_header.jpg)
-
 ## Context
 
 During my time at Cohere, we were tasked with designing and developing a promotional site for a new housing development in Philadelphia’s up and coming neighborhood, Brewerytown. Otto is a revolutionary condo development named as a tribute to Brewerytown’s original architect, Otto Wolf.
