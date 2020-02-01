@@ -10,8 +10,6 @@ tags:
   - Design System
   - Product Design
 ---
-![Setvi Design System Mockup](//a.storyblok.com/f/52110/1800x1200/f3e7b525a9/brendanrusso_setvi_main.jpg)
-
 ## Context
 Setvi is a b2b software startup based in Philadelphia, PA that enables large sales teams to access and share crucial information. Our goal at Setvi is to make the sales process faster and more effective for everyone from suppliers to customers.
 
