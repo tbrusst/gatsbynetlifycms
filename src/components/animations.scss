@@ -1,5 +1,20 @@
 $background-color: #e8e8e8;
 
+#blog-post-wrapper {
+  position: relative;
+  &:before {
+    z-index: 510;
+    content: "";
+    height: 100%;
+    width: 100%;
+    background: $background-color;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform-origin: bottom;
+    animation: swipeUp 1500ms 1s cubic-bezier(0.645, 0.045, 0.355, 1) forwards;
+  }
+}
 #blog-roll {
   position: relative;
   &:before {

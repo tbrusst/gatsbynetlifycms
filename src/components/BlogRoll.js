@@ -55,6 +55,11 @@ const PreviewLink = styled.div`
 `;
 
 class BlogRoll extends React.Component {
+  componentWillUnmount() {
+    console.log("yolo");
+    document.getElementById("blog-roll").style.animation = "none";
+    console.log(document.querySelector("#blog-roll"), ":before");
+  }
   render() {
     const { data } = this.props;
     const { edges: posts } = data.allMarkdownRemark;
@@ -83,7 +88,7 @@ class BlogRoll extends React.Component {
                   <h3>{post.frontmatter.title}</h3>
                 </Link>
 
-                <p>{post.frontmatter.title}</p>
+                <p>{post.frontmatter.description}</p>
               </PreviewHead>
               <PreviewLink>
                 <Link to={post.fields.slug}>View Project</Link>
@@ -123,6 +128,7 @@ export default () => (
                 templateKey
                 date(formatString: "MMMM DD, YYYY")
                 featuredpost
+                description
                 featuredimage {
                   childImageSharp {
                     fluid(quality: 100) {

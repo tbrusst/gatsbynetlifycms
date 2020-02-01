@@ -28,30 +28,33 @@ export const BlogPostTemplate = ({
             <p>Back</p>
           </Link>
         </div>
-        <h1>{title}</h1>
-        <p>{description}</p>
-        {tags && tags.length ? (
-          <div>
-            <ul id="taglist">
-              {tags.map(tag => (
-                <li key={tag + `tag`}>
-                  <p>{tag}</p>
-                </li>
-              ))}
-            </ul>
-          </div>
-        ) : null}
+        <div id="blog-post-header">
+          <h1>{title}</h1>
+          <h3>{description}</h3>
+          {tags && tags.length ? (
+            <div id="taglist">
+              <ul>
+                {tags.map(tag => (
+                  <li key={tag + `tag`}>
+                    <p>{tag}</p>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          ) : null}
 
-        {featuredimage ? (
-          <div>
-            <PreviewCompatibleImage
-              imageInfo={{
-                image: featuredimage,
-                alt: `featured image thumbnail for post ${title}`
-              }}
-            />
-          </div>
-        ) : null}
+          {featuredimage ? (
+            <div>
+              <PreviewCompatibleImage
+                imageInfo={{
+                  image: featuredimage,
+                  alt: `featured image thumbnail for post ${title}`
+                }}
+              />
+            </div>
+          ) : null}
+        </div>
+
         <PostContent className="blog-content-wrapper" content={content} />
       </div>
     </section>
