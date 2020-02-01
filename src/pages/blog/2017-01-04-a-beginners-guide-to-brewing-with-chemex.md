@@ -1,6 +1,7 @@
 ---
 templateKey: blog-post
 title: Otto Brewerytown
+externallink: 'https://otto-app.netlify.com/'
 date: 2017-01-04T15:04:10.000Z
 description: Promotional Site
 featuredpost: false
