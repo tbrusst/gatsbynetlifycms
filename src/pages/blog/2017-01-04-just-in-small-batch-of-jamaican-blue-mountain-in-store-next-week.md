@@ -1,6 +1,7 @@
 ---
 templateKey: blog-post
 title: SETVI
+externallink: 'http://setvi.com/'
 date: 2017-01-04T15:04:10.000Z
 description: UI Design System
 featuredpost: false
