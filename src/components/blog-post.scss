@@ -24,6 +24,20 @@
   @media (min-width: 1800px) {
     padding: 0 35%;
   }
+  #main-button {
+    font-family: signo, sans-serif;
+    background: #ff9d01;
+
+    border-radius: 50px;
+    border: none;
+    padding: 10px 50px;
+
+    margin: 15px 0;
+    width: 15rem;
+    p {
+      text-align: center;
+    }
+  }
   #blog-post-header {
     h1 {
       margin: 1rem 0 0 0;

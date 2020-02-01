@@ -14,7 +14,8 @@ export const BlogPostTemplate = ({
   tags,
   title,
   helmet,
-  featuredimage
+  featuredimage,
+  externallink
 }) => {
   const PostContent = contentComponent || Content;
 
@@ -42,7 +43,6 @@ export const BlogPostTemplate = ({
               </ul>
             </div>
           ) : null}
-
           {featuredimage ? (
             <div>
               <PreviewCompatibleImage
@@ -53,6 +53,12 @@ export const BlogPostTemplate = ({
               />
             </div>
           ) : null}
+
+          <a target="_blank" href={externallink}>
+            <div id="main-button">
+              <p>View Site</p>
+            </div>
+          </a>
         </div>
 
         <PostContent className="blog-content-wrapper" content={content} />
@@ -79,6 +85,7 @@ const BlogPost = ({ data }) => {
         contentComponent={HTMLContent}
         description={post.frontmatter.description}
         featuredimage={post.frontmatter.featuredimage}
+        externallink={post.frontmatter.externallink}
         helmet={
           <Helmet titleTemplate="%s | Brendan Russo">
             <title>{`${post.frontmatter.title}`}</title>
@@ -91,6 +98,7 @@ const BlogPost = ({ data }) => {
         tags={post.frontmatter.tags}
         title={post.frontmatter.title}
         featuredimage={post.frontmatter.featuredimage}
+        externallink={post.frontmatter.externallink}
       />
     </Layout>
   );
@@ -114,6 +122,7 @@ export const pageQuery = graphql`
         title
         description
         tags
+        externallink
         featuredimage {
           childImageSharp {
             fluid(quality: 100) {

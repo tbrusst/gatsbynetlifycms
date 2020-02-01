@@ -253,7 +253,7 @@ export const IndexPageTemplate = ({
           Please contact me with any questions you may have or with any
           information regarding opportunities in related fields.
         </p>
-        <a href="mailto:@russobrendanm@gmail.com">
+        <a href="mailto:russobrendanm@gmail.com">
           <MainButton>Contact Me</MainButton>
         </a>
       </TextSection>
