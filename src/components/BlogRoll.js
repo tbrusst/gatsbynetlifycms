@@ -13,6 +13,7 @@ const BlogRollWrapper = styled.div`
   align-items: center;
   flex-wrap: wrap;
   margin: 0 0 5rem 0;
+  padding: 0 1rem;
 
   @media (min-width: 500px) {
     padding: 0 2rem;
