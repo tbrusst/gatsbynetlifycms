@@ -1,8 +1,36 @@
 @font-face {
   font-family: "Monument Extended";
-  src: url("../fonts/MonumentExtended-Regular.woff2") format("woff2"),
-    url("../fonts/MonumentExtended-Regular.woff") format("woff");
+  src: url("/fonts/MonumentExtended-Regular.woff2") format("woff2"),
+    url("/fonts/MonumentExtended-Regular.woff") format("woff");
   font-style: normal;
+}
+
+@import url("https://p.typekit.net/p.css?s=1&k=nrn2zoj&ht=tk&f=22785.22789&a=7502959&app=typekit&e=css");
+
+@font-face {
+  font-family: "signo";
+  src: url("https://use.typekit.net/af/0cb257/00000000000000003b9afc32/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n2&v=3")
+      format("woff2"),
+    url("https://use.typekit.net/af/0cb257/00000000000000003b9afc32/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n2&v=3")
+      format("woff"),
+    url("https://use.typekit.net/af/0cb257/00000000000000003b9afc32/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n2&v=3")
+      format("opentype");
+  font-display: auto;
+  font-style: normal;
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: "signo";
+  src: url("https://use.typekit.net/af/a010d8/000000000000000000014a09/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3")
+      format("woff2"),
+    url("https://use.typekit.net/af/a010d8/000000000000000000014a09/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3")
+      format("woff"),
+    url("https://use.typekit.net/af/a010d8/000000000000000000014a09/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3")
+      format("opentype");
+  font-display: auto;
+  font-style: normal;
+  font-weight: 400;
 }
 
 h1,
@@ -18,12 +46,12 @@ p {
 
 a {
   text-decoration: none;
-  font-family: "signo,sans-serif";
+  font-family: signo, sans-serif;
   color: #ff9d01;
 }
 
 h1 {
-  font-family: "Monument Extended, sans-serif";
+  font-family: Monument Extended, sans-serif;
   font-size: 3rem;
   text-transform: uppercase;
   font-weight: normal;
@@ -51,7 +79,7 @@ h1 {
 }
 
 h2 {
-  font-family: "Monument Extended, sans-serif";
+  font-family: Monument Extended, sans-serif;
   font-size: 1.5rem;
   @media only screen and (min-width: 768px) {
     font-size: 2.5rem;
@@ -62,7 +90,7 @@ h2 {
 }
 
 h3 {
-  font-family: "signo,sans-serif";
+  font-family: signo, sans-serif;
   font-size: 1.25rem;
   font-weight: normal;
   @media only screen and (min-width: 768px) {
@@ -75,7 +103,7 @@ h3 {
 
 h4 {
   color: #ff9d01;
-  font-family: "signo,sans-serif";
+  font-family: signo, sans-serif;
   font-size: 1rem;
   font-weight: 400 !important;
   @media only screen and (min-width: 768px) {
@@ -87,7 +115,7 @@ h4 {
 }
 
 p {
-  font-family: "signo,sans-serif";
+  font-family: signo, sans-serif;
   font-size: 1rem;
   font-weight: 200;
   color: #2e2e2e;

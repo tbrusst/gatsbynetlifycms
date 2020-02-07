@@ -1,3 +1,5 @@
+import "../styles/typography.scss";
+
 import React from "react";
 import { Helmet } from "react-helmet";
 import Footer from "../components/Footer";
@@ -8,7 +10,7 @@ import { withPrefix } from "gatsby";
 //styles
 import GlobalStyle from "../styles/GlobalStyle";
 import "../styles/fonts.scss";
-import "../styles/typography.scss";
+
 import "../styles/animations.scss";
 import "../styles/header.scss";
 import "../styles/blog-post.scss";

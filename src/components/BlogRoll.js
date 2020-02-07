@@ -2,58 +2,6 @@ import React from "react";
 import PropTypes from "prop-types";
 import { Link, graphql, StaticQuery } from "gatsby";
 import PreviewCompatibleImage from "./PreviewCompatibleImage";
-import styled from "styled-components";
-
-const BlogRollWrapper = styled.div`
-  z-index: 700;
-  position: relative;
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: center;
-  flex-wrap: wrap;
-  margin: 0 0 5rem 0;
-  padding: 0 1rem;
-
-  @media (min-width: 500px) {
-    padding: 0 2rem;
-  }
-  @media (min-width: 768px) {
-    padding: 0 4rem;
-  }
-  @media (min-width: 1100px) {
-    padding: 0 12rem;
-  }
-  @media (min-width: 1280px) {
-    padding: 0 10rem;
-  }
-  @media (min-width: 1800px) {
-    padding: 0 20rem;
-  }
-`;
-
-const BlogPreview = styled.div`
-  width: 100%;
-  margin: 0 0 60px 0;
-  @media (min-width: 500px) {
-  }
-  @media (min-width: 768px) {
-    width: 50%;
-    padding: 0 20px;
-  }
-  @media (min-width: 1100px) {
-    padding: 0 25px;
-  }
-  @media (min-width: 1280px) {
-    width: 33%;
-  }
-`;
-const PreviewHead = styled.div``;
-const PreviewLink = styled.div`
-  padding: 15px 0 0 0;
-  margin: 15px 0 0 0;
-  border-top: 1px solid black;
-`;
 
 class BlogRoll extends React.Component {
   componentWillUnmount() {
@@ -66,11 +14,11 @@ class BlogRoll extends React.Component {
     const { edges: posts } = data.allMarkdownRemark;
 
     return (
-      <BlogRollWrapper id="blog-roll">
+      <div id="blog-roll">
         {posts &&
           posts.map(({ node: post }) => (
-            <BlogPreview key={post.id}>
-              <PreviewHead>
+            <div id="blog-preview" key={post.id}>
+              <div>
                 {post.frontmatter.featuredimage ? (
                   <div className="featured-thumbnail">
                     <PreviewCompatibleImage
@@ -90,13 +38,13 @@ class BlogRoll extends React.Component {
                 </Link>
 
                 <p>{post.frontmatter.description}</p>
-              </PreviewHead>
-              <PreviewLink>
+              </div>
+              <div id="preview-link">
                 <Link to={post.fields.slug}>View Project</Link>
-              </PreviewLink>
-            </BlogPreview>
+              </div>
+            </div>
           ))}
-      </BlogRollWrapper>
+      </div>
     );
   }
 }
