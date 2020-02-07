@@ -1,17 +1,3 @@
-.featured-thumbnail {
-  height: 15rem;
-  margin: 0 0 1rem 0;
-  @media (min-width: 1280px) {
-    height: 12rem;
-  }
-  @media (min-width: 1440px) {
-    height: 15rem;
-  }
-  @media (min-width: 1700px) {
-    height: 18rem;
-  }
-}
-
 @font-face {
   font-family: "Monument Extended";
   src: url("../fonts/MonumentExtended-Regular.woff2") format("woff2"),

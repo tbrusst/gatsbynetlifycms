@@ -1,6 +1,6 @@
 import React from "react";
 import Typography from "../styles/Typography";
-import GridLayout from "../styles/GridLayout";
+import "./typography.scss";
 
 const theme = {
   primary: "#FF9D01",
@@ -19,8 +19,7 @@ const GlobalStyle = () => (
       "
       }
     </style>
-    <Typography theme={theme} />
-    <GridLayout />
+    {/* <Typography theme={theme} /> */}
   </>
 );
 export default GlobalStyle;

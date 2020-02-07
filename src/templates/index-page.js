@@ -3,7 +3,6 @@ import PropTypes from "prop-types";
 import { Link, graphql } from "gatsby";
 
 import Layout from "../components/Layout";
-import Features from "../components/Features";
 import BlogRoll from "../components/BlogRoll";
 
 import headshot from "../img/brendanrusso_headshot.jpg";
@@ -13,6 +12,7 @@ import { theme } from "../styles/GlobalStyle";
 import circle from "../img/circle.svg";
 import doubleCircle from "../img/double-circle.svg";
 import bigCirlce from "../img/big-circle.svg";
+import "../styles/index.scss";
 
 setTimeout(function() {
   document.body.style.overflow = "hidden visible";
@@ -223,8 +223,8 @@ export const IndexPageTemplate = ({
     <div id="big-circle-wrap">
       <img src={bigCirlce} alt="" />
     </div>
-    <Grid>
-      <Title id="header-title" className="leftSide">
+    <div id="index-grid">
+      <div id="header-title" className="leftSide">
         <h4 id="title">{heading}</h4>
         <div id="brendan-wrap" className="text-title-wrap">
           <h1 id="brendan">Brendan</h1>
@@ -232,19 +232,19 @@ export const IndexPageTemplate = ({
         <div id="russo-wrap" className="text-title-wrap">
           <h1 id="russo">Russo</h1>
         </div>
-      </Title>
+      </div>
 
-      <ImageLogoHold className="leftSide">
-        <ImageDiv
+      <div id="image-logo-hold" className="leftSide">
+        <div
           id="header-image"
           style={{ backgroundImage: "url(" + headshot + ")" }}
-        ></ImageDiv>
-        <LogoDiv
+        ></div>
+        <div
           id="header-logo"
           style={{ backgroundImage: "url(" + logo + ")" }}
-        ></LogoDiv>
-      </ImageLogoHold>
-      <TextSection id="header-text-section">
+        ></div>
+      </div>
+      <div id="header-text-section">
         <p>
           I am currently working part-time as a UX Designer at a software
           startup called Setvi . I studied Interactive Digital Media at Drexel
@@ -264,8 +264,8 @@ export const IndexPageTemplate = ({
         <a href="mailto:russobrendanm@gmail.com">
           <MainButton>Contact Me</MainButton>
         </a>
-      </TextSection>
-    </Grid>
+      </div>
+    </div>
     <div id="circle-wrapper">
       <div className="circle-hold" id="double-circle">
         <img src={doubleCircle} alt="" />
