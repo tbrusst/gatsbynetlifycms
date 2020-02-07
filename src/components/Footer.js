@@ -100,16 +100,16 @@ const FooterWrap = styled.div`
 const Footer = class extends React.Component {
   render() {
     return (
-      <FooterWrap>
+      <div id="footer-wrap">
         <div>
           <h4>Any Questions?</h4>
           <a href="mailto:russobrendanm@gmail.com">
-            <MainButton>Contact Me</MainButton>
+            <div id="footer-button">Contact Me</div>
           </a>
         </div>
 
         <h4>Brendan Russo - 2020</h4>
-      </FooterWrap>
+      </div>
     );
   }
 };
