@@ -55,7 +55,7 @@ export const BlogPostTemplate = ({
           ) : null}
 
           <a target="_blank" href={externallink}>
-            <div id="main-button">
+            <div id="main-button" class="button">
               <p>View Site</p>
             </div>
           </a>

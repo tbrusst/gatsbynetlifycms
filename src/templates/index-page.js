@@ -71,7 +71,9 @@ export const IndexPageTemplate = ({
           information regarding opportunities in related fields.
         </p>
         <a href="mailto:russobrendanm@gmail.com">
-          <div id="main-button">Contact Me</div>
+          <div id="main-button" class="button">
+            Contact Me
+          </div>
         </a>
       </div>
     </div>
