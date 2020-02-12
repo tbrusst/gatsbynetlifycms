@@ -11,7 +11,7 @@ const Footer = class extends React.Component {
         <div>
           <h4>Any Questions?</h4>
           <a href="mailto:russobrendanm@gmail.com">
-            <div id="footer-button" class="button">
+            <div id="footer-button" className="button">
               Contact Me
             </div>
           </a>
