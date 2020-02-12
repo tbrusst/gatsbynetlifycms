@@ -7,8 +7,6 @@ import BlogRoll from "../components/BlogRoll";
 
 import headshot from "../img/brendanrusso_headshot.jpg";
 import logo from "../img/brendanrusso_logo.svg";
-import styled from "styled-components";
-import { theme } from "../styles/GlobalStyle";
 import circle from "../img/circle.svg";
 import doubleCircle from "../img/double-circle.svg";
 import bigCirlce from "../img/big-circle.svg";
