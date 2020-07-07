@@ -5,8 +5,34 @@
 //   font-style: normal;
 // }
 
-$background-color: #e8e8e8;
+$background-color: #edece9;
 
 body {
   background: $background-color;
+  overflow-x: hidden;
+  width: 100vw;
+}
+
+#contact-button {
+  position: relative;
+  border: 1px solid #2e2e2e;
+  min-width: 13.5rem;
+  width: 13.5rem;
+  height: 3rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 100px;
+  @media (min-width: 768px) {
+    min-width: 17rem;
+    width: 17rem;
+  }
+  p {
+    position: relative;
+  }
+  img {
+    position: relative;
+
+    height: 1rem;
+  }
 }

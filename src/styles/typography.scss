@@ -1,36 +1,15 @@
 @font-face {
-  font-family: "Monument Extended";
-  src: url("../fonts/MonumentExtended-Regular.woff2") format("woff2"),
-    url("../fonts/MonumentExtended-Regular.woff") format("woff");
+  font-family: "Zermatt";
+  src: url("../fonts/ZermattFirst.woff2") format("woff2"),
+    url("../fonts/ZermattFirst.woff") format("woff");
   font-style: normal;
 }
 
-@import url("https://p.typekit.net/p.css?s=1&k=nrn2zoj&ht=tk&f=22785.22789&a=7502959&app=typekit&e=css");
-
 @font-face {
-  font-family: "signo";
-  src: url("https://use.typekit.net/af/0cb257/00000000000000003b9afc32/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n2&v=3")
-      format("woff2"),
-    url("https://use.typekit.net/af/0cb257/00000000000000003b9afc32/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n2&v=3")
-      format("woff"),
-    url("https://use.typekit.net/af/0cb257/00000000000000003b9afc32/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n2&v=3")
-      format("opentype");
-  font-display: auto;
+  font-family: "Swiss721";
+  src: url("../fonts/swiss_721_light_extended_bt-webfont.woff2") format("woff2"),
+    url("../fonts/swiss_721_light_extended_bt-webfont.woff") format("woff");
   font-style: normal;
-  font-weight: 200;
-}
-
-@font-face {
-  font-family: "signo";
-  src: url("https://use.typekit.net/af/a010d8/000000000000000000014a09/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3")
-      format("woff2"),
-    url("https://use.typekit.net/af/a010d8/000000000000000000014a09/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3")
-      format("woff"),
-    url("https://use.typekit.net/af/a010d8/000000000000000000014a09/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3")
-      format("opentype");
-  font-display: auto;
-  font-style: normal;
-  font-weight: 400;
 }
 
 h1,
@@ -46,76 +25,111 @@ p {
 
 a {
   text-decoration: none;
-  font-family: signo, sans-serif;
+  font-family: Swiss721, sans-serif;
   color: #ff9d01;
 }
 
 h1 {
-  font-family: Monument Extended, sans-serif;
-  font-size: 3rem;
-  text-transform: uppercase;
+  font-family: Zermatt, sans-serif;
+  font-size: 5.5rem;
   font-weight: normal;
-
-  @media only screen and (min-width: 768px) {
-    font-size: 5rem;
-    line-height: 4.5rem;
+  @media (min-width: 500px) {
+    font-size: 7.5rem;
   }
-  @media only screen and (min-width: 950px) {
-    font-size: 6rem;
-    line-height: 5.5rem;
+  @media (min-width: 625px) {
+    font-size: 8rem;
   }
-  @media only screen and (min-width: 1100px) {
-    font-size: 7rem;
-    line-height: 6rem;
+  @media (min-width: 768px) {
+    font-size: 10.5rem;
   }
-  @media only screen and (min-width: 1280px) {
-    font-size: 7rem !important;
-    line-height: 6rem !important;
+  @media (min-width: 1000px) {
+    font-size: 14rem;
   }
-  @media only screen and (min-width: 1800px) {
-    font-size: 9rem !important;
-    line-height: 8rem !important;
+  @media (min-width: 1250px) {
+    font-size: 18rem;
+  }
+  @media (min-width: 1500px) {
+    font-size: 20rem;
   }
 }
 
 h2 {
-  font-family: Monument Extended, sans-serif;
-  font-size: 1.5rem;
+  font-family: Zermatt, sans-serif;
+  font-weight: normal;
+  font-size: 3.75rem;
   @media only screen and (min-width: 768px) {
-    font-size: 2.5rem;
+    font-size: 5rem;
   }
-  @media only screen and (min-width: 1280px) {
-    font-size: 3.5rem;
+  @media only screen and (min-width: 1000px) {
+    font-size: 5.5rem;
+  }
+  @media only screen and (min-width: 1250px) {
+    font-size: 6rem;
   }
 }
 
 h3 {
-  font-family: signo, sans-serif;
-  font-size: 1.25rem;
+  font-family: Zermatt, sans-serif;
+  font-size: 3rem;
   font-weight: normal;
-  @media only screen and (min-width: 768px) {
-    font-size: 1.5rem;
+  @media (min-width: 500px) {
+    font-size: 2.5rem;
   }
-  @media only screen and (min-width: 1280px) {
-    font-size: 1.8rem;
+  @media (min-width: 1000px) {
+    font-size: 3.2rem;
+  }
+  @media (min-width: 1250px) {
+    font-size: 3.5rem;
+  }
+  @media (min-width: 1500px) {
+    font-size: 4rem;
+  }
+  @media (min-width: 1700px) {
+    font-size: 5rem;
   }
 }
 
 h4 {
-  color: #ff9d01;
-  font-family: signo, sans-serif;
-  font-size: 1rem;
-  font-weight: 400 !important;
-  @media only screen and (min-width: 768px) {
-    font-size: 1.2rem;
+  font-family: Swiss721, sans-serif;
+  font-size: 1.3rem;
+  font-weight: normal;
+  @media (min-width: 768px) {
+    font-size: 1.5rem;
   }
-  @media only screen and (min-width: 1280px) {
-    font-size: 1.25rem !important;
+  @media (min-width: 1000px) {
+    font-size: 1.6rem;
+  }
+  @media (min-width: 1250px) {
+    font-size: 1.8rem;
+  }
+  @media (min-width: 1500px) {
+    font-size: 2rem;
+  }
+}
+
+h5 {
+  font-family: Zermatt, sans-serif;
+  font-size: 1.5rem;
+  font-weight: normal;
+  @media (min-width: 500px) {
+    font-size: 1.25rem;
+  }
+  @media (min-width: 1000px) {
+    font-size: 1.6rem;
+  }
+  @media (min-width: 1250px) {
+    font-size: 1.75rem;
+  }
+  @media (min-width: 1500px) {
+    font-size: 2rem;
+  }
+  @media (min-width: 1700px) {
+    font-size: 3rem;
   }
 }
 
 p {
-  font-family: signo, sans-serif;
+  font-family: Swiss721, sans-serif;
   font-size: 1rem;
   font-weight: 200;
   color: #2e2e2e;
@@ -124,6 +138,9 @@ p {
   }
   @media only screen and (min-width: 1100px) {
     font-size: 1rem;
+  }
+  @media only screen and (min-width: 1440px) {
+    font-size: 1.1rem;
   }
 
   @media only screen and (min-width: 1800px) {

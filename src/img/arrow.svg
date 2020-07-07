@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="22px" viewBox="0 0 48 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59.1 (86144) - https://sketch.com -->
+    <title>arrow</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round">
+        <g id="Apple-TV-Copy-57" transform="translate(-1237.000000, -813.000000)" stroke="#2E2E2E">
+            <g id="Group-4" transform="translate(993.000000, 795.000000)">
+                <g id="arrow" transform="translate(244.000000, 19.000000)">
+                    <g id="Group-2" transform="translate(36.205882, 0.000000)">
+                        <line x1="10.927451" y1="9.70588235" x2="0.660784314" y2="0.294117647" id="Line"></line>
+                        <line x1="10.927451" y1="19.7058824" x2="0.660784314" y2="10.2941176" id="Line-Copy" transform="translate(5.794118, 15.000000) scale(1, -1) translate(-5.794118, -15.000000) "></line>
+                    </g>
+                    <line x1="47.5" y1="10" x2="0.5" y2="9.5" id="Line-2"></line>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

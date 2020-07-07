@@ -20,7 +20,7 @@ import "../styles/footer.scss";
 const TemplateWrapper = ({ children }) => {
   const { title, description } = useSiteMetadata();
   return (
-    <div style={{ overflow: "hidden", width: "100vw" }}>
+    <div>
       <Helmet>
         <html lang="en" />
         <title>{title}</title>

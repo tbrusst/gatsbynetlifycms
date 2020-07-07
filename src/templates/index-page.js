@@ -4,18 +4,13 @@ import { Link, graphql } from "gatsby";
 
 import Layout from "../components/Layout";
 import BlogRoll from "../components/BlogRoll";
+import ContactButton from "../components/ContactButton";
+import AboutMe from "../components/AboutMe";
+import Nav from "../components/Nav";
 
-import headshot from "../img/brendanrusso_headshot.jpg";
-import logo from "../img/brendanrusso_logo.svg";
-import circle from "../img/circle.svg";
-import doubleCircle from "../img/double-circle.svg";
-import bigCirlce from "../img/big-circle.svg";
+import headshot from "../img/brendan-headshot.png";
 import "../styles/index.scss";
 import "../styles/typography.scss";
-
-setTimeout(function() {
-  document.body.style.overflow = "hidden visible";
-}, 5000);
 
 export const IndexPageTemplate = ({
   image,
@@ -24,66 +19,49 @@ export const IndexPageTemplate = ({
   subheading,
   mainpitch,
   description,
-  intro
+  intro,
 }) => (
   <>
-    <div id="big-circle-wrap">
-      <img src={bigCirlce} alt="" />
-    </div>
-    <div id="index-grid">
-      <div id="header-title" className="leftSide">
-        <h4 id="title">{heading}</h4>
-        <div id="brendan-wrap" className="text-title-wrap">
+    <div id="index-header">
+      <Nav />
+      <div id="header-wrap">
+        <div id="header-name">
           <h1 id="brendan">Brendan</h1>
-        </div>
-        <div id="russo-wrap" className="text-title-wrap">
-          <h1 id="russo">Russo</h1>
-        </div>
-      </div>
 
-      <div id="image-logo-hold" className="leftSide">
-        <div
-          id="header-image"
-          style={{ backgroundImage: "url(" + headshot + ")" }}
-        ></div>
-        <div
-          id="header-logo"
-          style={{ backgroundImage: "url(" + logo + ")" }}
-        ></div>
+          <div id="header-bottom">
+            <div id="headshot">
+              <img src={headshot} alt="Brendan Russo Headshot" />
+            </div>
+
+            <div id="lastname">
+              <h1 id="russo">Russo</h1>
+              <div id="header-info">
+                <h4>{heading}</h4>
+                <ContactButton id="header-contact" />
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-      <div id="header-text-section">
-        <p>
-          I am currently working part-time as a UX Designer at a software
-          startup called Setvi . I studied Interactive Digital Media at Drexel
-          University and am currently seeking full time opportunities in and
-          around Philadelphia.
-        </p>
-        <p>
-          My training and experience in digital media have allowed me to become
-          well accomplished in UX/UI, motion design, and frontend development.
-          As a Creative Technologist I am able to design beautifully functional
-          products and then bring them to life in code.
-        </p>
-        <p>
-          Please contact me with any questions you may have or with any
-          information regarding opportunities in related fields.
-        </p>
-        <a href="mailto:russobrendanm@gmail.com">
-          <div id="main-button" className="button">
-            Contact Me
+    </div>
+    <div id="about-work">
+      <div id="contact-links">
+        <a target="_blank" href="https://www.instagram.com/brendanr.us/">
+          <div className="contact-link">
+            <p>INSTAGRAM</p>
+            <p>@brendanr.us</p>
+          </div>
+        </a>
+        <a target="_blank" href="https://www.linkedin.com/in/brendanrus/">
+          <div className="contact-link">
+            <p>LINKEDIN</p>
+            <p>/brendanr.us</p>
           </div>
         </a>
       </div>
+      <AboutMe />
+      <BlogRoll />
     </div>
-    <div id="circle-wrapper">
-      <div className="circle-hold" id="double-circle">
-        <img src={doubleCircle} alt="" />
-      </div>
-      <div className="circle-hold" id="circle">
-        <img src={circle} alt="" />
-      </div>
-    </div>
-    <BlogRoll />
   </>
 );
 
@@ -95,8 +73,8 @@ IndexPageTemplate.propTypes = {
   mainpitch: PropTypes.object,
   description: PropTypes.string,
   intro: PropTypes.shape({
-    blurbs: PropTypes.array
-  })
+    blurbs: PropTypes.array,
+  }),
 };
 
 const IndexPage = ({ data }) => {
@@ -120,9 +98,9 @@ const IndexPage = ({ data }) => {
 IndexPage.propTypes = {
   data: PropTypes.shape({
     markdownRemark: PropTypes.shape({
-      frontmatter: PropTypes.object
-    })
-  })
+      frontmatter: PropTypes.object,
+    }),
+  }),
 };
 
 export default IndexPage;

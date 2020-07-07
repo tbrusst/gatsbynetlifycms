@@ -4,10 +4,8 @@ import Img from "gatsby-image";
 
 const PreviewCompatibleImage = ({ imageInfo }) => {
   const imageStyle = {
-    borderRadius: "10px",
-
     margin: "0 0 15px 0",
-    height: "100%"
+    height: "100%",
   };
   const { alt = "", childImageSharp, image } = imageInfo;
 
@@ -32,8 +30,8 @@ PreviewCompatibleImage.propTypes = {
     alt: PropTypes.string,
     childImageSharp: PropTypes.object,
     image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]).isRequired,
-    style: PropTypes.object
-  }).isRequired
+    style: PropTypes.object,
+  }).isRequired,
 };
 
 export default PreviewCompatibleImage;

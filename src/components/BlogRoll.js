@@ -3,6 +3,8 @@ import PropTypes from "prop-types";
 import { Link, graphql, StaticQuery } from "gatsby";
 import PreviewCompatibleImage from "./PreviewCompatibleImage";
 
+import arrow from "../img/arrow-link.svg";
+
 class BlogRoll extends React.Component {
   componentWillUnmount() {
     console.log("yolo");
@@ -24,7 +26,7 @@ class BlogRoll extends React.Component {
                     <PreviewCompatibleImage
                       imageInfo={{
                         image: post.frontmatter.featuredimage,
-                        alt: `featured image thumbnail for post ${post.frontmatter.title}`
+                        alt: `featured image thumbnail for post ${post.frontmatter.title}`,
                       }}
                     />
                   </div>
@@ -34,13 +36,13 @@ class BlogRoll extends React.Component {
                   className="title has-text-primary is-size-4"
                   to={post.fields.slug}
                 >
-                  <h3>{post.frontmatter.title}</h3>
-                </Link>
+                  <div className="blog-thumb-title">
+                    <h3>{post.frontmatter.title}</h3>
+                    <img src={arrow} alt="" />
+                  </div>
 
-                <p>{post.frontmatter.description}</p>
-              </div>
-              <div id="preview-link">
-                <Link to={post.fields.slug}>View Project</Link>
+                  <p>{post.frontmatter.description}</p>
+                </Link>
               </div>
             </div>
           ))}
@@ -52,9 +54,9 @@ class BlogRoll extends React.Component {
 BlogRoll.propTypes = {
   data: PropTypes.shape({
     allMarkdownRemark: PropTypes.shape({
-      edges: PropTypes.array
-    })
-  })
+      edges: PropTypes.array,
+    }),
+  }),
 };
 
 export default () => (
