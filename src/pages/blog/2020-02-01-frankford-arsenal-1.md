@@ -11,7 +11,7 @@ tags:
   - Motion Design
   - Front End Development
 ---
-## Context
+### Context
 
 During my time at Cohere I was able to work on a promotional website for Frankford Arsenal, an upcoming workspace in Northeast Philly with a rich history.
 
@@ -21,7 +21,7 @@ Now, the Arsenal is becoming a new workplace. One for modern companies to inhabi
 
 ![View on large desktop](//a.storyblok.com/f/52110/1920x1080/838932e21b/brendanrusso_frankfordarsenal_mac.jpg)
 
-## Experience Design
+### Experience Design
 
 I was tasked to create a fully responsive and interactive site based on static desktop mockups given to me by the graphic design team.
 
@@ -33,13 +33,13 @@ The original design chose to make sliders with arrow buttons to scroll through t
 
 ![Mobile Sliders](//a.storyblok.com/f/52110/1920x1080/2914689650/brendanrusso_frankfordarsenal_mobilesliders.jpg) ![iPad with pencil view](//a.storyblok.com/f/52110/1920x1080/a1c37a1a3d/brendanrusso_frankfordarsenal_ipadslider.jpg)
 
-## Animation
+### Animation
 
 As the interactive developer it was also my job to design and implement the animations for the page. It was important that users could interact with the beautiful imagery and historical information in unexpected and interesting ways. This is the kind of fine tuning that brings a promotional site to life and adds character to the brand.
 
 ![Arsenal Header Animation](//a.storyblok.com/f/52110/960x540/775f62d628/brendanrusso_arsenal_headeranimation.gif)
 
-## Development
+### Development
 
 I built this site with a new site builder tool called Webflow. Most of my experience for building sites has been with a more standard stack. I was skeptical about relying on a site builder, however I found Webflow to be quite comprehensive. It used a true development workflow. You feel as though you are building on one half of the screen and then seeing the live result right next to it. It is a strong visual interface that I had little trouble with. I would not say I prefer it to a typical web stack but it was an impressive tool. A lot of the sliders, due to their intricacy, required outside coding. I built those sliders using flickity, a js library.
 
