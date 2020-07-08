@@ -26,13 +26,13 @@ export const BlogPostTemplate = ({
 
       <div id="blog-post-wrapper">
         <div id="back-button">
-          <Link to="//">
+          <Link to="/">
             <p>Back</p>
           </Link>
         </div>
         <div id="blog-post-header">
           <h1>{title}</h1>
-          <h3>{description}</h3>
+          <h4>{description}</h4>
           {tags && tags.length ? (
             <div id="taglist">
               <ul>
