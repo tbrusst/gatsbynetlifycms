@@ -36,6 +36,10 @@ module.exports = {
       options: {
         plugins: [
           {
+            resolve: "gatsby-remark-component",
+            options: { components: ["my-component", "other-component"] },
+          },
+          {
             resolve: `gatsby-remark-remove-root-p-tag`,
             options: {
               parents: ["gatsby-plugin-json-remark", "default-site-plugin"], // Optional: will process only the MarkdownRemark nodes created by these plugins
