@@ -11,7 +11,7 @@ tags:
   - Motion Design
   - Front End Development
 ---
-## Context
+### Context
 
 During my time at Cohere, we were tasked with designing and developing a promotional site for a new housing development in Philadelphia’s up and coming neighborhood, Brewerytown. Otto is a revolutionary condo development named as a tribute to Brewerytown’s original architect, Otto Wolf.
 
@@ -23,7 +23,7 @@ During my time at Cohere, we were tasked with designing and developing a promoti
 </div>
 
 
-## Execution
+### Execution
 
 In an attempt to create faster and more efficient components, we decided to utilize Vue.js to power animations and data changes. By utilizing the virtual DOM instead of affecting the DOM itself, content updates and page animations are completely seamless and provide a better experience for users. We were especially proud of the transition we were able to create between pricing information simply by manipulating the content inside of a single tag.
 
@@ -35,7 +35,7 @@ In an attempt to create faster and more efficient components, we decided to util
 </div>
 
 
-## Results
+### Results
 
 The client ended up not wanting to use our version of the site and moved in a different direction completely. This was somewhat satisfying but my peers and I were proud of the work we had done and I believe it stands as testament to my developing web, motion, and now Vue skillset.
 
