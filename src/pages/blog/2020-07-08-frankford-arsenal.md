@@ -51,6 +51,8 @@ As the interactive developer it was also my job to design and implement the anim
 <div> 
 
 <img src="//a.storyblok.com/f/52110/960x540/775f62d628/brendanrusso_arsenal_headeranimation.gif" alt="Arsenal Header Animation">
+
+
 </div>
 
 ### Development
