@@ -54,6 +54,9 @@
 }
 
 #header-wrap {
+  @media (min-width: 1000px) {
+    margin-top: -2rem;
+  }
   overflow-x: hidden;
   #header-name {
     width: 100%;
@@ -280,7 +283,7 @@
       margin: 0 0 2rem 4rem;
     }
     p:nth-child(2) {
-      color: #687a00 !important;
+      color: #00db3f !important;
     }
   }
 }

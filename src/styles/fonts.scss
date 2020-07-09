@@ -13,6 +13,10 @@ body {
   width: 100vw;
 }
 
+#button-link {
+  position: relative;
+}
+
 #contact-button {
   position: relative;
   border: 1px solid #2e2e2e;
@@ -23,15 +27,38 @@ body {
   justify-content: space-evenly;
   align-items: center;
   border-radius: 100px;
+  transition: all 275ms ease;
   @media (min-width: 768px) {
     min-width: 17rem;
     width: 17rem;
   }
+
+  &:hover {
+    // border: 1px solid #c3c3c3;
+    p:before {
+      clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    }
+    img {
+      margin-left: -0.5rem;
+      filter: invert(74%) sepia(47%) saturate(5817%) hue-rotate(91deg)
+        brightness(101%) contrast(103%);
+    }
+  }
   p {
     position: relative;
   }
+  p:before {
+    position: absolute;
+    content: attr(data-content);
+    color: #00db3f;
+    text-decoration: underline;
+    clip-path: polygon(0 0, 0 0, 0% 100%, 0 100%);
+    transition: all 275ms ease;
+  }
+
   img {
     position: relative;
+    transition: all 275ms ease;
 
     height: 1rem;
   }
