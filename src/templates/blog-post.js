@@ -31,7 +31,7 @@ export const BlogPostTemplate = ({
           </Link>
         </div>
         <div id="blog-post-header">
-          <h1>{title}</h1>
+          <h2>{title}</h2>
           <h4>{description}</h4>
           {tags && tags.length ? (
             <div id="taglist">
@@ -42,15 +42,15 @@ export const BlogPostTemplate = ({
                   </li>
                 ))}
               </ul>
+
+              <a target="_blank" href="externallink">
+                <div id="contact-button">
+                  <p>View Site</p>
+                  <img src={arrow} alt="Arrow to link to another page" />
+                </div>
+              </a>
             </div>
           ) : null}
-
-          <a target="_blank" href="externallink">
-            <div id="contact-button">
-              <p>View Site</p>
-              <img src={arrow} alt="Arrow to link to another page" />
-            </div>
-          </a>
 
           {featuredimage ? (
             <div id="main-image">

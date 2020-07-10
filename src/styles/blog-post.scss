@@ -37,39 +37,58 @@
   }
 
   #main-image {
-    margin-top: 2rem;
+    margin-top: 1rem;
+    width: 100%;
+    position: relative;
   }
   #blog-post-header {
-    h1 {
-      margin: 1rem 0 0 0;
-      font-size: 2rem;
+    h2 {
+      margin: 2rem 0 0 0;
       @media only screen and (min-width: 768px) {
-        font-size: 5rem;
-        line-height: 4.5rem;
-      }
-      @media only screen and (min-width: 950px) {
-        font-size: 6rem;
-        line-height: 5.5rem;
-      }
-
-      @media only screen and (min-width: 1100px) {
-        font-size: 4.5rem;
-        line-height: 3.5rem;
-      }
-      @media only screen and (min-width: 1280px) {
-        font-size: 5rem !important;
-        line-height: 4rem !important;
-      }
-      @media only screen and (min-width: 1800px) {
-        font-size: 6rem !important;
-        line-height: 5rem !important;
+        margin: 6rem 0 0 0;
       }
     }
     h3 {
       margin: 1rem 0;
     }
     #taglist {
-      margin: 1rem 0;
+      margin: 3rem 0 0 0;
+      @media only screen and (min-width: 768px) {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+        margin: 4rem 0 0 0;
+      }
+
+      ul {
+        display: flex;
+        flex-direction: column;
+        list-style-type: none;
+        padding: 0;
+        margin: 0 0 1rem 0;
+        @media only screen and (min-width: 768px) {
+          flex-direction: row;
+        }
+
+        li {
+          margin: 0 2rem 0 0;
+          p {
+            font-size: 0.9rem;
+
+            @media only screen and (min-width: 768px) {
+              font-size: 0.8rem;
+            }
+            @media only screen and (min-width: 1500px) {
+              font-size: 0.85rem;
+            }
+
+            @media only screen and (min-width: 1800px) {
+              font-size: 0.8rem;
+            }
+          }
+        }
+      }
     }
   }
 
