@@ -32,24 +32,26 @@
   a {
     margin: 0 0 2rem 2rem;
     position: relative;
+    &:hover {
+      p:before {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+      }
+    }
     @media (min-width: 500px) {
-      margin: 0 0 2rem 6rem;
+      margin: 0 0 2rem 4rem;
     }
     p {
       position: relative;
       z-index: 60;
     }
-    // &:after {
-    //   z-index: 50;
-    //   content: "";
-    //   position: absolute;
-    //   width: 250%;
-    //   height: 200%;
-    //   background: #e4ff60;
-    //   top: -50%;
-    //   left: -70%;
-    //   border-radius: 100px;
-    // }
+    p:before {
+      position: absolute;
+      content: attr(data-content);
+      color: #4b88a2;
+      text-decoration: underline;
+      clip-path: polygon(0 0, 0 0, 0% 100%, 0 100%);
+      transition: all 275ms ease;
+    }
   }
 }
 
@@ -92,9 +94,9 @@
       transform: scale(0);
 
       background: url("../img/oval-gradient.png");
-      background-position: center -20px;
+      background-position: center 0px;
       background-repeat: no-repeat;
-      background-size: 90% 90%;
+      background-size: contain;
 
       @media (min-width: 1000px) {
         background-size: 80% 80%;
@@ -173,12 +175,12 @@
       margin: 6rem 4rem 0 0;
     }
     @media (min-width: 1500px) {
-      width: 32rem;
-      margin: 7rem 5rem 0 0;
+      width: 30rem;
+      margin: 6rem 5rem 0 0;
     }
     @media (min-width: 1600px) {
-      width: 35rem;
-      margin: 8rem 7rem 0 0;
+      width: 32rem;
+      margin: 6rem 7rem 0 0;
     }
 
     &:after {
@@ -283,7 +285,7 @@
       margin: 0 0 2rem 4rem;
     }
     p:nth-child(2) {
-      color: #00db3f !important;
+      color: #4b88a2 !important;
     }
   }
 }
