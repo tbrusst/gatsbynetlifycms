@@ -2,7 +2,7 @@
 templateKey: index-page
 title: Brendan Russo
 image: /img/home-jumbotron.jpg
-heading: Creative Technologist
+heading: Designer and Developer
 subheading: Support sustainable farming while enjoying a cup
 mainpitch:
   title: Brendan Russo

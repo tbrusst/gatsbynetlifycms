@@ -40,8 +40,8 @@ body {
     }
     img {
       margin-left: -0.5rem;
-      filter: invert(62%) sepia(7%) saturate(2460%) hue-rotate(153deg)
-        brightness(78%) contrast(95%);
+      filter: invert(14%) sepia(72%) saturate(1243%) hue-rotate(209deg)
+        brightness(96%) contrast(105%);
     }
   }
   p {
@@ -50,7 +50,7 @@ body {
   p:before {
     position: absolute;
     content: attr(data-content);
-    color: #4b88a2;
+    color: #1a1d67;
     text-decoration: underline;
     clip-path: polygon(0 0, 0 0, 0% 100%, 0 100%);
     transition: all 275ms ease;

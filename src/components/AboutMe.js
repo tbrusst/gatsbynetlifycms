@@ -15,21 +15,21 @@ const Footer = class extends React.Component {
           <img id="about-headshot" src={headshot} alt="" />
           <div id="about-info">
             <p className="about-p">
-              I am currently working part-time as a UX Designer at a software
-              startup called Setvi . I studied Interactive Digital Media at
-              Drexel University and am currently seeking full time opportunities
-              in and around Philadelphia.
+              I am a designer and developer based in Philadelphia. I specialize
+              in web, user experience, and motion design as well as frontend
+              development. I am currently working part-time as a UX Designer at
+              a startup called Setvi.
             </p>
             <p className="about-p">
               My training and experience in digital media have allowed me to
-              become well accomplished in UX/UI, motion design, and frontend
-              development. As a Creative Technologist I am able to design
-              beautifully functional products and then bring them to life in
-              code.
+              become well accomplished in both design and frontend development.
+              I am capable of designing beautifully functional products and then
+              bringing them to life in code.
             </p>
             <p className="about-p">
-              Please contact me with any questions you may have or with any
-              information regarding opportunities in related fields.
+              I am currently open to freelance projects as well as full-time
+              opportunities. Please contact me with any questions you may have
+              or with any information regarding opportunities in related fields.
             </p>
             <ContactButton />
           </div>
