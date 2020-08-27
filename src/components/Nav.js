@@ -8,10 +8,10 @@ const Nav = class extends React.Component {
   render() {
     return (
       <div id="nav-wrap">
-        <a href="#about-wrap">
+        <a href="/#about-wrap">
           <p data-content="About">About</p>
         </a>
-        <a href="#blog-roll">
+        <a href="/#blog-roll">
           <p data-content="Projects">Projects</p>
         </a>
       </div>

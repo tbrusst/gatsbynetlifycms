@@ -71,4 +71,24 @@
   @media (min-width: 1000px) {
     padding: 0 25px;
   }
+  h3 {
+    position: relative;
+    transition: all 0.5s cubic-bezier(0.65, 0, 0.35, 1);
+  }
+  // h3:before {
+  //   position: absolute;
+  //   content: attr(data-content);
+  //   // color: #1a1d67;
+  //   text-decoration: underline;
+  //   clip-path: polygon(0 0, 0 0, 0% 100%, 0 100%);
+  //   transition: all 275ms ease;
+  // }
+  &:hover {
+    h3 {
+      transform: translateX(7%);
+    }
+    // h3:before {
+    //   clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    // }
+  }
 }

@@ -21,23 +21,25 @@ class BlogRoll extends React.Component {
           posts.map(({ node: post }) => (
             <div id="blog-preview" key={post.id}>
               <div>
-                {post.frontmatter.featuredimage ? (
-                  <div className="featured-thumbnail">
-                    <PreviewCompatibleImage
-                      imageInfo={{
-                        image: post.frontmatter.featuredimage,
-                        alt: `featured image thumbnail for post ${post.frontmatter.title}`,
-                      }}
-                    />
-                  </div>
-                ) : null}
-
                 <Link
                   className="title has-text-primary is-size-4"
                   to={post.fields.slug}
                 >
+                  {post.frontmatter.featuredimage ? (
+                    <div className="featured-thumbnail">
+                      <PreviewCompatibleImage
+                        imageInfo={{
+                          image: post.frontmatter.featuredimage,
+                          alt: `featured image thumbnail for post ${post.frontmatter.title}`,
+                        }}
+                      />
+                    </div>
+                  ) : null}
+
                   <div className="blog-thumb-title">
-                    <h3>{post.frontmatter.title}</h3>
+                    <h3 data-content={post.frontmatter.title}>
+                      {post.frontmatter.title}
+                    </h3>
                     <img src={arrow} alt="" />
                   </div>
 

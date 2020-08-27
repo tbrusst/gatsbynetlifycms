@@ -6,7 +6,7 @@ import headshot from "../img/headshot-variant.png";
 import styled from "styled-components";
 import { theme } from "../styles/GlobalStyle";
 
-const Footer = class extends React.Component {
+const AboutMe = class extends React.Component {
   render() {
     return (
       <div id="about-wrap">
@@ -39,4 +39,4 @@ const Footer = class extends React.Component {
   }
 };
 
-export default Footer;
+export default AboutMe;
