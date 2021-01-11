@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: "Brendan Russo",
     description:
-      "This repo contains an example business website that is built with Gatsby, and Netlify CMS.It follows the JAMstack architecture by using Git as a single source of truth, and Netlify for continuous deployment, and CDN distribution.",
+      "Portfolio for designer and developer Brendan Russo.",
   },
   plugins: [
     "gatsby-plugin-react-helmet",
