@@ -9,4 +9,4 @@ Built using [React.js](https://reactjs.org/) and complied with [Gastby](https://
 CMS provided by [Netlify CMS](https://www.netlifycms.org/)  
 Deployed by [Netlify](https://www.netlify.com/) + Github
 
-##### View Live Project at brendanr.us
+##### View Live Project at [brendanr.us](https://brendanr.us/)
