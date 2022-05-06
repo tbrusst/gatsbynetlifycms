@@ -17,8 +17,8 @@ const AboutMe = class extends React.Component {
             <p className="about-p">
               I am a designer and developer based in Philadelphia. I specialize
               in web, user experience, and motion design as well as frontend
-              development. I am currently working part-time as a UX Designer at
-              a startup called Setvi.
+              development. I am currently working as a Digital Product Designer at
+              an agency called <a target="_blank" href="https://wedefy.com/about/">Defy</a>.
             </p>
             <p className="about-p">
               My training and experience in digital media have allowed me to

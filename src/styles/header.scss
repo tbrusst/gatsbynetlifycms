@@ -47,7 +47,7 @@
     p:before {
       position: absolute;
       content: attr(data-content);
-      color: #1a1d67;
+      // color: #1a1d67;
       text-decoration: underline;
       clip-path: polygon(0 0, 0 0, 0% 100%, 0 100%);
       transition: all 275ms ease;
@@ -303,7 +303,7 @@
       margin: 0 0 2rem 4rem;
     }
     p:nth-child(2) {
-      color: #1a1d67 !important;
+      // color: #1a1d67 !important;
     }
   }
 }

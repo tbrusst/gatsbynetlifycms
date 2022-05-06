@@ -9,7 +9,7 @@ const Footer = class extends React.Component {
   render() {
     return (
       <div id="footer-wrap">
-        <p>Brendan Russo - 2020</p>
+        <p>Brendan Russo - 2022</p>
         <ContactButton />
       </div>
     );

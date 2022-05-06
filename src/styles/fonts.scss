@@ -14,6 +14,7 @@ body {
 }
 
 #button-link {
+  text-decoration: none;
   position: relative;
 }
 
@@ -28,6 +29,9 @@ body {
   align-items: center;
   border-radius: 100px;
   transition: all 275ms ease;
+  p{
+    text-decoration: none !important;
+  }
   @media (min-width: 768px) {
     min-width: 17rem;
     width: 17rem;
@@ -40,8 +44,8 @@ body {
     }
     img {
       margin-left: -0.5rem;
-      filter: invert(14%) sepia(72%) saturate(1243%) hue-rotate(209deg)
-        brightness(96%) contrast(105%);
+      // filter: invert(14%) sepia(72%) saturate(1243%) hue-rotate(209deg)
+      //   brightness(96%) contrast(105%);
     }
   }
   p {
@@ -50,7 +54,7 @@ body {
   p:before {
     position: absolute;
     content: attr(data-content);
-    color: #1a1d67;
+    // color: #1a1d67;
     text-decoration: underline;
     clip-path: polygon(0 0, 0 0, 0% 100%, 0 100%);
     transition: all 275ms ease;

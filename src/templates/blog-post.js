@@ -43,7 +43,7 @@ export const BlogPostTemplate = ({
                 ))}
               </ul>
 
-              <a target="_blank" href={externallink}>
+              <a id="button-link" target="_blank" href={externallink}>
                 <div id="contact-button">
                   <p>View Site</p>
                   <img src={arrow} alt="Arrow to link to another page" />
