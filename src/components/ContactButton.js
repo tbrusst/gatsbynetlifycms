@@ -11,7 +11,7 @@ const ContactButton = class extends React.Component {
       <a id="button-link" href="mailto:russobrendanm@gmail.com">
         <div id="contact-button" className={this.props.id}>
           <p data-content="Contact Me">Contact Me</p>
-          <img src={arrow} alt="Arrow to link to another page" />
+          <img src={arrow} alt="Arrow button that links to another page" />
         </div>
       </a>
     );
