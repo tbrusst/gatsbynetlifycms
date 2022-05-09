@@ -45,7 +45,7 @@ export const IndexPageTemplate = ({
       </div>
     </div>
     <div id="about-work">
-      <div id="contact-links">
+      {/* <div id="contact-links">
         <a target="_blank" href="https://www.instagram.com/brendanrusso.design/">
           <div className="contact-link">
             <p>INSTAGRAM</p>
@@ -58,7 +58,7 @@ export const IndexPageTemplate = ({
             <p>/brendanr.us</p>
           </div>
         </a>
-      </div>
+      </div> */}
       <AboutMe />
       <BlogRoll />
     </div>
