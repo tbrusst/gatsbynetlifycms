@@ -305,8 +305,20 @@
     p:nth-child(2) {
 
 
-      
+
       // color: #1a1d67 !important; 
     }
   }
+}
+
+#contact-links{
+  a{
+    text-decoration: none;;
+  }
+}
+
+#social-link{
+
+      text-decoration: underline !important;
+
 }
