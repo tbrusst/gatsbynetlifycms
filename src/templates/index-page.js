@@ -45,11 +45,11 @@ export const IndexPageTemplate = ({
       </div>
     </div>
     <div id="about-work">
-      {/* <div id="contact-links">
-        <a target="_blank" href="https://www.instagram.com/brendanr.us/">
+      <div id="contact-links">
+        <a target="_blank" href="https://www.instagram.com/brendanrusso.design/">
           <div className="contact-link">
             <p>INSTAGRAM</p>
-            <p>@brendanr.us</p>
+            <p>@brendanrusso.design</p>
           </div>
         </a>
         <a target="_blank" href="https://www.linkedin.com/in/brendanrus/">
@@ -58,7 +58,7 @@ export const IndexPageTemplate = ({
             <p>/brendanr.us</p>
           </div>
         </a>
-      </div> */}
+      </div>
       <AboutMe />
       <BlogRoll />
     </div>
