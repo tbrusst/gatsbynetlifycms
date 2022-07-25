@@ -16,7 +16,10 @@ class BlogRoll extends React.Component {
     const { edges: posts } = data.allMarkdownRemark;
 
     return (
-      <div id="blog-roll">
+      <div>
+        <h5 class="caps" id="work-title">Work</h5>
+        <div id="blog-roll">
+        
         {posts &&
           posts.map(({ node: post }) => (
             <div id="blog-preview" key={post.id}>
@@ -49,6 +52,8 @@ class BlogRoll extends React.Component {
             </div>
           ))}
       </div>
+      </div>
+
     );
   }
 }

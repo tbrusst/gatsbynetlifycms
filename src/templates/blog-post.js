@@ -43,10 +43,10 @@ export const BlogPostTemplate = ({
                 ))}
               </ul>
 
-              <a id="button-link" target="_blank" href={externallink}>
-                <div id="contact-button">
-                  <p>View Site</p>
-                  <img src={arrow} alt="Arrow to link to another page" />
+              <a target="_blank" href={externallink}>
+                <div className="contact-button">
+                  <p className="caps">View Site</p>
+                  {/* <img src={arrow} alt="Arrow to link to another page" /> */}
                 </div>
               </a>
             </div>

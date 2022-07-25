@@ -31,7 +31,7 @@ a {
 }
 
 h1 {
-  font-family: ${headingfont};
+  font-family: ${bodyfont};
   font-size: 3rem;
   text-transform: uppercase;
   font-weight: normal;
@@ -61,7 +61,7 @@ h1 {
 }
 
 h2 {
-  font-family: ${headingfont};
+  font-family: ${bodyfont};
   font-size: 1.5rem;
   @media only screen and (min-width: 768px) {
     font-size: 2.5rem;

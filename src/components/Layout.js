@@ -16,6 +16,7 @@ import "../styles/header.scss";
 import "../styles/blog-post.scss";
 import "../styles/blogroll.scss";
 import "../styles/footer.scss";
+import "../styles/about.scss";
 
 const TemplateWrapper = ({ children }) => {
   const { title, description } = useSiteMetadata();
