@@ -24,7 +24,10 @@ a.title{
 }
 
 #work-title{
-  margin: 0 0 30px 30px;
+  margin: 0 auto;
+
+  max-width: 1650px !important;
+  padding: 0 0 30px 30px !important;
 }
 
 #blog-roll {

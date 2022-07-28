@@ -8,7 +8,8 @@ import { theme } from "../styles/GlobalStyle";
 const Footer = class extends React.Component {
   render() {
     return (
-      <div id="footer-wrap">
+      <div id="footer">
+        <div id="footer-wrap">
         <p>Brendan Russo - 2022</p>
         
         <a href="mailto:@russobrendanm@gmail.com">
@@ -16,6 +17,9 @@ const Footer = class extends React.Component {
                   <p className="caps">Let's Talk</p>
                 </div>
         </a>
+          
+        </div>
+
       </div>
     );
   }
