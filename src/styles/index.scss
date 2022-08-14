@@ -18,10 +18,18 @@ p{
 
 html{
   height: -webkit-fill-available;
+  @media (min-width: 768px) {
+    height: auto;
+
+  }
 }
 
 body{
   height: -webkit-fill-available;
+  @media (min-width: 768px) {
+    height: auto;
+
+  }
 }
 
 
