@@ -53,6 +53,24 @@ export const IndexPageTemplate = ({
 
             </div>
         </Col>
+
+        {/* <Col xs="auto" >
+          <a href="/#index-about">
+              <p class="caps" data-content="About">About</p>
+            </a>
+        </Col>
+        <Col xs="auto">
+        <a href="/#blog-roll">
+                <p class="caps" data-content="Projects">Work</p>
+              </a>
+        </Col>
+        <Col xs="auto">
+        <a href="mailto:@russobrendanm@gmail.com">
+                <div className="contact-button">
+                  <p className="caps">Let's Talk</p>
+                </div>
+              </a>
+        </Col> */}
       </Row>
 
       <div>
