@@ -28,7 +28,11 @@ export const IndexPageTemplate = ({
 
     <Container id="index-header">
       <div id="gradient-header">
+        <div id="gradient-up">
         <div id="gradient-circle"></div>
+
+        </div>
+        
 
       </div>
 
@@ -40,6 +44,11 @@ export const IndexPageTemplate = ({
               </a>
               <a href="/#blog-roll">
                 <p class="caps" data-content="Projects">Work</p>
+              </a>
+              <a href="mailto:@russobrendanm@gmail.com">
+                <div className="contact-button">
+                  <p className="caps">Let's Talk</p>
+                </div>
               </a>
 
             </div>
@@ -55,11 +64,7 @@ export const IndexPageTemplate = ({
           {/* <Col id="index-header_main-desc" xs={12} md={6} xl={5}>
             <p>I’m a designer based in Philadelphia with experience in UX/UI, visual design, and front-end development. Currently working as a Digital Designer at Defy. </p>
 
-            <a href="mailto:@russobrendanm@gmail.com">
-                <div className="contact-button">
-                  <p className="caps">Let's Talk</p>
-                </div>
-              </a>
+
           </Col> */}
         </Row>
         <Row id="index-header_secondary-row">
@@ -94,12 +99,15 @@ export const IndexPageTemplate = ({
       <div id="index-about_main-row">
       <Row>
         <Col xs={12} md={3}>
-          <h5 className="caps">About</h5>
+          <h5   data-sal="slide-up"
+  data-sal-delay="300"
+  data-sal-easing="ease" className="caps">About</h5>
         </Col>
         <Col id="about-desc" xs={12} md={9} lg={8} xl={6}>
+          <h4>I’m a designer with experience in visual design, UX/UI, and front-end development. Currently working as a digital designer at <a href="https://wedefy.com/about/">Defy.</a></h4>
           <h4>
 I am passionate about the role art and design play in the digital world. I love to create products that are both beautiful and functional.</h4>
-          <h4>My formal training and experience in visual design, UX/UI, and frontend development have allowed me to become an accomplished digital designer.</h4>
+
         </Col>
       </Row>
 

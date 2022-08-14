@@ -76,13 +76,25 @@
   height: 100%;
   width: 100%;
   position: absolute;
-  top:70%;
+
   left: 0;
   right: 0;
   overflow: hidden;
   // max-width: 1650px;
   margin: 0 auto;
-  animation: gradientUp 1.5s cubic-bezier(0.33, 1, 0.68, 1) 2.5s forwards;
+  // animation: gradientUp 1.5s cubic-bezier(0.33, 1, 0.68, 1) 2.5s forwards;
+
+  #gradient-up{
+    animation: gradientUp 1.5s cubic-bezier(0.33, 1, 0.68, 1) 2.5s forwards;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+
+    transform: translateY(100rem);
+  
+    left: 0;
+    right: 0;
+  }
 
   #gradient-circle{
     background: #6CF542;
@@ -93,6 +105,7 @@
     right: 0;
     margin: 0 auto;
     border-radius: 50% 50% 0 0;
+    
 
     width: 100%;
     height: 20rem;
@@ -163,23 +176,6 @@
   }
 
 
-    // width: 210%;
-    // background: radial-gradient(at 23.5% bottom, rgba(63,251,70,1) 0%, rgba(63,251,70,1) 20%, rgba(93,252,70,0) 30%);
-
-    // @media (min-width: 576px) {
-    //   width: 175%;
-    //   background: radial-gradient(at 28% bottom, rgba(63,251,70,1) 0%, rgba(63,251,70,1) 20%, rgba(93,252,70,0) 30%);
-
-    // }
-    // @media (min-width: 1200px) {
-    //   width: 150%;
-    //   background: radial-gradient(at 33% bottom, rgba(63,251,70,1) 0%, rgba(63,251,70,1) 20%, rgba(93,252,70,0) 30%);
-    //   animation: gradientMove 2000ms ease-in infinite;
-
-    // }
-    // @media (min-width: 1400px) {
-
-    // }
 }
 
 #index-header{
@@ -193,7 +189,7 @@
   overflow-x: hidden;
 
 
-
+  // min-height: 100vh;
   height: -webkit-fill-available;
 
   @media (min-width: 768px) {

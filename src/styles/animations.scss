@@ -73,22 +73,13 @@
 
 @keyframes gradientMove {
 	0% {
+    transform: translateY(0rem);
 	}
 	50% {
     transform: translateY(2rem);
 	}
 	100% {
-
-	}
-}
-
-@keyframes gradientMoveMobile {
-	0% {
-	}
-	50% {
-    bottom: -120%;
-	}
-	100% {
+    transform: translateY(0rem);
 
 	}
 }
@@ -96,13 +87,11 @@
 
 @keyframes gradientUp {
 	0% {
+    transform: translateY(100rem);
     
-
 	}
 	100% {
-    top:0;
-
-
+    transform: translateY(0rem);
 	}
 }
 
