@@ -51,3 +51,60 @@
     opacity: 1;
   }
 }
+
+// body {
+// 	background: linear-gradient(-45deg, #F8F292, #BCBBB7, #F1D0DD, #CDB889);
+// 	background-size: 400% 400%;
+// 	animation: gradient 15s ease infinite;
+// 	height: 100vh;
+// }
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+@keyframes gradientMove {
+	0% {
+	}
+	50% {
+    bottom: -120%;
+	}
+	100% {
+
+	}
+}
+
+@keyframes gradientMoveMobile {
+	0% {
+	}
+	50% {
+    bottom: -120%;
+	}
+	100% {
+
+	}
+}
+
+
+@keyframes gradientUp {
+	0% {
+    
+
+	}
+	100% {
+    top:0;
+
+
+	}
+}
+
+
+

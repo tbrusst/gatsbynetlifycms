@@ -27,6 +27,10 @@ export const IndexPageTemplate = ({
   <>
 
     <Container id="index-header">
+      <div id="gradient-header">
+        <div id="gradient-circle"></div>
+
+      </div>
 
       <Row>
         <Col>
@@ -48,7 +52,7 @@ export const IndexPageTemplate = ({
             <h1 id="brendan" class="caps">Brendan</h1>
             <h1 id="russo" class="caps">Russo</h1>
           </Col>
-          <Col id="index-header_main-desc" xs={12} md={6} xl={5}>
+          {/* <Col id="index-header_main-desc" xs={12} md={6} xl={5}>
             <p>I’m a designer based in Philadelphia with experience in UX/UI, visual design, and front-end development. Currently working as a Digital Designer at Defy. </p>
 
             <a href="mailto:@russobrendanm@gmail.com">
@@ -56,7 +60,7 @@ export const IndexPageTemplate = ({
                   <p className="caps">Let's Talk</p>
                 </div>
               </a>
-          </Col>
+          </Col> */}
         </Row>
         <Row id="index-header_secondary-row">
           <Col id="index-header_secondary-row_1">
