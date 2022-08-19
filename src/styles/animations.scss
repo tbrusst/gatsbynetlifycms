@@ -58,7 +58,7 @@
     transform: translateY(0rem);
 	}
 	50% {
-    transform: translateY(2rem);
+    transform: translateY(5rem);
 	}
 	100% {
     transform: translateY(0rem);
@@ -73,7 +73,7 @@
     
 	}
 	100% {
-    transform: translateY(80%);
+    bottom: -60%;
 	}
 }
 

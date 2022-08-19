@@ -1,8 +1,7 @@
 #footer{
   width: 100%;
   height: 10rem;
-  // background: #efefec;
-  background: #000000;
+  background: #111111;
 
 }
 
@@ -56,8 +55,6 @@
       transition: clip .6s cubic-bezier(0, 0.55, 0.45, 1);
       clip: rect(0px, 0em, 5rem, 0ch);
     }
-  
-  
   
     &:hover{
       p{

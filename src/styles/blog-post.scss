@@ -1,6 +1,35 @@
+#blog-post-banner{
+  position: absolute !important;
+  height: 10rem;
+  width: 100vw;
+  left: 0;
+  top: 0;
+  background-size: cover;
+
+  @media (min-width: 500px) {
+    
+  }
+  @media (min-width: 768px) {
+    height: 15rem;
+    
+  }
+
+  @media (min-width: 1000px) {
+    
+  }
+  @media (min-width: 1250px) {
+    height: 20rem;
+    
+    
+  }
+  @media (min-width: 1800px) {
+    
+  }
+}
+
 #blog-post-wrapper {
   background: white;
-  padding: 2rem 1rem;
+  padding: 12rem 1rem 2rem;
   width: 100vw;
   overflow-x: hidden;
   display: flex;
@@ -20,25 +49,72 @@
   }
 
   @media (min-width: 500px) {
-    padding: 2rem 2rem;
+    padding: 12rem 2rem 2rem;
   }
   @media (min-width: 768px) {
-    padding: 2rem 4rem;
+    padding: 17rem 4rem 2rem;
   }
 
   @media (min-width: 1000px) {
-    padding: 2rem 7rem;
+    padding: 17rem 7rem 2rem;
   }
   @media (min-width: 1250px) {
-    padding: 2rem 10rem;
+    padding: 22rem 10rem 2rem;
   }
   @media (min-width: 1800px) {
-    padding: 2rem 20rem;
+    padding: 22rem 20rem 2rem;
   }
+
+
 
   .contact-button{
     z-index: 0 !important;
   }
+
+  .contact-button{
+    padding: 5px 45px;
+    border: 1px solid #111111;
+    border-radius: 100px;
+    display: inline-block;
+    position: relative;
+    z-index: 900;
+    p{
+      text-align: center;
+      position: relative;
+      z-index: 900;
+      transition: color .4s ease;
+    }
+    &::after{
+      content: '';
+      // background: #efefec;
+      background: #111111;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      position: absolute;
+      border-radius: 100px;
+      z-index: 100;
+      // transform: scaleX(0);
+      transform-origin: left;
+      transition: clip .6s cubic-bezier(0, 0.55, 0.45, 1);
+      clip: rect(0px, 0em, 5rem, 0ch);
+    }
+
+    &:hover{
+      p{
+        color: #efefec !important;
+      }
+  
+      &::after{
+        // transform: scaleX(1);
+        clip: rect(0px, 15em, 5rem, 0ch);
+      }
+      
+    }
+  }
+
+  
 
   #main-image {
     margin-top: 1rem;
@@ -103,6 +179,7 @@
     margin: 0 0 0.5rem 0;
   }
   .blog-content-wrapper {
+    margin-top: 5rem;
     width: 100%;
     h3 {
       margin: 2rem 0 1rem 0;

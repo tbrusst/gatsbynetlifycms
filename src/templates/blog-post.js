@@ -7,6 +7,7 @@ import Layout from "../components/Layout";
 import PreviewCompatibleImage from "../components/PreviewCompatibleImage";
 import Content, { HTMLContent } from "../components/Content";
 import arrow from "../img/arrow.svg";
+import BackgroundImage from 'gatsby-background-image';
 
 export const BlogPostTemplate = ({
   content,
@@ -20,11 +21,24 @@ export const BlogPostTemplate = ({
 }) => {
   const PostContent = contentComponent || Content;
 
+  console.log(featuredimage.childImageSharp.fluid.srcSet);
+
   return (
     <section>
       {helmet || ""}
 
       <div id="blog-post-wrapper">
+        {/* <div id="blog-post-banner" style ={{ backgroundImage: `url(${featuredimage.childImageSharp.fluid.src})`}}></div> */}
+        <BackgroundImage
+          Tag="section"
+          id="blog-post-banner"
+          
+          fluid={featuredimage.childImageSharp.fluid}
+          backgroundColor={`#040e18`}
+        >
+          
+        </BackgroundImage>
+
         <div id="back-button">
           <Link to="/">
             <p>Back</p>
@@ -52,7 +66,7 @@ export const BlogPostTemplate = ({
             </div>
           ) : null}
 
-          {featuredimage ? (
+          {/* {featuredimage ? (
             <div id="main-image">
               <PreviewCompatibleImage
                 imageInfo={{
@@ -61,7 +75,7 @@ export const BlogPostTemplate = ({
                 }}
               />
             </div>
-          ) : null}
+          ) : null} */}
         </div>
 
         <PostContent className="blog-content-wrapper" content={content} />

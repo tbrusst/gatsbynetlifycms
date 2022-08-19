@@ -6,13 +6,12 @@
   position: absolute;
   height: 100%;
   width: 100%;
-  bottom: 0;
   left: 0;
   background: #6CF542;
   border-radius: 50% 50% 0 0;
   filter: blur(2rem);
-  transform: translateY(110%);
-  animation: gradientUp 1000ms ease 2000ms forwards;
+  bottom: -110%;
+  animation: gradientUp 1000ms cubic-bezier(0.33, 1, 0.68, 1) 2000ms forwards, gradientMove 15000ms cubic-bezier(0.45, 0, 0.55, 1) 3000ms infinite;
 }
 
 #index-header{
@@ -130,7 +129,7 @@
   padding: 1rem 0;
   position: relative;
   z-index: 300;
-  border-top: 1px solid black;
+  border-top: 1px solid #111111;
 
   p{
     font-size: .75rem;
