@@ -11,8 +11,6 @@ tags:
   - Motion Design
   - Front End Development
 ---
-### Context
-
 During my time at Cohere I was able to work on a promotional website for Frankford Arsenal, an upcoming workspace in Northeast Philly with a rich history.
 
 The aesthetic for Frankford Arsenal revolved around promoting a modern approach to the workplace. The Frankford Arsenal was a large munitions factory in Philadelphia from 1816-1977. It was, during its early years, the largest ammunition plant in America. At one point, it employed 22,000 people. Not just factory workers, but scientists, engineers, and innovators.
@@ -51,7 +49,6 @@ As the interactive developer it was also my job to design and implement the anim
 <div> 
 
 <img src="//a.storyblok.com/f/52110/960x540/775f62d628/brendanrusso_arsenal_headeranimation.gif" alt="Arsenal Header Animation">
-
 
 </div>
 
