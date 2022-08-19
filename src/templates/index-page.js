@@ -27,14 +27,6 @@ export const IndexPageTemplate = ({
   <>
 
     <Container id="index-header">
-      <div id="gradient-header">
-
-          <div id="gradient-circle"></div>
-
-      </div>
-
-
-
       <div>
         <Row id="index-header_main-row">
           <Col xs={7} xl={8}>
@@ -85,6 +77,12 @@ export const IndexPageTemplate = ({
 
           </Col>
         </Row>
+      </div>
+
+      <div id="header-gradient">
+
+        
+
       </div>
 
 
