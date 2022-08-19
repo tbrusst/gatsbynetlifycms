@@ -27,11 +27,11 @@ export const IndexPageTemplate = ({
   <>
 
     <Container id="index-header">
-      {/* <div id="gradient-header">
+      <div id="gradient-header">
 
           <div id="gradient-circle"></div>
 
-      </div> */}
+      </div>
 
 
 
