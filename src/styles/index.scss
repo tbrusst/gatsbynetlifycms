@@ -16,20 +16,25 @@ p{
   overflow-x: hidden;
 }
 
-html{
-  height: -webkit-fill-available;
-  @media (min-width: 768px) {
-    height: auto;
+// html{
+//   height: -webkit-fill-available;
+//   @media (min-width: 768px) {
+//     height: auto;
 
-  }
-}
+//   }
+// }
 
-body{
-  height: -webkit-fill-available;
-  @media (min-width: 768px) {
-    height: auto;
+// body{
+//   height: -webkit-fill-available;
+//   @media (min-width: 768px) {
+//     height: auto;
 
-  }
+//   }
+// }
+
+.tight-line{
+  line-height: 1;
+  margin-bottom: 0 !important;
 }
 
 

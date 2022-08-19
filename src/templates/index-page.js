@@ -27,76 +27,51 @@ export const IndexPageTemplate = ({
   <>
 
     <Container id="index-header">
-      <div id="gradient-header">
-        <div id="gradient-up">
-        <div id="gradient-circle"></div>
+      {/* <div id="gradient-header">
 
-        </div>
-        
+          <div id="gradient-circle"></div>
 
-      </div>
+      </div> */}
 
-      <Row>
-        <Col>
-            <div id="nav-wrap">
-              <a href="/#index-about">
-                <p class="caps" data-content="About">About</p>
-              </a>
-              <a href="/#blog-roll">
-                <p class="caps" data-content="Projects">Work</p>
-              </a>
-              <a href="mailto:@russobrendanm@gmail.com">
-                <div className="contact-button">
-                  <p className="caps">Let's Talk</p>
-                </div>
-              </a>
 
-            </div>
-        </Col>
-
-        {/* <Col xs="auto" >
-          <a href="/#index-about">
-              <p class="caps" data-content="About">About</p>
-            </a>
-        </Col>
-        <Col xs="auto">
-        <a href="/#blog-roll">
-                <p class="caps" data-content="Projects">Work</p>
-              </a>
-        </Col>
-        <Col xs="auto">
-        <a href="mailto:@russobrendanm@gmail.com">
-                <div className="contact-button">
-                  <p className="caps">Let's Talk</p>
-                </div>
-              </a>
-        </Col> */}
-      </Row>
 
       <div>
         <Row id="index-header_main-row">
-          <Col xs={12} md={6} xl={7}>
-            <h1 id="brendan" class="caps">Brendan</h1>
-            <h1 id="russo" class="caps">Russo</h1>
+          <Col xs={7} xl={8}>
+            <h1 id="brendan" class="caps tight-line">Brendan</h1>
+            <h1 id="russo" class="caps tight-line">Russo</h1>
           </Col>
-          {/* <Col id="index-header_main-desc" xs={12} md={6} xl={5}>
-            <p>I’m a designer based in Philadelphia with experience in UX/UI, visual design, and front-end development. Currently working as a Digital Designer at Defy. </p>
+          <Col xs={{ span: 4, offset: 1 }} xl={{ span: 3, offset: 1 }}>
+            <div id="digital-designer">
+              <h3 id="digital" class="caps tight-line">digital</h3>
+              <h3 id="designer" class="caps tight-line">designer</h3>
 
+            </div>
 
-          </Col> */}
+          </Col>
         </Row>
         <Row id="index-header_secondary-row">
-          <Col id="index-header_secondary-row_1">
-            <p>2022</p>
+          <Col xs={4} sm={{span: 4}} md={{ span: 3, offset: 4 }} id="index-header_secondary-row_1">
+            <div className="index-header_secondary-row_item-wrap">
+              <a href="">
+                <p class="caps">Currently Working</p>
+                <p class="caps">@ Defy</p>
+              </a>
+            </div>
+
           </Col>
-          <Col id="index-header_secondary-row_2">
-            <div id="index-header_scroll-to-discover">
-              <p class="caps">Keep Scrolling Please</p>
+          <Col xs={4} sm={{span: 4}} md={{ span: 3 }} id="index-header_secondary-row_2">
+            <div className="index-header_secondary-row_item-wrap">
+              <a href="">
+                <p class="caps">Send me an</p>
+                <p class="caps">Email</p>
+              </a>
             </div>
             
           </Col>
-          <Col id="index-header_secondary-row_3">
-                <a target="_blank" href="https://www.instagram.com/brendanrusso.design/">
+          <Col xs={4} sm={{span: 4}} md={{ span: 2 }} id="index-header_secondary-row_3">
+            <div className="index-header_secondary-row_item-wrap">
+              <a target="_blank" href="https://www.instagram.com/brendanrusso.design/">
                   <div className="contact-link">
                     <p class="caps">Instagram</p>
                   </div>
@@ -106,6 +81,8 @@ export const IndexPageTemplate = ({
                     <p class="caps">LinkedIn</p>
                   </div>
                 </a>
+            </div>
+
           </Col>
         </Row>
       </div>
@@ -117,14 +94,31 @@ export const IndexPageTemplate = ({
       <div id="index-about_main-row">
       <Row>
         <Col xs={12} md={3}>
-          <h5   data-sal="slide-up"
-  data-sal-delay="300"
-  data-sal-easing="ease" className="caps">About</h5>
+          <h5
+          data-sal="slide-up"
+          data-sal-delay="300"
+          data-sal-easing="ease"
+          className="caps"
+          >
+            About
+          </h5>
         </Col>
-        <Col id="about-desc" xs={12} md={9} lg={8} xl={6}>
-          <h4>I’m a designer with experience in visual design, UX/UI, and front-end development. Currently working as a digital designer at <a href="https://wedefy.com/about/">Defy.</a></h4>
-          <h4>
-I am passionate about the role art and design play in the digital world. I love to create products that are both beautiful and functional.</h4>
+        <Col id="about-desc" xs={12} md={8} lg={7} xl={6}>
+          <p   
+            data-sal="slide-up"
+            data-sal-delay="500"
+            data-sal-easing="ease"
+            data-sal-duration="700"
+          >
+            I’m a designer with experience in visual design, UX/UI, and front-end development. Currently working as a digital designer at <a href="https://wedefy.com/about/">Defy.</a></p>
+          <p   
+            data-sal="slide-up"
+            data-sal-delay="600"
+            data-sal-easing="ease"
+            data-sal-duration="700"
+          >
+            I am passionate about the role art and design play in the digital world. I love to create products that are both beautiful and functional.
+          </p>
 
         </Col>
       </Row>

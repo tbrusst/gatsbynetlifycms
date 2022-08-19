@@ -87,12 +87,24 @@
 
 @keyframes gradientUp {
 	0% {
-    transform: translateY(100rem);
+    transform: translateY(20rem);
     
 	}
 	100% {
     transform: translateY(0rem);
 	}
+}
+
+@keyframes shiftFromRight{
+  100%{
+    right: 0;
+  }
+}
+
+@keyframes shiftFromBottom{
+  100%{
+    transform: translateY(0);
+  }
 }
 
 
