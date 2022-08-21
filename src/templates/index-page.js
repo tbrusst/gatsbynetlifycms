@@ -101,7 +101,7 @@ export const IndexPageTemplate = ({
             About
           </h5>
         </Col>
-        <Col id="about-desc" xs={12} md={8} lg={7} xl={6}>
+        <Col id="about-desc" xs={12} md={8} lg={7} xl={6} xxl={5}>
           <p   
             data-sal="slide-up"
             data-sal-delay="500"

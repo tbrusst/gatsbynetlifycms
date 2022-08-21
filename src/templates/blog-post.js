@@ -21,23 +21,26 @@ export const BlogPostTemplate = ({
 }) => {
   const PostContent = contentComponent || Content;
 
-  console.log(featuredimage.childImageSharp.fluid.srcSet);
+  const bgImg = featuredimage.childImageSharp.fluid;
+  console.log(bgImg);
 
   return (
     <section>
       {helmet || ""}
 
-      <div id="blog-post-wrapper">
-        {/* <div id="blog-post-banner" style ={{ backgroundImage: `url(${featuredimage.childImageSharp.fluid.src})`}}></div> */}
-        <BackgroundImage
+      <div id="blog-post">
+      <BackgroundImage
           Tag="section"
           id="blog-post-banner"
           
-          fluid={featuredimage.childImageSharp.fluid}
+          fluid={bgImg}
           backgroundColor={`#040e18`}
         >
           
         </BackgroundImage>
+
+      <div id="blog-post-wrapper">
+
 
         <div id="back-button">
           <Link to="/">
@@ -66,20 +69,14 @@ export const BlogPostTemplate = ({
             </div>
           ) : null}
 
-          {/* {featuredimage ? (
-            <div id="main-image">
-              <PreviewCompatibleImage
-                imageInfo={{
-                  image: featuredimage,
-                  alt: `featured image thumbnail for post ${title}`,
-                }}
-              />
-            </div>
-          ) : null} */}
         </div>
 
         <PostContent className="blog-content-wrapper" content={content} />
       </div>
+
+      </div>
+
+
     </section>
   );
 };
