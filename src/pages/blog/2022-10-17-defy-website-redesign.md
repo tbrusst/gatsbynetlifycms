@@ -5,11 +5,11 @@ externallink: https://wedefy.com/
 date: 2022-10-16T23:58:31.573Z
 description: Website Redesign
 featuredpost: false
-featuredimage: /img/brendanrusso_brinker_thumbnail.png
+featuredimage: /img/brendanrusso_defy_thumbnail.png
 tags:
-  - Color
-  - Typography
-  - Iconography
+  - Website
+  - UX/UI
+  - Visual Design
 ---
 The Defy team's website previously utilized a confusing dual-column layout that was intriguing to fellow designers but fell flat in keeping existing and potential clients engaged. It was not getting the traction an agency site should be and therefore needed a full redesign. As a designer at Defy with heavy web experience, I was tasked with this project. The goal was to create new designs for the Defy agency site that would make sense to users, provide clients with the information they need, and reflect Defy's evolving brand aesthetic.
 
