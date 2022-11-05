@@ -1,9 +1,9 @@
 ---
 templateKey: blog-post
-title: Defy Website Redesign
+title: Defy Website
 externallink: https://wedefy.com/
-date: 2022-11-05T02:04:22.975Z
-description: Website Redesign
+date: 2022-11-05T02:09:08.117Z
+description: Web Design System
 featuredpost: false
 featuredimage: /img/brendanrusso_defy_thumbnail.png
 tags:
