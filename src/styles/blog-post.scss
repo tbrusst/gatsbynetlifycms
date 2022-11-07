@@ -278,7 +278,7 @@
       img:only-child {
         width: 100%;
       }
-      img:nth-child(2) {
+      img:nth-child(n+2) {
         margin: 1rem 0 0 0;
         @media (min-width: 768px) {
         }

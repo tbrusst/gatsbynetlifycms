@@ -33,21 +33,35 @@
   justify-content: flex-end;
   background: #EDECE8;
   overflow-x: hidden;
-  height: 85vh;
+  height: auto;
   width: 100vw;
   position: relative;
   // height: -webkit-fill-available;
+  
 
   .row>*{
     padding-right: 0;
     padding-left: 0;
   }
 
-  @media (min-width: 768px) {
-    padding-bottom: 3rem;
-    height: 100vh;
 
-  }
+
+  // @media (min-width: 576px) {
+    
+  // }
+  // @media (min-width: 768px) {
+  //   padding-bottom: 3rem;
+  //   height: 40vh;
+  // }
+  // @media (min-width: 992px) {
+  
+  // }
+  // @media (min-width: 1200px) {
+
+  // }
+  // @media (min-width: 1400px) {
+  
+  // }
 
 
 
@@ -59,8 +73,11 @@
     padding-bottom: 1rem;
     position: relative;
 
+    padding-top: 30rem;
+
     @media (min-width: 768px) {
       padding-bottom: 2rem;
+      padding-top: 30rem;
 
     }
 
