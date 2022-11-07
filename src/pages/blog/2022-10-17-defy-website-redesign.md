@@ -63,7 +63,7 @@ This entire project was built in Figma and was therefore handed off by sharing t
 
 <div> 
 
-<img src="https://gyazo.com/de6718ed1d38b509dd99acdad42d6084" alt="Defy">
+<img src="https://i.gyazo.com/de6718ed1d38b509dd99acdad42d6084.gif" alt="Defy">
 
 </div>
 
@@ -75,15 +75,13 @@ The development process was very collaborative. We shared notes on Figma directl
 
 <img src="https://a.storyblok.com/f/52110/1920x1080/fab8701258/brendanrusso_defysite_mobilesite3.jpg" alt="Defy">
 
-</div>
-
-<div> 
-
 <img src="https://a.storyblok.com/f/52110/1920x1080/7a330e78c3/brendanrusso_defysite_desktopsite4.jpg" alt="Defy">
 
-<img src="https://a.storyblok.com/f/52110/1920x1080/09739a2916/brendanrusso_defysite_desktopsite3.jpg" alt="Defy">
+<img src="https://a.storyblok.com/f/52110/1920x1080/bc5ca5b928/brendanrusso_defysite_desktopsite2.jpg" alt="Defy">
 
 </div>
+
+
 
 ### Results
 
@@ -93,11 +91,7 @@ Once the site had been completed and published we began to run ad and email camp
 
 <img src="https://a.storyblok.com/f/52110/1920x1080/b183e84d2f/brendanrusso_defysite_desktopsite1.jpg" alt="Defy">
 
-</div>
-
-<div> 
-
-<img src="https://a.storyblok.com/f/52110/1920x1080/bc5ca5b928/brendanrusso_defysite_desktopsite2.jpg" alt="Defy">
+<img src="https://a.storyblok.com/f/52110/1920x1080/09739a2916/brendanrusso_defysite_desktopsite3.jpg" alt="Defy">
 
 <img src="https://a.storyblok.com/f/52110/1920x1080/b6a7b541a1/brendanrusso_defysite_mobilesite2.jpg" alt="Defy">
 
