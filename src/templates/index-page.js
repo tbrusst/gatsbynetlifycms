@@ -35,7 +35,7 @@ export const IndexPageTemplate = ({
           </Col>
           <Col xs={{ span: 4, offset: 1 }} xl={{ span: 3, offset: 1 }}>
             <div id="digital-designer">
-              <h3 id="digital" class="caps tight-line">product</h3>
+              <h3 id="digital" class="caps tight-line">digital</h3>
               <h3 id="designer" class="caps tight-line">designer</h3>
 
             </div>
