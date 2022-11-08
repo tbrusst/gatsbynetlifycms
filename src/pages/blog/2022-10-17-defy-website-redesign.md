@@ -13,9 +13,9 @@ tags:
 ---
 ### Problem
 
-Defy is a branding agency based in Philadelphia. They launched a rebrand in 2020 and a new website was an important component of that effort. Sadly that site was difficult for users to navigate and was not getting the traction it was intended to. Data showed that users were clicking out of the site within seconds and failing to find a way to easily contact the team. 
+Defy is a branding agency based in Philadelphia that launched a rebrand in 2020 and a new website to go along with it. Sadly that site was difficult for users to navigate and was therefore not getting the traction it was intended to. Data showed that users were clicking out of the site within seconds and failing to find a way to easily contact the team.
 
-As the sole designer with product design experience I was tasked with finding a solution to the website’s woes. Our initial instinct was to keep things light by simply redesigning the most integral components of the site such as the contact form and navigation. The previous site employed a layout with 2 separate columns that scrolled independent of one another. One column held “about” information as well as job openings and even the contact form. While the other column housed the agency’s work and client list. As we began to build solutions in these areas it became clear that the issues of the site ran too deep to only apply band aid solutions.
+As the sole designer at Defy with product design experience I was tasked with finding a solution to the website’s woes. Our initial instinct was to keep things light by simply redesigning the most integral components of the site such as the contact form and navigation. The previous site employed a layout with 2 separate columns that scrolled independent of one another. One column held “about” information as well as job openings and even the contact form. While the other column housed the agency’s work and client list. As we began to build solutions in these areas it became clear that the issues of the site ran too deep to only apply band aid solutions.
 
 After some deliberation, we decided upon a full redesign of the site. User experience concerns were at the heart of this project, but this also became a great opportunity to implement some of the new brand direction that had developed since the previous site launched. The goal of the new site would be to inform people about what Defy does and how they can get in contact with the team about previous work or more important future projects.
 
@@ -80,8 +80,6 @@ The development process was very collaborative. We shared notes on Figma directl
 <img src="https://a.storyblok.com/f/52110/1920x1080/bc5ca5b928/brendanrusso_defysite_desktopsite2.jpg" alt="Defy">
 
 </div>
-
-
 
 ### Results
 
