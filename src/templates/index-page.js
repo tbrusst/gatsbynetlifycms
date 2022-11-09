@@ -122,7 +122,13 @@ export const IndexPageTemplate = ({
       </Row>
 
       </div>
-      <div id="about-skill-wrap">
+
+
+      <div id="about-skill-wrap"             
+            data-sal="fade"
+            data-sal-delay="500"
+            data-sal-easing="ease"
+            data-sal-duration="100">
       <Row>
         
         <Col xs={12} md={4}>
@@ -150,6 +156,36 @@ export const IndexPageTemplate = ({
     </Row>
 
       </div>
+
+      {/* <div id="about-skill-wrap-mobile"             
+>
+      <Row>
+        
+        <Col xs={12} md={4}>
+          <div className="about-skill" id="skill-1">
+            <h5 className="skill-name">Visual Design</h5>
+            <p>I have been a student of visual design my whole life. I believe everything can be made to look aeshetically beautiful, so why shouldn't it be? </p>
+          </div>
+        </Col>
+        <Col xs={12} md={4}>
+          <div className="about-skill" id="skill-2">
+            <h5 className="skill-name">UX/UI</h5>
+            <p>I am a formally trained UX/UI designer and I have worked for several years in product/software design. The functionality of a digital product is equally, if not more, important than its visual appearance. </p>
+          </div>
+        </Col>
+        <Col xs={12} md={4}>
+          <div className="about-skill" id="skill-3">
+            <h5 className="skill-name">Frontend Development</h5>
+            <p>I have worked as a frontend developer on a variety of projects ranging from simple CMS sites to digital exhibits. As a designer, this experience allows me to protoype things quickly in code as well as empathize with development teams. </p>
+          </div>
+        </Col>
+
+  
+
+
+    </Row>
+
+      </div> */}
 
 
     </Container>

@@ -22,7 +22,11 @@ class BlogRoll extends React.Component {
         
         {posts &&
           posts.map(({ node: post }) => (
-            <div id="blog-preview" key={post.id}>
+            <div id="blog-preview" key={post.id}           
+            data-sal="slide-up"
+            data-sal-delay="500"
+            data-sal-easing="ease"
+            data-sal-duration="700">
               <div>
                 <Link
                   className="title has-text-primary is-size-4"
