@@ -1,15 +1,29 @@
 @font-face {
-  font-family: "Zermatt";
-  src: url("../fonts/ZermattFirst.woff2") format("woff2"),
-    url("../fonts/ZermattFirst.woff") format("woff");
-  font-style: normal;
-}
-
-@font-face {
   font-family: "Swiss721";
   src: url("../fonts/swiss_721_light_extended_bt-webfont.woff2") format("woff2"),
     url("../fonts/swiss_721_light_extended_bt-webfont.woff") format("woff");
   font-style: normal;
+}
+
+@font-face {
+  font-family: "Montreal";
+  src: url("../fonts/NeueMontreal-Regular.woff") format("woff");
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Montreal";
+  src: url("../fonts/NeueMontreal-Bold.woff") format("woff");
+  font-style: normal;
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Montreal";
+  src: url("../fonts/NeueMontreal-Italic.woff") format("woff");
+  font-style: italic;
+  font-weight: 400;
 }
 
 h1,
@@ -25,17 +39,20 @@ p {
 
 a {
   text-decoration: underline;
-  font-family: Swiss721, sans-serif;
+  font-family: Montreal, sans-serif;
   color: #111111;
   
 }
 
 h1 {
   font-family: Swiss721, sans-serif;
-  font-size: 2rem !important;
+  font-size: 3.5rem !important;
   font-weight: normal;
+  @media (min-width: 415px) {
+    font-size: 4.5rem !important;
+  }
   @media (min-width: 576px) {
-    font-size: 3rem !important;
+    font-size: 3.7rem !important;
   }
   @media (min-width: 768px) {
     font-size: 4.5rem !important;
@@ -75,74 +92,76 @@ h2 {
 }
 
 h3 {
-  font-family: Swiss721, sans-serif;
-  font-size: 3rem;
-  font-weight: normal;
-  @media (min-width: 500px) {
-    font-size: 2.5rem;
+  font-family: kepler-std-display, serif;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 2.25rem !important;
+  @media (min-width: 576px) {
+    font-size: 2rem !important;
   }
-  @media (min-width: 1000px) {
-    font-size: 3.2rem;
+  @media (min-width: 768px) {
+    font-size: 2.5rem !important;
   }
-  @media (min-width: 1250px) {
-    font-size: 3.5rem;
+  @media (min-width: 992px) {
+    font-size: 3rem !important;
   }
-  @media (min-width: 1500px) {
-    font-size: 4rem;
+  @media (min-width: 1200px) {
+    font-size: 3.3rem !important;
   }
-  @media (min-width: 1700px) {
-    font-size: 5rem;
+  @media (min-width: 1400px) {
+    font-size: 3.8rem !important;
   }
 }
 
 h4 {
   font-family: Swiss721, sans-serif;
-  font-size: 1.1rem !important;
+  font-size: 1.4rem !important;
   font-weight: normal;
 
 
   @media (min-width: 576px) {
-    font-size: 1.2rem !important;
+    font-size: 1.6rem !important;
   }
   @media (min-width: 768px) {
     font-size: 1.3rem !important;
   }
   @media (min-width: 992px) {
-    font-size: 1.4rem !important;
-  }
-  @media (min-width: 1200px) {
     font-size: 1.5rem !important;
   }
-  @media (min-width: 1400px) {
+  @media (min-width: 1200px) {
     font-size: 1.6rem !important;
+  }
+  @media (min-width: 1400px) {
+    font-size: 1.7rem !important;
   }
 }
 
 h5 {
-  font-family: Swiss721, sans-serif;
-  font-size: 1.5rem;
-  font-weight: normal;
-  @media (min-width: 500px) {
-    font-size: 1.25rem;
+  font-family: kepler-std-display, serif;
+  font-size: 1.9rem !important;
+  font-weight: 300 !important;
+  font-style: italic;
+  @media (min-width: 576px) {
+    font-size: 1.7rem !important;
   }
-  @media (min-width: 1000px) {
-    font-size: 1.6rem;
+  @media (min-width: 768px) {
+    font-size: 1.7rem !important;
   }
-  @media (min-width: 1250px) {
-    font-size: 1.75rem;
+  @media (min-width: 992px) {
+    font-size: 1.8rem !important;
   }
-  @media (min-width: 1500px) {
-    font-size: 2rem;
+  @media (min-width: 1200px) {
+    font-size: 1.9rem !important;
   }
-  @media (min-width: 1700px) {
-    font-size: 3rem;
+  @media (min-width: 1400px) {
+    font-size: 2rem !important;
   }
 }
 
 p {
-  font-family: Swiss721, sans-serif;
+  font-family: Montreal, sans-serif;
   font-size: 1rem;
-  font-weight: 200;
+  font-weight: 400;
   color: #2e2e2e;
   line-height: 1.4rem;
   @media only screen and (min-width: 768px) {

@@ -49,7 +49,7 @@ export const BlogPostTemplate = ({
         </div>
         <div id="blog-post-header">
           <h2>{title}</h2>
-          <h4>{description}</h4>
+          <h5>{description}</h5>
           {tags && tags.length ? (
             <div id="taglist">
               <ul>

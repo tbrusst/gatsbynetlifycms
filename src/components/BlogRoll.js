@@ -17,7 +17,7 @@ class BlogRoll extends React.Component {
 
     return (
       <div>
-        <h5 class="caps" id="work-title">Work</h5>
+        <h5 id="work-title">Work</h5>
         <div id="blog-roll">
         
         {posts &&
@@ -44,13 +44,13 @@ class BlogRoll extends React.Component {
                   ) : null}
 
                   <div className="blog-thumb-title">
-                    <h3 data-content={post.frontmatter.title}>
+                    <h4 data-content={post.frontmatter.title}>
                       {post.frontmatter.title}
-                    </h3>
-                    <img src={arrow} alt="" />
+                    </h4>
+                    <img src={arrow} alt="Arrow Icon" />
                   </div>
 
-                  <p>{post.frontmatter.description}</p>
+                  <p id="project-type">{post.frontmatter.description}</p>
                 </Link>
               </div>
             </div>

@@ -63,6 +63,9 @@ const TemplateWrapper = ({ children }) => {
           rel="stylesheet"
           href="https://use.typekit.net/nrn2zoj.css"
         ></link>
+        <link rel="stylesheet" href="https://use.typekit.net/prl4uby.css"></link>
+
+
       </Helmet>
       <GlobalStyle />
 

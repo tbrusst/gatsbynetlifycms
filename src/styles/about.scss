@@ -1,6 +1,7 @@
 #index-about{
     max-width: 1650px !important;
     padding: 70px 30px 130px !important;
+    background: rgb(237, 236, 232);
 
 
 
@@ -50,7 +51,7 @@
             left: -4px;
             height: 100%;
             width: 3px;
-            background: white;
+            background: #EDECE8;
             transform-origin: bottom;
             z-index: 999;
             animation: slideDown 1000ms ease-in 500ms forwards;
@@ -62,7 +63,7 @@
             right: -4px;
             height: 100%;
             width: 3px;
-            background: white;
+            background: #EDECE8;
             transform-origin: bottom;
             animation: slideDown 1000ms ease-in 800ms forwards;
         }
@@ -86,7 +87,7 @@
                 left: 0;
                 height: 3px;
                 width: 100%;
-                background: white;
+                background: #EDECE8;
                 transform-origin: right;
                 animation: slideLeft 400ms ease-in 600ms forwards;
             }
@@ -111,7 +112,7 @@
                 left: 0;
                 height: 3px;
                 width: 100%;
-                background: white;
+                background: #EDECE8;
                 transform-origin: right;
                 animation: slideDown 400ms ease-in 800ms forwards;
             }
@@ -136,7 +137,7 @@
                 left: 0;
                 height: 3px;
                 width: 100%;
-                background: white;
+                background: #EDECE8;
                 transform-origin: right;
                 animation: slideLeft 400ms ease-in 1000ms forwards;
             }
@@ -147,7 +148,7 @@
                 left: 0;
                 height: 3px;
                 width: 100%;
-                background: white;
+                background: #EDECE8;
                 transform-origin: right;
                 animation: slideLeft 400ms ease-in 1100ms forwards;
             }
@@ -161,19 +162,20 @@
                 left: -5px;
                 height: 5px;
                 width: 110%;
-                background: white;
+                background: #EDECE8;
                 transform-origin: right;
                 z-index: 999;
-                animation: slideLeft 1000ms ease-in 500ms forwards;
+                // animation: slideLeft 1000ms ease-in 500ms forwards;
             }
             &:after{
                 content:'';
                 position: absolute;
+                top: auto;
                 bottom: 0;
                 left: -5px;
                 height: 10px;
                 width: 110%;
-                background: white;
+                background: #EDECE8;
                 transform-origin: right;
                 animation: slideLeft 1000ms ease-in 800ms forwards;
             }
@@ -197,7 +199,7 @@
                     left: -3px;
                     height: 100%;
                     width: 3px;
-                    background: white;
+                    background: #EDECE8;
                     transform-origin: bottom;
                     animation: slideDown 800ms ease-in 900ms forwards;
                 }
@@ -221,7 +223,7 @@
                     left: -3px;
                     height: 100%;
                     width: 3px;
-                    background: white;
+                    background: #EDECE8;
                     transform-origin: bottom;
                     animation: slideDown 800ms ease-in 1100ms forwards;
                 }
@@ -245,7 +247,7 @@
                     left: -3px;
                     height: 100%;
                     width: 3px;
-                    background: white;
+                    background: #EDECE8;
                     transform-origin: bottom;
                     animation: slideDown 800ms ease-in 1300ms forwards;
                 }
@@ -254,9 +256,10 @@
                     position: absolute;
                     top: 0;
                     right: -3px;
+                    left: auto;
                     height: 100%;
                     width: 3px;
-                    background: white;
+                    background: #EDECE8;
                     transform-origin: bottom;
                     animation: slideDown 800ms ease-in 1500ms forwards;
                 }

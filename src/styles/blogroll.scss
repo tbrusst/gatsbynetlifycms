@@ -65,18 +65,26 @@ a.title{
   p {
     position: relative;
     float: right;
-    margin-top: 1rem;
-    font-size: 0.8rem;
+    margin-top: .5rem;
+    font-size: 1rem;
+    font-family: kepler-std-display, serif !important;
+    font-weight: 300;
+    font-style: italic;
 
-    @media only screen and (min-width: 768px) {
-      font-size: 0.6rem;
+    @media (min-width: 576px) {
+      font-size: 1.1rem !important;
     }
-    @media only screen and (min-width: 1500px) {
-      font-size: 0.65rem;
+    @media (min-width: 768px) {
+      font-size: 0.9rem !important;
     }
-
-    @media only screen and (min-width: 1800px) {
-      font-size: 0.7rem;
+    @media (min-width: 992px) {
+      font-size: .9rem !important;
+    }
+    @media (min-width: 1200px) {
+      font-size: .9rem !important;
+    }
+    @media (min-width: 1400px) {
+      font-size: 1rem !important;
     }
   }
 }

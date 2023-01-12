@@ -10,7 +10,7 @@ const Footer = class extends React.Component {
     return (
       <div id="footer">
         <div id="footer-wrap">
-        <p>Brendan Russo - 2022</p>
+        <p>Brendan Russo - 2023</p>
         
         <a href="mailto:@russobrendanm@gmail.com">
                 <div className="contact-button">

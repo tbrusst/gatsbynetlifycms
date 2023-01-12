@@ -25,18 +25,41 @@ export const IndexPageTemplate = ({
   intro,
 }) => (
   <>
+<div style={{background:"#EDECE8"}}>
+
 
     <Container id="index-header">
       <div>
         <Row id="index-header_main-row">
-          <Col xs={7} xl={8}>
-            <h1 id="brendan" class="caps tight-line">Brendan</h1>
-            <h1 id="russo" class="caps tight-line">Russo</h1>
+          <Col id="brendan-russo" xs={12} sm={7} xl={6}>
+            <div id="brendan-wrapper">
+              <h1 id="brendan" class="tight-line">Brendan</h1>
+
+            </div>
+            <div id="russo-wrapper">
+              <h1 id="russo" class="tight-line">Russo</h1>
+
+            </div>
+
+
           </Col>
-          <Col xs={{ span: 4, offset: 1 }} xl={{ span: 3, offset: 1 }}>
+          <Col xs={{ span: 4, offset: 8 }} sm={{span:4, offset:1}} xl={{ span: 3, offset: 2 }}>
             <div id="digital-designer">
-              <h3 id="digital" class="caps tight-line">digital</h3>
-              <h3 id="designer" class="caps tight-line">designer</h3>
+              <div id="digital-designer-line"></div>
+              <div id="digital-designer-text">
+                <div id="digital-wrapper">
+                  <h3 id="digital" >Digital</h3>
+
+                </div>
+                <div id="designer-wrapper">
+                  <h3 id="designer" >Designer</h3>
+
+                </div>
+
+
+
+              </div>
+
 
             </div>
 
@@ -45,7 +68,7 @@ export const IndexPageTemplate = ({
         <Row id="index-header_secondary-row">
           <Col xs={4} sm={{span: 4}} md={{ span: 3, offset: 4 }} id="index-header_secondary-row_1">
             <div className="index-header_secondary-row_item-wrap">
-              <a href="">
+              <a href="https://wedefy.com/">
                 <p class="caps">Currently Working</p>
                 <p class="caps">@ Defy</p>
               </a>
@@ -54,7 +77,7 @@ export const IndexPageTemplate = ({
           </Col>
           <Col xs={4} sm={{span: 4}} md={{ span: 3 }} id="index-header_secondary-row_2">
             <div className="index-header_secondary-row_item-wrap">
-              <a href="">
+              <a href="mailto:russobrendanm@gmail.com">
                 <p class="caps">Send me an</p>
                 <p class="caps">Email</p>
               </a>
@@ -63,11 +86,6 @@ export const IndexPageTemplate = ({
           </Col>
           <Col xs={4} sm={{span: 4}} md={{ span: 2 }} id="index-header_secondary-row_3">
             <div className="index-header_secondary-row_item-wrap">
-              <a target="_blank" href="https://www.instagram.com/brendanrusso.design/">
-                  <div className="contact-link">
-                    <p class="caps">Instagram</p>
-                  </div>
-                </a>
                 <a target="_blank" href="https://www.linkedin.com/in/brendanrus/">
                   <div className="contact-link">
                     <p class="caps">LinkedIn</p>
@@ -77,13 +95,10 @@ export const IndexPageTemplate = ({
 
           </Col>
         </Row>
+        <div id="header-gradient"></div>
       </div>
 
-      <div id="header-gradient">
 
-        
-
-      </div>
 
 
     </Container>
@@ -91,12 +106,12 @@ export const IndexPageTemplate = ({
     <Container id="index-about">
       <div id="index-about_main-row">
       <Row>
-        <Col xs={12} md={3}>
+        <Col xs={12} md={2}>
           <h5
           data-sal="slide-up"
           data-sal-delay="300"
           data-sal-easing="ease"
-          className="caps"
+          
           >
             About
           </h5>
@@ -133,19 +148,19 @@ export const IndexPageTemplate = ({
         
         <Col xs={12} md={4}>
           <div className="about-skill" id="skill-1">
-            <h5 className="skill-name">Visual Design</h5>
+            <h4 className="skill-name">Visual Design</h4>
             <p>I have been a student of visual design my whole life. I believe everything can be made to look aeshetically beautiful, so why shouldn't it be? </p>
           </div>
         </Col>
         <Col xs={12} md={4}>
           <div className="about-skill" id="skill-2">
-            <h5 className="skill-name">UX/UI</h5>
+            <h4 className="skill-name">UX/UI</h4>
             <p>I am a formally trained UX/UI designer and I have worked for several years in product/software design. The functionality of a digital product is equally, if not more, important than its visual appearance. </p>
           </div>
         </Col>
         <Col xs={12} md={4}>
           <div className="about-skill" id="skill-3">
-            <h5 className="skill-name">Frontend Development</h5>
+            <h4 className="skill-name">Frontend Development</h4>
             <p>I have worked as a frontend developer on a variety of projects ranging from simple CMS sites to digital exhibits. As a designer, this experience allows me to protoype things quickly in code as well as empathize with development teams. </p>
           </div>
         </Col>
@@ -191,6 +206,8 @@ export const IndexPageTemplate = ({
     </Container>
 
     <BlogRoll />
+
+    </div>
 
   </>
 );
