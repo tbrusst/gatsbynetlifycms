@@ -69,7 +69,7 @@ export const IndexPageTemplate = ({
           <Col xs={4} sm={{span: 4}} md={{ span: 3, offset: 4 }} id="index-header_secondary-row_1">
             <div className="index-header_secondary-row_item-wrap">
               
-                <p class="caps">Currently looking</p>
+                <p class="caps">Looking</p>
                 <p class="caps">for work</p>
               
             </div>
