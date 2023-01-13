@@ -123,7 +123,7 @@ export const IndexPageTemplate = ({
             data-sal-easing="ease"
             data-sal-duration="700"
           >
-            I’m a designer with experience in visual design, UX/UI, and front-end development. Currently working as a digital designer at <a href="https://wedefy.com/about/">Defy.</a></p>
+            I’m a designer with experience in visual design, UX/UI, and front-end development. Currently looking for work in the San Francisco are or flexible remote opportunities in the US.</p>
           <p   
             data-sal="slide-up"
             data-sal-delay="600"
