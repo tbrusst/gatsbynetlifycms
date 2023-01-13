@@ -11,7 +11,7 @@ tags:
   - UX/UI
   - Visual Design
 ---
-### Problem
+#### Problem
 
 Defy is a branding agency based in Philadelphia that launched a rebrand in 2020 and a new website to go along with it. Sadly that site was difficult for users to navigate and was therefore not getting the traction it was intended to. Data showed that users were clicking out of the site within seconds and failing to find a way to easily contact the team.
 
@@ -19,7 +19,7 @@ As the sole designer at Defy with product design experience I was tasked with fi
 
 After some deliberation, we decided upon a full redesign of the site. User experience concerns were at the heart of this project, but this also became a great opportunity to implement some of the new brand direction that had developed since the previous site launched. The goal of the new site would be to inform people about what Defy does and how they can get in contact with the team about previous work or more important future projects.
 
-### Architecture
+#### Architecture
 
 A major concern for this project was to make sure that all information was easily accessible to the user. The previous iteration utilized a confusing navigation with major links in all 4 corners of the viewport as well as “easter egg” links that were the only route to important information. In order to account for all the content we wanted the site to present, I created a site map. This allowed us to get a bird’s eye view of the site architecture as well as begin to decide which pages would need to be most prevalent in the navigation. The site map also revealed how many unique page templates are going to be needed for the site. 
 
@@ -29,7 +29,7 @@ A major concern for this project was to make sure that all information was easil
 
 </div>
 
-### Wireframes
+#### Wireframes
 
 After determining what the unique pages would need to be,I begin gray box low-fidelity wireframing. The purpose of this exercise is to design out the user experience and user flows, not how things will look. Layout, navigation, and ease of use are the focal points here. It’s important to begin prototyping in this phase as well to make sure that all pages have the proper navigation. This assures that users won’t get lost or confused when moving about the site. During this process it becomes easy to identify similar components across layouts. These are opportunities to reuse elements in order to maintain consistency. 
 
@@ -57,7 +57,7 @@ After another round of feedback, final decisions about user experience were made
 
 The wireframes were brought to a high level of polish and critiqued until the larger team believed they were at a place where we could hand it off to the development team. 
 
-### Dev Handoff
+#### Dev Handoff
 
 This entire project was built in Figma and was therefore handed off by sharing the files on Figma directly. I also created an annotated PDF of the designs that noted where and how things were supposed to move as well as explain components of the site that may be confusing without context. The last thing I created to assist the dev team was a reference list for animations that linked to points on the site where these animation styles could be used. 
 
@@ -81,7 +81,7 @@ The development process was very collaborative. We shared notes on Figma directl
 
 </div>
 
-### Results
+#### Results
 
 Once the site had been completed and published we began to run ad and email campaigns to get traction and feedback. Our response and engagement numbers have never been higher. Users are finally finding it easy to learn what we do and how to contact us.
 
