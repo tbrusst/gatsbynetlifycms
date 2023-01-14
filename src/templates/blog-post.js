@@ -22,7 +22,7 @@ export const BlogPostTemplate = ({
 }) => {
   const PostContent = contentComponent || Content;
 
-  const bgImg = banner.childImageSharp.fluid;
+  const bgImg = bannerimage.childImageSharp.fluid;
   console.log(bgImg);
 
   return (
@@ -99,7 +99,7 @@ const BlogPost = ({ data }) => {
         content={post.html}
         contentComponent={HTMLContent}
         description={post.frontmatter.description}
-        featuredimage={post.frontmatter.featuredimage}
+        bannerimage={post.frontmatter.bannerimage}
         externallink={post.frontmatter.externallink}
         helmet={
           <Helmet titleTemplate="%s | Brendan Russo">
@@ -112,7 +112,7 @@ const BlogPost = ({ data }) => {
         }
         tags={post.frontmatter.tags}
         title={post.frontmatter.title}
-        featuredimage={post.frontmatter.featuredimage}
+        bannerimage={post.frontmatter.bannerimage}
         externallink={post.frontmatter.externallink}
       />
     </Layout>
@@ -139,6 +139,13 @@ export const pageQuery = graphql`
         tags
         externallink
         featuredimage {
+          childImageSharp {
+            fluid(quality: 100) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+        bannerimage {
           childImageSharp {
             fluid(quality: 100) {
               ...GatsbyImageSharpFluid
