@@ -6,6 +6,7 @@ date: 2022-11-07T02:46:50.276Z
 description: Website Redesign
 featuredpost: false
 featuredimage: /img/brendanrusso_defysite_thumbnail.jpg
+bannerimage: /img/brendanrusso_defy_thumbnail.png
 tags:
   - Website
   - UX/UI
