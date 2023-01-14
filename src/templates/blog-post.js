@@ -17,11 +17,12 @@ export const BlogPostTemplate = ({
   title,
   helmet,
   featuredimage,
+  bannerimage,
   externallink,
 }) => {
   const PostContent = contentComponent || Content;
 
-  const bgImg = featuredimage.childImageSharp.fluid;
+  const bgImg = banner.childImageSharp.fluid;
   console.log(bgImg);
 
   return (
