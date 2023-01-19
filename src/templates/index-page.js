@@ -69,8 +69,8 @@ export const IndexPageTemplate = ({
           <Col xs={4} sm={{span: 4}} md={{ span: 3, offset: 4 }} id="index-header_secondary-row_1">
             <div className="index-header_secondary-row_item-wrap">
               
-                <p class="caps">Looking</p>
-                <p class="caps">for work</p>
+                {/* <p class="caps">Looking</p>
+                <p class="caps">for work</p> */}
               
             </div>
 
@@ -106,7 +106,7 @@ export const IndexPageTemplate = ({
     <Container id="index-about">
       <div id="index-about_main-row">
       <Row>
-        <Col xs={12} md={2}>
+        <Col xs={12} md={3}>
           <h5
           data-sal="slide-up"
           data-sal-delay="300"

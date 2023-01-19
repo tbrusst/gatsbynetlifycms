@@ -9,6 +9,9 @@ import Content, { HTMLContent } from "../components/Content";
 import arrow from "../img/arrow.svg";
 import BackgroundImage from 'gatsby-background-image';
 
+// import {Row, Col, Container, Form, Button} from "react-bootstrap";
+// import 'bootstrap/dist/css/bootstrap.min.css';
+
 export const BlogPostTemplate = ({
   content,
   contentComponent,
@@ -30,7 +33,12 @@ export const BlogPostTemplate = ({
       {helmet || ""}
 
       <div id="blog-post">
-      <BackgroundImage
+
+
+      <div id="blog-post-wrapper">
+        <div id="blog-post-header-wrapper">
+
+        <BackgroundImage
           Tag="section"
           id="blog-post-banner"
           
@@ -40,15 +48,16 @@ export const BlogPostTemplate = ({
           
         </BackgroundImage>
 
-      <div id="blog-post-wrapper">
 
 
-        <div id="back-button">
-          <Link to="/">
-            <p>Back</p>
-          </Link>
-        </div>
         <div id="blog-post-header">
+          <div class="caps" id="back-button">
+            <Link to="/">
+              <p>Back</p>
+            </Link>
+          </div>
+
+          <div id="blog-post-header-info">
           <h2>{title}</h2>
           <h5>{description}</h5>
           {tags && tags.length ? (
@@ -64,13 +73,21 @@ export const BlogPostTemplate = ({
               <a target="_blank" href={externallink}>
                 <div className="contact-button">
                   <p className="caps">View Site</p>
-                  {/* <img src={arrow} alt="Arrow to link to another page" /> */}
+
                 </div>
               </a>
             </div>
           ) : null}
 
+          </div>
+
+
         </div>
+
+        </div>
+
+
+
 
         <PostContent className="blog-content-wrapper" content={content} />
       </div>
