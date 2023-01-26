@@ -106,18 +106,28 @@ export const IndexPageTemplate = ({
     <Container id="index-about">
       <div id="index-about_main-row">
       <Row>
-        <Col xs={12} md={3}>
+        <Col xs={12} md={3} xl={3}>
           <h5
           data-sal="slide-up"
           data-sal-delay="300"
           data-sal-easing="ease"
-          
           >
             About
           </h5>
         </Col>
-        <Col id="about-desc" xs={12} md={8} lg={7} xl={6} xxl={5}>
-          <p   
+        <Col xs={12} md={9}>
+          
+          <h2>
+            I am passionate about crafting digital experiences that are both beautiful and functional.
+          </h2>
+
+
+        </Col>
+      </Row>
+      <Row>
+        <Col id="about-desc" xs={{ span: 12, offset: 0 }} md={{span: 8, offset: 3}} lg={{span: 7, offset: 3}} xl={{span: 6, offset: 3}} xxl={{span: 5, offset: 3}}>
+        <p
+             
             data-sal="slide-up"
             data-sal-delay="500"
             data-sal-easing="ease"
@@ -125,6 +135,7 @@ export const IndexPageTemplate = ({
           >
             I’m a designer with experience in visual design, UX/UI, and front-end development. Currently looking for work in the San Francisco area or flexible remote opportunities in the US.</p>
           <p   
+            
             data-sal="slide-up"
             data-sal-delay="600"
             data-sal-easing="ease"

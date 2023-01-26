@@ -15,6 +15,10 @@
         }
 
         #about-desc{
+            margin-top: 1.5rem;
+            @media (min-width: 992px) {
+                margin-top: 2.5rem;
+              }
             p{
                 margin-bottom: 15px !important;
                 font-weight: normal;
