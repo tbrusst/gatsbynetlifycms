@@ -15,6 +15,8 @@ import "../styles/typography.scss";
 import {Row, Col, Container, Form, Button} from "react-bootstrap";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
+import Clock from 'react-live-clock';
+
 export const IndexPageTemplate = ({
   image,
   title,
@@ -30,6 +32,14 @@ export const IndexPageTemplate = ({
 
     <Container id="index-header">
       <div>
+        <div id="index-header_top-row">
+          <Clock format={'MMMM Mo YYYY'}
+          ticking={true}
+          />
+          <Clock format={'h:mm:ss A'}
+          ticking={true}
+          />
+        </div>
         <Row id="index-header_main-row">
           <Col id="brendan-russo" xs={12} sm={7} xl={6}>
             <div id="brendan-wrapper">
@@ -65,36 +75,26 @@ export const IndexPageTemplate = ({
 
           </Col>
         </Row>
-        <Row id="index-header_secondary-row">
-          <Col xs={4} sm={{span: 4}} md={{ span: 3, offset: 4 }} id="index-header_secondary-row_1">
+        <div id="index-header_secondary-row">
+          <div id="index-header_secondary-row_1">
             <div className="index-header_secondary-row_item-wrap">
-              
-                {/* <p class="caps">Looking</p>
-                <p class="caps">for work</p> */}
-              
+                <p>Please keep scrolling</p>
             </div>
 
-          </Col>
-          <Col xs={4} sm={{span: 4}} md={{ span: 3 }} id="index-header_secondary-row_2">
+          </div>
+          <div id="index-header_secondary-row_2">
             <div className="index-header_secondary-row_item-wrap">
               <a href="mailto:russobrendanm@gmail.com">
-                <p class="caps">Send me an</p>
-                <p class="caps">Email</p>
+                <div class="contact-button">
+                  <p class="caps">Let's Talk</p>
+
+                </div>
+                
               </a>
             </div>
             
-          </Col>
-          <Col xs={4} sm={{span: 4}} md={{ span: 2 }} id="index-header_secondary-row_3">
-            <div className="index-header_secondary-row_item-wrap">
-                <a target="_blank" href="https://www.linkedin.com/in/brendanrus/">
-                  <div className="contact-link">
-                    <p class="caps">LinkedIn</p>
-                  </div>
-                </a>
-            </div>
-
-          </Col>
-        </Row>
+          </div>
+        </div>
         <div id="header-gradient"></div>
       </div>
 

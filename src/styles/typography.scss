@@ -163,7 +163,7 @@ p {
   font-family: neue-haas-grotesk-display, sans-serif;
   font-size: 1rem;
   font-weight: 400;
-  color: #2e2e2e;
+  color: #111111;
   line-height: 1.4rem;
   @media only screen and (min-width: 768px) {
     font-size: 0.9rem;
@@ -180,4 +180,12 @@ p {
   @media only screen and (min-width: 1800px) {
   
   }
+}
+
+time {
+  font-family: neue-haas-grotesk-display, sans-serif;
+  font-size: .75rem;
+  font-weight: 400;
+  color: #111111;
+  
 }
