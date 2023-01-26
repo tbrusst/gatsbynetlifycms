@@ -117,7 +117,12 @@ export const IndexPageTemplate = ({
         </Col>
         <Col xs={12} md={9}>
           
-          <h2>
+          <h2
+            data-sal="slide-up"
+            data-sal-delay="300"
+            data-sal-easing="ease"
+            data-sal-duration="700"
+          >
             I am passionate about crafting digital experiences that are both beautiful and functional.
           </h2>
 

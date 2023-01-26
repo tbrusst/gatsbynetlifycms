@@ -9,8 +9,7 @@ import Content, { HTMLContent } from "../components/Content";
 import arrow from "../img/arrow.svg";
 import BackgroundImage from 'gatsby-background-image';
 
-// import {Row, Col, Container, Form, Button} from "react-bootstrap";
-// import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 export const BlogPostTemplate = ({
   content,
@@ -26,7 +25,11 @@ export const BlogPostTemplate = ({
   const PostContent = contentComponent || Content;
 
   const bgImg = bannerimage.childImageSharp.fluid;
-  console.log(bgImg);
+
+  console.log(window.history);
+
+
+  
 
   return (
     <section>
@@ -53,9 +56,12 @@ export const BlogPostTemplate = ({
         <div id="blog-post-header">
           <div class="caps" id="back-button">
             <Link to="/">
-              <p>Back</p>
+              <p>Home</p>
             </Link>
           </div>
+
+          {/* <button onClick={() => history.goBack()}>Back</button> */}
+          {/* <button onClick={() => window.history.back()}>Back</button>  */}
 
           <div id="blog-post-header-info">
           <h2>{title}</h2>

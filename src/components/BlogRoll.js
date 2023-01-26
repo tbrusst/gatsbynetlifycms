@@ -34,7 +34,13 @@ class BlogRoll extends React.Component {
                 className="title has-text-primary is-size-4"
                 to={post.fields.slug}
               >
-                <Row className="blog-preview" id="blog-right-align" key={post.id}>
+                <Row 
+                  className="blog-preview" id="blog-right-align" key={post.id}
+                  data-sal="slide-up"
+                  
+                  data-sal-easing="ease"
+                  data-sal-duration="500"
+                >
               
                     {post.frontmatter.featuredimage ? (
                       <Col xs={12} md={6} className="featured-thumbnail">
@@ -69,7 +75,13 @@ class BlogRoll extends React.Component {
               className="title has-text-primary is-size-4"
               to={post.fields.slug}
             >
-              <Row className="blog-preview" id="blog-left-align" key={post.id}>
+              <Row 
+                className="blog-preview" id="blog-left-align" key={post.id}
+                data-sal="slide-up"
+                data-sal-delay="500"
+                data-sal-easing="ease"
+                data-sal-duration="700"
+              >
             
                   {post.frontmatter.featuredimage ? (
                     <Col xs={12} md={6} className="featured-thumbnail">
