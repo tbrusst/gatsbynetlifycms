@@ -26,8 +26,6 @@ export const BlogPostTemplate = ({
 
   const bgImg = bannerimage.childImageSharp.fluid;
 
-  console.log(window.history);
-
 
   
 
