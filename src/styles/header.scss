@@ -65,9 +65,20 @@
     flex-direction: row;
     justify-content: flex-end;
 
+    margin: 0 auto;
+    max-width: 1650px;
+    box-sizing: border-box;
+
     :first-child{
-      margin-right: 2rem;
+      position: relative;
+      left: -2rem;
     }
+    :second-child{
+      position: relative;
+      width: 5rem;
+
+    }
+
 
   }
 

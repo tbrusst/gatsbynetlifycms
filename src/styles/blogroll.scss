@@ -29,6 +29,10 @@ a.title{
 
   max-width: 1650px !important;
   padding: 0 0 30px 30px !important;
+
+  @media (min-width: 1710px) {
+    padding: 0 0 30px 0 !important;
+  }
 }
 
 #blog-roll {
@@ -37,6 +41,10 @@ a.title{
 
   max-width: 1650px !important;
   padding: 0 30px 2rem !important;
+
+  @media (min-width: 1710px) {
+    padding: 0 0px 2rem !important;
+  }
 
   .row{
     margin-right: 0 !important;

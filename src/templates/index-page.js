@@ -146,7 +146,7 @@ export const IndexPageTemplate = ({
             data-sal-easing="ease"
             data-sal-duration="700"
           >
-            I am passionate about the role art and design play in the digital world. I love to create products that are both beautiful and functional.
+            I have a B.S. in Interactive Digital Media from Drexel University and have worked in the industry for 5 years building next level digital products. 
           </p>
 
         </Col>

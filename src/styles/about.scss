@@ -3,6 +3,10 @@
     padding: 120px 30px 130px !important;
     background: rgb(237, 236, 232);
 
+    @media (min-width: 1710px) {
+        padding: 120px 0px 130px !important;
+      }
+
 
 
 
