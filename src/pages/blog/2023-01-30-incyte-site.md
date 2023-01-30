@@ -3,7 +3,7 @@ templateKey: blog-post
 title: Incyte Site
 externallink: https://www.incyte.com/
 date: 2023-01-30T01:40:07.584Z
-description: " "
+description: Website Redesign
 featuredpost: true
 featuredimage: /img/brendanrusso_incyte_incytewebsiteredsign.jpg
 bannerimage: /img/brendanrusso_incyte_incytewebsiteredsign.jpg
