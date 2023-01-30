@@ -7,6 +7,10 @@ description: Website Redesign
 featuredpost: true
 featuredimage: /img/brendanrusso_incyte_incytewebsiteredsign.jpg
 bannerimage: /img/brendanrusso_incyte_incytewebsiteredsign.jpg
+tags:
+  - Website
+  - UX/UI
+  - Visual Design
 ---
 Incyte is a large pharmaceutical company based in Wilmington, Delaware. During my time at Defy, we worked with Incyte to design them a brand new website from scratch. Alongside our team at Defy, we collaborated with a content strategy agency as well as a development agency. Incyte worked closely with the content strategy team to come up with a detailed content layout and manuscript. This broke down each page into its intended components as well as the specific copy and content that would be present within said components. Our role in this process began from there onwards.
 
