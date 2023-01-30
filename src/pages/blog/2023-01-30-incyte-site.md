@@ -16,9 +16,36 @@ Defy’s objective in this project was to design out all of the unique pages (~3
 #﻿### Wireframing
 This process begins with wireframing. Once we had received the manuscript and site map we were able to understand what all the unique pages were and what they would specifically need to contain. 
 
+<div> 
+
+<img src="https://a.storyblok.com/f/52110/1920x1080/56647012f7/brendanrusso_incyte_desktopwireframes.png" alt="Incyte">
+
+</div>
+
 Though the screenshots displayed here are of high fidelity finished wireframes, this process began with simple gray boxes that were put through several rounds of feedback and testing before we were able to proceed with enhancing them to this level. Once the basic flow and user experience was approved by Incyte at a low fidelity, we were able to bring in all of the brand elements to make the site feel as intimately Incyte as possible.
+
+<div> 
+
+<img src="https://a.storyblok.com/f/52110/1920x1080/bb6c7fffa0/brendanrusso_incyte_tabletwireframes.png" alt="Incyte">
+<img src="https://a.storyblok.com/f/52110/1920x1080/91abbd8632/brendanrusso_incyte_mobilewireframes.png" alt="Incyte">
+
+</div>
 
 I built out all of the individual page templates at three different screen sizes (mobile, tablet, and desktop). All of this was done in Sketch using bootstrap grids as requested by the developers.
 
+<div> 
+
+<img src="https://a.storyblok.com/f/52110/1920x1080/30123a6356/brendanrusso_incyte_incytesitescreens.png" alt="Incyte">
+
+</div>
+
+
 #﻿### Development
 With a site of this scale dev handoff and QA are incredibly time consuming processes but are of even greater importance. I built the screens with as many shared components as possible to minimize lift for the developers as well as creating stronger visual unity throughout the site. We assisted with any assets or motion design guidance the dev team needed. Our team created detailed PDFs and documentation explaining the functions of the designs and shared notes constantly across teams to make the build go as smoothly as possible. After a few weeks of development and QA the new Incyte site is live and running.
+
+<div> 
+
+<img src="https://a.storyblok.com/f/52110/1920x1080/8b3770dd5e/brendanrusso_incyte_incytesitescreens3.png" alt="Incyte">
+<img src="https://a.storyblok.com/f/52110/1920x1080/d3232bf145/brendanrusso_incyte_incytesitescreens2.png" alt="Incyte">
+
+</div>
