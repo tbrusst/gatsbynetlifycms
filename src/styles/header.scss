@@ -58,6 +58,11 @@
     padding-left: 0;
   }
 
+  #keep-scrolling{
+    
+    font-size: .75rem;
+  }
+
 
   #index-header_top-row{
     padding-top: 2rem;
@@ -71,11 +76,13 @@
 
     :first-child{
       position: relative;
-      left: -2rem;
+      left: -1rem;
+      text-align: right;
     }
-    :second-child{
+    :nth-child(2){
       position: relative;
       width: 5rem;
+      text-align: right;;
 
     }
 

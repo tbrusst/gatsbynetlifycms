@@ -78,7 +78,7 @@ export const IndexPageTemplate = ({
         <div id="index-header_secondary-row">
           <div id="index-header_secondary-row_1">
             <div className="index-header_secondary-row_item-wrap">
-                <p>Please keep scrolling</p>
+                <p id="keep-scrolling">Keep scrolling</p>
             </div>
 
           </div>
