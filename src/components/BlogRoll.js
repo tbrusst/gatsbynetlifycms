@@ -36,10 +36,10 @@ class BlogRoll extends React.Component {
               >
                 <Row 
                   className="blog-preview" id="blog-right-align" key={post.id}
-                  data-sal="slide-up"
+                  // data-sal="slide-up"
                   
-                  data-sal-easing="ease"
-                  data-sal-duration="500"
+                  // data-sal-easing="ease"
+                  // data-sal-duration="500"
                 >
               
                     {post.frontmatter.featuredimage ? (
@@ -77,10 +77,10 @@ class BlogRoll extends React.Component {
             >
               <Row 
                 className="blog-preview" id="blog-left-align" key={post.id}
-                data-sal="slide-up"
-                data-sal-delay="500"
-                data-sal-easing="ease"
-                data-sal-duration="700"
+                // data-sal="slide-up"
+                // data-sal-delay="500"
+                // data-sal-easing="ease"
+                // data-sal-duration="700"
               >
             
                   {post.frontmatter.featuredimage ? (

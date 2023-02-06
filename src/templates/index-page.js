@@ -8,7 +8,7 @@ import ContactButton from "../components/ContactButton";
 import AboutMe from "../components/AboutMe";
 import Nav from "../components/Nav";
 
-import headshot from "../img/brendan-headshot.png";
+import headshot from "../img/brendanrusso_portfolio_portrait.jpg";
 import "../styles/index.scss";
 import "../styles/typography.scss";
 
@@ -16,6 +16,9 @@ import {Row, Col, Container, Form, Button} from "react-bootstrap";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import Clock from 'react-live-clock';
+
+import video from "../img/brendanrusso_portfolio_video.mp4";
+
 
 export const IndexPageTemplate = ({
   image,
@@ -41,21 +44,28 @@ export const IndexPageTemplate = ({
           />
         </div>
         <Row id="index-header_main-row">
-          <Col id="brendan-russo" xs={12} sm={7} xl={6}>
+          <Col className="send-to-bottom" id="brendan-russo" xs={12} sm={8} xl={8}>
             <div id="brendan-wrapper">
-              <h1 id="brendan" class="tight-line">Brendan</h1>
+              <h1 id="brendan">Brendan Russo</h1>
 
             </div>
-            <div id="russo-wrapper">
+            {/* <div id="russo-wrapper">
               <h1 id="russo" class="tight-line">Russo</h1>
+
+            </div> */}
+            <div id="header-video-wrapper">
+              <video id="header-video" autoPlay muted loop>
+                <source src={video} type="video/mp4" />
+                Your browser does not support the video element.
+              </video>
 
             </div>
 
 
           </Col>
-          <Col xs={{ span: 4, offset: 8 }} sm={{span:4, offset:1}} xl={{ span: 3, offset: 2 }}>
+          <Col className="send-to-bottom" id="main-header-2" xs={{ span: 12, offset: 0 }} sm={{span:4, offset:0}} xl={{ span: 4, offset: 0 }}>
             <div id="digital-designer">
-              <div id="digital-designer-line"></div>
+              
               <div id="digital-designer-text">
                 <div id="digital-wrapper">
                   <h3 id="digital" >Digital</h3>
@@ -72,10 +82,15 @@ export const IndexPageTemplate = ({
 
 
             </div>
+            <div id="portrait-wrapper" style={{backgroundImage: `url(${headshot})`}}>
+              
+              
+
+            </div>
 
           </Col>
         </Row>
-        <div id="index-header_secondary-row">
+        {/* <div id="index-header_secondary-row">
           <div id="index-header_secondary-row_1">
             <div className="index-header_secondary-row_item-wrap">
                 <p id="keep-scrolling">Keep scrolling</p>
@@ -94,8 +109,8 @@ export const IndexPageTemplate = ({
             </div>
             
           </div>
-        </div>
-        <div id="header-gradient"></div>
+        </div> */}
+        {/* <div id="header-gradient"></div> */}
       </div>
 
 
@@ -103,7 +118,12 @@ export const IndexPageTemplate = ({
 
     </Container>
 
+    <div id="index-about-wrapper">
+        
+        
+
     <Container id="index-about">
+
       <div id="index-about_main-row">
       <Row>
         <Col xs={12} md={3} xl={3}>
@@ -138,8 +158,8 @@ export const IndexPageTemplate = ({
             data-sal-easing="ease"
             data-sal-duration="700"
           >
-            I’m a designer with experience in visual design, UX/UI, and front-end development. Currently looking for work in the San Francisco area or flexible remote opportunities in the US.</p>
-          <p   
+            I'm a digital designer with 5 years of experience delivering outstanding digital experiences. I bring together design and technology to create innovative solutions that exceed client expectations. My portfolio showcases websites and mobile apps that demonstrate my skills in user-centered design and problem-solving. I'm dedicated to delivering high-quality and impactful digital products.</p>
+          {/* <p   
             
             data-sal="slide-up"
             data-sal-delay="600"
@@ -147,7 +167,7 @@ export const IndexPageTemplate = ({
             data-sal-duration="700"
           >
             I have a B.S. in Interactive Digital Media from Drexel University and have worked in the industry for 5 years building next level digital products. 
-          </p>
+          </p> */}
 
         </Col>
       </Row>
@@ -220,6 +240,7 @@ export const IndexPageTemplate = ({
 
 
     </Container>
+    </div>
 
     <BlogRoll />
 

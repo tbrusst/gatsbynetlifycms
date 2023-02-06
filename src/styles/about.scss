@@ -1,7 +1,18 @@
+#index-about-wrapper{
+    background: #111111;
+    margin-bottom: 5rem;
+
+}
+
 #index-about{
     max-width: 1650px !important;
     padding: 120px 30px 130px !important;
-    background: rgb(237, 236, 232);
+    
+
+    h2,h4,h5,p{
+        color: #EAEAEA !important;
+    }
+
 
     @media (min-width: 1710px) {
         padding: 120px 0px 130px !important;
@@ -59,7 +70,7 @@
             left: -4px;
             height: 100%;
             width: 3px;
-            background: #EDECE8;
+            background: #111;
             transform-origin: bottom;
             z-index: 999;
             animation: slideDown 1000ms ease-in 500ms forwards;
@@ -71,7 +82,7 @@
             right: -4px;
             height: 100%;
             width: 3px;
-            background: #EDECE8;
+            background: #111;
             transform-origin: bottom;
             animation: slideDown 1000ms ease-in 800ms forwards;
         }
@@ -95,7 +106,7 @@
                 left: 0;
                 height: 3px;
                 width: 100%;
-                background: #EDECE8;
+                background: #111;
                 transform-origin: right;
                 animation: slideLeft 400ms ease-in 600ms forwards;
             }
@@ -120,7 +131,7 @@
                 left: 0;
                 height: 3px;
                 width: 100%;
-                background: #EDECE8;
+                background: #111;
                 transform-origin: right;
                 animation: slideDown 400ms ease-in 800ms forwards;
             }
@@ -145,7 +156,7 @@
                 left: 0;
                 height: 3px;
                 width: 100%;
-                background: #EDECE8;
+                background: #111;
                 transform-origin: right;
                 animation: slideLeft 400ms ease-in 1000ms forwards;
             }
@@ -156,7 +167,7 @@
                 left: 0;
                 height: 3px;
                 width: 100%;
-                background: #EDECE8;
+                background: #111;
                 transform-origin: right;
                 animation: slideLeft 400ms ease-in 1100ms forwards;
             }
@@ -170,7 +181,7 @@
                 left: -5px;
                 height: 5px;
                 width: 110%;
-                background: #EDECE8;
+                background: #111;
                 transform-origin: right;
                 z-index: 999;
                 // animation: slideLeft 1000ms ease-in 500ms forwards;
@@ -183,7 +194,7 @@
                 left: -5px;
                 height: 10px;
                 width: 110%;
-                background: #EDECE8;
+                background: #111;
                 transform-origin: right;
                 animation: slideLeft 1000ms ease-in 800ms forwards;
             }
@@ -207,7 +218,7 @@
                     left: -3px;
                     height: 100%;
                     width: 3px;
-                    background: #EDECE8;
+                    background: #111;
                     transform-origin: bottom;
                     animation: slideDown 800ms ease-in 900ms forwards;
                 }
@@ -231,7 +242,7 @@
                     left: -3px;
                     height: 100%;
                     width: 3px;
-                    background: #EDECE8;
+                    background: #111;
                     transform-origin: bottom;
                     animation: slideDown 800ms ease-in 1100ms forwards;
                 }
@@ -255,7 +266,7 @@
                     left: -3px;
                     height: 100%;
                     width: 3px;
-                    background: #EDECE8;
+                    background: #111;
                     transform-origin: bottom;
                     animation: slideDown 800ms ease-in 1300ms forwards;
                 }
@@ -267,7 +278,7 @@
                     left: auto;
                     height: 100%;
                     width: 3px;
-                    background: #EDECE8;
+                    background: #111;
                     transform-origin: bottom;
                     animation: slideDown 800ms ease-in 1500ms forwards;
                 }
@@ -307,7 +318,7 @@
 
     .about-skill{
         padding: 100px 30px 40px;
-        border: 1px solid #111111;
+        border: 1px solid #EAEAEA;
         height: 100%;
         display: flex;
         flex-direction: column;
@@ -324,8 +335,8 @@
              
 
         @media(min-width: 768px){
-            border-top: 1px solid #111111;
-            border-bottom: 1px solid #111111;
+            border-top: 1px solid #EAEAEA;
+            border-bottom: 1px solid #EAEAEA;
             border-left: none;  
             border-right: none;              
             //

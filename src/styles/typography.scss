@@ -47,25 +47,25 @@ a {
 
 h1 {
   font-family: neue-haas-grotesk-display, sans-serif;
-  font-size: 3.5rem !important;
+  font-size: 3rem !important;
   font-weight: 300 !important;
   @media (min-width: 415px) {
-    font-size: 4.5rem !important;
+    font-size: 3.5rem !important;
   }
   @media (min-width: 576px) {
-    font-size: 5rem !important;
+    font-size: 3.5rem !important;
   }
   @media (min-width: 768px) {
-    font-size: 7rem !important;
+    font-size: 4.5rem !important;
   }
   @media (min-width: 992px) {
-    font-size: 9rem !important;
+    font-size: 6rem !important;
   }
   @media (min-width: 1200px) {
-    font-size: 10em !important;
+    font-size: 7rem !important;
   }
   @media (min-width: 1400px) {
-    font-size: 12rem !important;
+    font-size: 9rem !important;
   }
 }
 
@@ -96,7 +96,7 @@ h3 {
   font-family: kepler-std-display, serif;
   font-weight: 300 !important;
   font-style: italic;
-  font-size: 2.25rem !important;
+  font-size: 1.9rem !important;
   @media (min-width: 576px) {
     font-size: 2rem !important;
   }
