@@ -54,7 +54,7 @@ export const IndexPageTemplate = ({
 
             </div> */}
             <div id="header-video-wrapper">
-              <video id="header-video" autoPlay muted loop>
+              <video id="header-video" autoPlay muted loop playsInline>
                 <source src={video} type="video/mp4" />
                 Your browser does not support the video element.
               </video>
