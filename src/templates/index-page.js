@@ -36,9 +36,9 @@ export const IndexPageTemplate = ({
     <Container id="index-header">
       <div>
         <div id="index-header_top-row">
-          <Clock format={'MMMM Mo YYYY'}
+          {/* <Clock format={'MMMM Mo YYYY'}
           ticking={true}
-          />
+          /> */}
           <Clock format={'h:mm:ss A'}
           ticking={true}
           />
@@ -68,7 +68,7 @@ export const IndexPageTemplate = ({
               
               <div id="digital-designer-text">
                 <div id="digital-wrapper">
-                  <h3 id="digital" >Digital</h3>
+                  <h3 id="digital" >Interaction</h3>
 
                 </div>
                 <div id="designer-wrapper">
@@ -158,7 +158,7 @@ export const IndexPageTemplate = ({
             data-sal-easing="ease"
             data-sal-duration="700"
           >
-            I'm a digital designer with 5 years of experience delivering outstanding digital experiences. I bring together design and technology to create innovative solutions that exceed client expectations. My portfolio showcases websites and mobile apps that demonstrate my skills in user-centered design and problem-solving. I'm dedicated to delivering high-quality and impactful digital products.</p>
+            I'm an interaction designer with 5 years of experience delivering outstanding digital experiences. I bring together design and technology to create innovative solutions that exceed client expectations. My portfolio showcases websites and mobile apps that demonstrate my skills in user-centered design and problem-solving. I'm dedicated to delivering high-quality and impactful digital products.</p>
           {/* <p   
             
             data-sal="slide-up"
