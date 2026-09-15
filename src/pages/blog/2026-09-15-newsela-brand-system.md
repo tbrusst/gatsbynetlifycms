@@ -58,8 +58,8 @@ The icon system follows a strict 600x600 artboard with a 50px margin and a consi
 </div>
 <style>
 .stem-image-row { display: flex; flex-direction: column; gap: 16px; }
-.stem-image-row img { width: 100%; }
-@media (min-width: 768px) { .stem-image-row { flex-direction: row; } .stem-image-row img { width: 50%; } }
+.stem-image-row > * { width: 100%; }
+@media (min-width: 768px) { .stem-image-row { flex-direction: row; align-items: flex-start; } .stem-image-row > * { width: 50%; flex: 1 1 0; } }
 </style>
 
 The clearest proof this system actually worked came from a real business event: Newsela's acquisition of Generation Genius. The existing Newsela Science product needed to become Newsela STEM, incorporating the acquired brand without looking like a bolt-on. We explored several lockup directions — different microscope mark treatments, different ways of crediting "with Generation Genius" — before landing on a mark that felt native to the Newsela system while still standing on its own as a product identity, complete with its own orange-driven palette extension.
