@@ -52,9 +52,15 @@ The icon system follows a strict 600x600 artboard with a 50px margin and a consi
 
 #### The real test case: relaunching Newsela Science as Newsela STEM
 
-![Newsela STEM in progress](/img/newsela-stem-explore.png "Newsela STEM in progress")
-
-![Newsela STEM logo](/img/newsela-stem-final.png "Newsela STEM logo")
+<div class="stem-image-row">
+<img src="/img/newsela-stem-explore.png" alt="Newsela STEM in progress" title="Newsela STEM in progress" />
+<img src="/img/newsela-stem-final.png" alt="Newsela STEM logo" title="Newsela STEM logo" />
+</div>
+<style>
+.stem-image-row { display: flex; flex-direction: column; gap: 16px; }
+.stem-image-row img { width: 100%; }
+@media (min-width: 768px) { .stem-image-row { flex-direction: row; } .stem-image-row img { width: 50%; } }
+</style>
 
 The clearest proof this system actually worked came from a real business event: Newsela's acquisition of Generation Genius. The existing Newsela Science product needed to become Newsela STEM, incorporating the acquired brand without looking like a bolt-on. We explored several lockup directions — different microscope mark treatments, different ways of crediting "with Generation Genius" — before landing on a mark that felt native to the Newsela system while still standing on its own as a product identity, complete with its own orange-driven palette extension.
 
