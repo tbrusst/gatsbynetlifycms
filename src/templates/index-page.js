@@ -158,7 +158,7 @@ export const IndexPageTemplate = ({
             data-sal-easing="ease"
             data-sal-duration="700"
           >
-            I'm an interaction designer with 5 years of experience delivering outstanding digital experiences. I bring together design and technology to create innovative solutions that exceed client expectations. My portfolio showcases websites and mobile apps that demonstrate my skills in user-centered design and problem-solving. I'm dedicated to delivering high-quality and impactful digital products.</p>
+            I'm a web-focused UX/UI and brand designer with 8+ years of experience shipping end-to-end digital experiences — from information architecture and interaction design through visual and brand systems. Most recently, I led design at Newsela, mentoring a small team while staying hands-on with craft. I'm now looking for my next full-time opportunity where I can bring that same mix of design leadership and hands-on execution.</p>
           {/* <p   
             
             data-sal="slide-up"
@@ -197,7 +197,7 @@ export const IndexPageTemplate = ({
         <Col xs={12} md={4}>
           <div className="about-skill" id="skill-3">
             <h4 className="skill-name">Frontend Development</h4>
-            <p>I have worked as a frontend developer on a variety of projects ranging from simple CMS sites to digital exhibits. As a designer, this experience allows me to protoype things quickly in code as well as empathize with development teams. </p>
+ <p>I design and build brand-aligned web experiences directly in Figma and Webflow, working closely with engineering to ship polished, production-ready sites.</p>
           </div>
         </Col>
 
