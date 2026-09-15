@@ -2,7 +2,7 @@
 templateKey: blog-post
 title: Defy Website
 externallink: https://wedefy.com/
-date: 2023-01-30T01:55:19.107Z
+date: 2026-09-09T04:42:02.603Z
 description: Website Redesign
 featuredpost: false
 featuredimage: /img/brendanrusso_defysite_thumbnail.jpg
