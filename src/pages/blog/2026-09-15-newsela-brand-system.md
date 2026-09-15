@@ -3,8 +3,7 @@ templateKey: blog-post
 title: Newsela Brand System
 externallink: https://newsela.com/
 date: 2026-09-15T12:00:00.000Z
-description: Evolving Newsela's visual identity into a scalable brand system
-  built to move at the speed of a fast-growing, multi-product platform.
+description: Visual Identity
 featuredpost: true
 featuredimage: /img/newsela-illustrated-hero.png
 bannerimage: /img/newsela-cover-image.png
@@ -17,19 +16,19 @@ As Lead Designer at Newsela, one of the biggest problems we inherited wasn't a v
 
 Our job was to fix that: turn Newsela's visual identity into a system flexible enough to support fast go-to-market execution and consistent enough that five different teams could use it without a designer checking every asset.
 
-## The problem with "just a style guide"
+#### The problem with "just a style guide"
 
 A traditional brand guide tells you what the logo looks like. It doesn't tell a marketing manager building a webinar graphic at 4pm on a deadline what to do when their product doesn't have a color yet, or tell a product designer how far a sub-brand can bend before it stops looking like Newsela. That gap is where inconsistency creeps in — not from bad taste, but from missing decisions.
 
 So instead of designing a static guideline document, we approached this as a system: a set of rules with enough range to answer real production questions, not just show off a logo.
 
-## Logo architecture
+#### Logo architecture
 
 ![Newsela Logos](/img/newsela-logo.png "Newsela Logos")
 
 Newsela's mark and wordmark are treated as two equally important, tightly calibrated components — never separated in proportion, never distorted. We defined the minimum clearspace using the logo's own "N" as the unit of measurement, so the rule scales with the logo instead of being an arbitrary pixel value, and documented nine specific misuses (stretching, recoloring, adding effects, etc.) so the rule was unambiguous rather than a matter of taste.
 
-## A color system built for one brand and six products
+#### A color system built for one brand and six products
 
 ![Newsela Primary Palette](/img/newsela-colors-main.png "Newsela Primary Palette")
 
@@ -39,7 +38,7 @@ The primary palette is four colors — Newsela Blue, Neutral, Bisque, and Aqua �
 
 The harder problem was the product layer. Newsela ELA, Social Studies, STEM, Formative, and Schoolytics each needed their own identity — something a teacher or district admin could recognize at a glance — without any of them drifting away from the parent brand or bleeding into each other. We solved this by giving each product a single dedicated color (ELA Red, Social Studies Pink, STEM Orange, Formative Yellow, Writing Purple, Schoolytics Green), used exclusively for that product and never swapped or shared. It's a simple rule, but it's what makes it possible to glance at any piece of Newsela marketing and know immediately which product it's for.
 
-## Typography, iconography, and the smaller systems that hold it together
+#### Typography, iconography, and the smaller systems that hold it together
 
 ![Newsela Typography](/img/newsela-typography.png "Newsela Typography")
 
@@ -51,7 +50,7 @@ The icon system follows a strict 600x600 artboard with a 50px margin and a consi
 
 ![Newsela Graphics and Embellishments](/img/newsela-graphics-embellishments.png "Newsela Graphics and Embellishments")
 
-## The real test case: relaunching Newsela Science as Newsela STEM
+#### The real test case: relaunching Newsela Science as Newsela STEM
 
 ![Newsela STEM in progress](/img/newsela-stem-explore.png "Newsela STEM in progress")
 
@@ -61,10 +60,9 @@ The clearest proof this system actually worked came from a real business event: 
 
 ![Newsela STEM developed](/img/newsela-stem-displayed.png "Newsela STEM developed")
 
-
 That system got put to work immediately: launch webinar graphics, social assets, and a full product page all shipped using the new STEM identity, built by people outside the core brand team, using only the system we'd documented.
 
-## What this unlocked
+#### What this unlocked
 
 The result wasn't a prettier logo page — it was a modular brand framework that let marketing, product, and content teams move independently without drifting apart. Go-to-market materials could be produced faster because the color, type, and layout decisions were already made. Product teams had a clear boundary for how far a sub-brand identity could flex. And when Newsela needed to fold in an acquisition and launch a rebranded product under real time pressure, the system was flexible enough to absorb it without a redesign.
 
