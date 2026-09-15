@@ -24,7 +24,7 @@ export const BlogPostTemplate = ({
 }) => {
   const PostContent = contentComponent || Content;
 
-  const bgImg = bannerimage.childImageSharp.fluid;
+    const bgImg = bannerimage && bannerimage.childImageSharp ? bannerimage.childImageSharp.fluid : null;
 
 
   
