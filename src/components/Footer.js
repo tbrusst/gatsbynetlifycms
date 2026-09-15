@@ -33,7 +33,7 @@ const Footer = class extends React.Component {
             </Col>
             <Col id="footer-brendan" xs={12} sm={{span: 6}}>
               
-                <p>Brendan Russo - 2023</p>
+                <p>Brendan Russo - {new Date().getFullYear()}</p>
               
             </Col>
 
