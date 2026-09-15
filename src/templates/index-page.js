@@ -158,7 +158,7 @@ export const IndexPageTemplate = ({
             data-sal-easing="ease"
             data-sal-duration="700"
           >
-            I'm an interaction designer with 5 years of experience delivering outstanding digital experiences. I bring together design and technology to create innovative solutions that exceed client expectations. My portfolio showcases websites and mobile apps that demonstrate my skills in user-centered design and problem-solving. I'm dedicated to delivering high-quality and impactful digital products.</p>
+                        I'm a web-focused UX/UI and brand designer with 8+ years of experience shipping end-to-end digital experiences, from information architecture and interaction design through visual and brand systems. Most recently, I led design at Newsela, mentoring a small team while staying hands-on with craft. I'm now looking for my next full-time opportunity where I can bring that same mix of design leadership and hands-on execution.</p>
           {/* <p   
             
             data-sal="slide-up"
@@ -184,20 +184,20 @@ export const IndexPageTemplate = ({
         
         <Col xs={12} md={4}>
           <div className="about-skill" id="skill-1">
-            <h4 className="skill-name">Visual Design</h4>
-            <p>I have been a student of visual design my whole life. I believe everything can be made to look aeshetically beautiful, so why shouldn't it be? </p>
+                        <h4 className="skill-name">Creative Direction</h4>
+                        <p>I set the creative and brand direction for a team's output: visual identity, design systems, and the point of view that keeps every touchpoint consistent and distinct.</p>
           </div>
         </Col>
         <Col xs={12} md={4}>
           <div className="about-skill" id="skill-2">
             <h4 className="skill-name">UX/UI</h4>
-            <p>I am a formally trained UX/UI designer and I have worked for several years in product/software design. The functionality of a digital product is equally, if not more, important than its visual appearance. </p>
+                        <p>I'm a formally trained UX/UI designer with years of experience in product and web design, where how something works matters as much as how it looks.</p>
           </div>
         </Col>
         <Col xs={12} md={4}>
           <div className="about-skill" id="skill-3">
-            <h4 className="skill-name">Frontend Development</h4>
-            <p>I have worked as a frontend developer on a variety of projects ranging from simple CMS sites to digital exhibits. As a designer, this experience allows me to protoype things quickly in code as well as empathize with development teams. </p>
+                        <h4 className="skill-name">Web Design</h4>
+             <p>I design and build brand-aligned web experiences directly in Figma and Webflow, working closely with engineering to ship polished, production-ready sites.</p>
           </div>
         </Col>
 
