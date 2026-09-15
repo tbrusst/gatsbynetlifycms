@@ -67,10 +67,9 @@ export const IndexPageTemplate = ({
             <div id="digital-designer">
               
               <div id="digital-designer-text">
-                <div id="digital-wrapper">
-                  <h3 id="digital" >Interaction</h3>
-
-                </div>
+                                                  <div id="digital-wrapper">
+                  <h3 id="digital" >Brand & Product</h3>
+                  </div>
                 <div id="designer-wrapper">
                   <h3 id="designer" >Designer</h3>
 
