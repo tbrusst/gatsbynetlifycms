@@ -5,8 +5,8 @@ externallink: https://newsela.com/
 date: 2026-09-23T12:30:00.000Z
 description: A full audit and multi-year redesign of newsela.com, from a 32% year-over-year traffic decline to a site built on brand, product storytelling, and trust.
 featuredpost: true
-featuredimage: /img/brendanrusso_newselacom_livesite.jpg
-bannerimage: /img/brendanrusso_newselacom_storytelling.jpg
+featuredimage: /img/brendanrusso_newselacom_thumbnail.jpg
+bannerimage: /img/brendanrusso_newselacom_banner.jpg
 tags:
   - UX/UI
   - Website Design
