@@ -3,9 +3,7 @@ templateKey: blog-post
 title: Newsela.com Site Redesign
 externallink: https://newsela.com/
 date: 2026-09-23T12:30:00.000Z
-description: A full audit and multi-year redesign of newsela.com, from a 32%
-  year-over-year traffic decline to a site built on brand, product storytelling,
-  and trust.
+description: Website Audit and Redesign
 featuredpost: true
 featuredimage: /img/brendanrusso_newselacom_thumbnail.jpg
 bannerimage: /img/brendanrusso_newselacom_banner.jpg
