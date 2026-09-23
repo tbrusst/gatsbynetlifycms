@@ -5,8 +5,8 @@ externallink: https://newsela.com/
 date: 2026-09-15T12:00:00.000Z
 description: Building a modular brand system that let marketing, sales, education, and customer success teams self-serve on-brand materials without routing every asset through design.
 featuredpost: true
-featuredimage: /img/newsela-illustrated-hero.png
-bannerimage: /img/newsela-cover-image.png
+featuredimage: /img/brendanrusso_newselabrandsystem_thumbnail.jpg
+bannerimage: /img/brendanrusso_newselabrandsystem_banner.jpg
 tags:
   - Brand Design
   - Creative Direction
