@@ -2,7 +2,7 @@
 templateKey: blog-post
 title: Newsela Brand System
 externallink: https://newsela.com/
-date: 2026-09-15T12:00:00.000Z
+date: 2026-09-23T23:30:38.405Z
 description: Education Technology Brand System
 featuredpost: true
 featuredimage: /img/brendanrusso_newselabrandsystem_thumbnail.jpg
