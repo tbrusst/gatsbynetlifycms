@@ -5,8 +5,8 @@ externallink: https://newsela.com/luna
 date: 2026-09-23T12:00:00.000Z
 description: Defining a complete brand system, character, visual identity, and launch materials, for Luna, Newsela's AI-powered learning assistant.
 featuredpost: true
-featuredimage: /img/brendanrusso_luna_uicomponents.jpg
-bannerimage: /img/brendanrusso_luna_marketinglaunch.jpg
+featuredimage: /img/brendanrusso_luna_thumbnail.jpg
+bannerimage: /img/brendanrusso_luna_banner.jpg
 tags:
   - Brand Design
   - Website Design
