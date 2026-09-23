@@ -3,9 +3,7 @@ templateKey: blog-post
 title: Newsela STEM
 externallink: https://newsela.com/stem
 date: 2026-09-23T12:15:00.000Z
-description: Rebranding Newsela Science into Newsela STEM after the Generation
-  Genius acquisition, from lockup development through launch marketing and
-  product page.
+description: Science Learning Product
 featuredpost: true
 featuredimage: /img/brendanrusso_newselastem_thumbnail.jpg
 bannerimage: /img/brendanrusso_newselastem_banner.jpg
