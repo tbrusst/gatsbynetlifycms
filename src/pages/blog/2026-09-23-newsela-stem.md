@@ -3,7 +3,7 @@ templateKey: blog-post
 title: Newsela STEM
 externallink: https://newsela.com/stem
 date: 2026-09-23T12:15:00.000Z
-description: Science Learning Product
+description: Science Learning Product Brand and Launch
 featuredpost: true
 featuredimage: /img/brendanrusso_newselastem_thumbnail.jpg
 bannerimage: /img/brendanrusso_newselastem_banner.jpg
