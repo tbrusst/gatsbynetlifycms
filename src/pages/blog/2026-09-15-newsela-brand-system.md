@@ -26,7 +26,7 @@ So instead of a static guideline document, I built a system: a set of rules with
 
 Color had to do two jobs: keep every product feeling like one Newsela, while still letting individual products stand apart. For the primary palette, I set a rule simple enough to apply without a designer reviewing every asset: Newsela Blue (#0A6EFA) holds at least 50% of any general-brand design, with Aqua (#53D7F2) and Bisque (#F8D6A7) splitting the remaining 50%, all anchored by a Neutral scale running from true black to true white. No guesswork, no "does this feel balanced," just a ratio anyone could hit.
 
-### Getting the balance right
+#### Getting the balance right
 
 ![Side-by-side comparison of incorrect color balance, a CODiE award graphic using too much lavender and purple, next to correct color balance, a Back to School Kickoff webinar graphic using the proper blue-led ratio](/img/brendanrusso_newselabrandsystem_colorbalanceexample.jpg "Incorrect versus correct Newsela color balance example")
 
