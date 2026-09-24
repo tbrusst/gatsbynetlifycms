@@ -2,7 +2,7 @@
 templateKey: blog-post
 title: Luna
 externallink: https://newsela.com/luna
-date: 2026-09-23T12:00:00.000Z
+date: 2026-09-23T01:33:25.693Z
 description: AI Learning Assistant Brand and Launch
 featuredpost: true
 featuredimage: /img/brendanrusso_luna_thumbnail.jpg
