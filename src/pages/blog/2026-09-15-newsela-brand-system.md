@@ -38,7 +38,7 @@ The rule mattered because the failure mode was real. A CODiE award graphic built
 
 Color also had to tell Newsela's products apart. ELA, Social Studies, STEM, Formative, and Schoolytics each got their own primary color (Red, Pink, Orange, Yellow, and Green, respectively), layered on top of the core Newsela palette and logo rather than replacing it. Each product also got its own lockup, built to the same sizing and line-weight rules as the primary logo, so a new one never felt like a one-off addition.
 
-## Logo architecture
+#### Logo architecture
 
 ![Newsela logo lockup and clearspace guidelines](/img/newsela-logo.png "Newsela logo lockup and clearspace guidelines")
 
@@ -58,7 +58,7 @@ The icon system follows a strict grid and a consistent line weight, built to fee
 
 To give the brand texture beyond flat color and type, I developed a library of brush-stroke and plaid-style pattern fills plus a set of hand-drawn embellishments (arrows, sparkles, underlines), with a simple rule that embellishments stay black or white next to photography and can only take on color around text, so they never compete with real content. That tone comes through most clearly in the illustration system, which is warm and human rather than the generic corporate figures a lot of edtech brands lean on.
 
-## What this unlocked
+#### What this unlocked
 
 The result was a modular brand system, covering color, product lockups, iconography, and tone, built so marketing, sales, education, and customer success could self-serve on-brand materials without looping design in on every deck or one-off asset. Go-to-market materials got produced faster because the color, type, and layout decisions were already made, and product teams had a clear boundary for how far a sub-brand identity could flex before it stopped reading as Newsela. When new products launched later, they inherited a system already built to absorb them, rather than starting from a blank page.
 
