@@ -2,8 +2,8 @@
 templateKey: blog-post
 title: Newsela Brand System
 externallink: https://newsela.com/
-date: 2026-09-15T12:00:00.000Z
-description: Building a modular brand system that let marketing, sales, education, and customer success teams self-serve on-brand materials without routing every asset through design.
+date: 2026-09-24T00:51:40.154Z
+description: Ed-Tech Company Brand System
 featuredpost: true
 featuredimage: /img/brendanrusso_newselabrandsystem_thumbnail.jpg
 bannerimage: /img/brendanrusso_newselabrandsystem_banner.jpg
@@ -12,16 +12,15 @@ tags:
   - Creative Direction
   - Design Systems
 ---
-
 As Lead Designer at Newsela, I inherited a governance problem, not a visual one. Marketing, sales, education, and customer success all built their own decks and materials from Newsela's brand assets, but with no single source of truth, self-serve use drifted off-brand fast. Every team needed one reference that let them stay on-brand without routing everything through design.
 
-## The problem with "just a style guide"
+#### The problem with "just a style guide"
 
 A traditional brand guide shows you what the logo looks like. It doesn't tell a marketing manager building a webinar graphic at 4pm what to do when their product doesn't have a color yet, or tell a product designer how far a sub-brand can bend before it stops looking like Newsela. That gap is where inconsistency creeps in, not from bad taste, but from missing decisions.
 
 So instead of a static guideline document, I built a system: a set of rules with enough range to answer real production questions, and simple enough that someone outside design could apply them correctly on the first try.
 
-## A color system built for one brand and six products
+#### A color system built for one brand and six products
 
 ![Newsela primary color palette showing Newsela Blue, Neutral, Bisque, and Aqua swatches with hex values](/img/newsela-colors-main.png "Newsela primary color palette")
 
@@ -33,7 +32,7 @@ Color had to do two jobs: keep every product feeling like one Newsela, while sti
 
 The rule mattered because the failure mode was real. A CODiE award graphic built before the system existed leaned almost entirely on Writing Purple, a product-specific accent color, so it read as off-brand and unbalanced. A Back to School Kickoff webinar graphic built after the system launched used the same blue-led ratio as everything else Newsela ships, so it immediately read as "us," even to someone who had never seen a Newsela style guide.
 
-## A product layer on top of the core palette
+#### A product layer on top of the core palette
 
 ![Newsela product color palette showing ELA Red, Social Studies Pink, STEM Orange, Formative Yellow, Writing Purple, and Schoolytics Green swatches with hex values](/img/newsela-colors-product.png "Newsela product color palette")
 
@@ -45,7 +44,7 @@ Color also had to tell Newsela's products apart. ELA, Social Studies, STEM, Form
 
 The mark and wordmark are treated as two tightly calibrated components, never separated in proportion and never distorted. I defined the minimum clearspace using the logo's own "N" as the unit of measurement, so the rule scales with the logo instead of relying on an arbitrary pixel value, and documented the specific ways it gets misused (stretching, recoloring, adding effects) so the rule was unambiguous rather than a matter of taste.
 
-## Typography, iconography, and tone
+#### Typography, iconography, and tone
 
 ![Newsela typography hierarchy showing headline, subhead, body, and caption styles](/img/newsela-typography.png "Newsela typography hierarchy")
 
