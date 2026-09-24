@@ -9,8 +9,6 @@ import Content, { HTMLContent } from "../components/Content";
 import arrow from "../img/arrow.svg";
 import BackgroundImage from 'gatsby-background-image';
 
-
-
 export const BlogPostTemplate = ({
   content,
   contentComponent,
@@ -26,7 +24,6 @@ export const BlogPostTemplate = ({
 
     const bgImg = bannerimage && bannerimage.childImageSharp ? bannerimage.childImageSharp.fluid : null;
 
-
   
 
   return (
@@ -34,7 +31,6 @@ export const BlogPostTemplate = ({
       {helmet || ""}
 
       <div id="blog-post">
-
 
       <div id="blog-post-wrapper">
         <div id="blog-post-header-wrapper">
@@ -48,8 +44,6 @@ export const BlogPostTemplate = ({
         >
           
         </BackgroundImage>
-
-
 
         <div id="blog-post-header">
           <div class="caps" id="back-button">
@@ -85,19 +79,14 @@ export const BlogPostTemplate = ({
 
           </div>
 
-
         </div>
 
         </div>
-
-
-
 
         <PostContent className="blog-content-wrapper" content={content} />
       </div>
 
       </div>
-
 
     </section>
   );
@@ -161,14 +150,14 @@ export const pageQuery = graphql`
         externallink
         featuredimage {
           childImageSharp {
-            fluid(quality: 100) {
+            fluid(quality: 100, maxWidth: 2880) {
               ...GatsbyImageSharpFluid
             }
           }
         }
         bannerimage {
           childImageSharp {
-            fluid(quality: 100) {
+            fluid(quality: 100, maxWidth: 3840) {
               ...GatsbyImageSharpFluid
             }
           }
