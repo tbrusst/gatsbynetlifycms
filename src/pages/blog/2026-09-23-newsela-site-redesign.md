@@ -2,7 +2,7 @@
 templateKey: blog-post
 title: Newsela.com Site Redesign
 externallink: https://newsela.com/
-date: 2026-09-23T12:30:00.000Z
+date: 2026-09-20T12:30:00.000Z
 description: Website Audit and Redesign
 featuredpost: true
 featuredimage: /img/brendanrusso_newselacom_thumbnail.jpg
