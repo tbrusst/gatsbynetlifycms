@@ -63,3 +63,15 @@ To give the brand texture beyond flat color and type, I developed a library of b
 The result was a modular brand system, covering color, product lockups, iconography, and tone, built so marketing, sales, education, and customer success could self-serve on-brand materials without looping design in on every deck or one-off asset. Go-to-market materials got produced faster because the color, type, and layout decisions were already made, and product teams had a clear boundary for how far a sub-brand identity could flex before it stopped reading as Newsela. When new products launched later, they inherited a system already built to absorb them, rather than starting from a blank page.
 
 Brand work at this scale isn't about one beautiful artifact. It's about building enough shared decision-making into a system that dozens of people, most of whom aren't designers, can execute on-brand without you in the room.
+
+![Newsela Brand Sample 1](/img/brendanrusso_newselabrandsystem_brandsample_1.jpg "Newsela Brand Sample 1")
+
+![Newsela Brand Sample 2](/img/brendanrusso_newselabrandsystem_brandsample_3.jpg "Newsela Brand Sample 2")
+
+![Newsela Brand Sample 3](/img/brendanrusso_newselabrandsystem_brandsample_4.jpg "Newsela Brand Sample 3")
+
+![Newsela Brand Sample 4](/img/brendanrusso_newselabrandsystem_brandsample_2.jpg "Newsela Brand Sample 4")
+
+![Newsela Brand Sample 5](/img/brendanrusso_newselabrandsystem_5.jpg "Newsela Brand Sample 5")
+
+![Newsela Brand Sample 6](/img/brendanrusso_newselabrandsystem_6.jpg "Newsela Brand Sample 6")
