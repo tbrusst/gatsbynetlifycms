@@ -22,7 +22,7 @@ So instead of a static guideline document, I built a system: a set of rules with
 
 #### A color system built for one brand and six products
 
-![Newsela primary color palette showing Newsela Blue, Neutral, Bisque, and Aqua swatches with hex values](/img/newsela-colors-main.png "Newsela primary color palette")
+![Newsela primary color palette showing Newsela Blue, Neutral, Bisque, and Aqua swatches with hex values](/img/brendanrusso_newselabrandsystem_primarycolorpalette.jpg "Newsela primary color palette")
 
 Color had to do two jobs: keep every product feeling like one Newsela, while still letting individual products stand apart. For the primary palette, I set a rule simple enough to apply without a designer reviewing every asset: Newsela Blue (#0A6EFA) holds at least 50% of any general-brand design, with Aqua (#53D7F2) and Bisque (#F8D6A7) splitting the remaining 50%, all anchored by a Neutral scale running from true black to true white. No guesswork, no "does this feel balanced," just a ratio anyone could hit.
 
@@ -34,7 +34,9 @@ The rule mattered because the failure mode was real. A CODiE award graphic built
 
 #### A product layer on top of the core palette
 
-![Newsela product color palette showing ELA Red, Social Studies Pink, STEM Orange, Formative Yellow, Writing Purple, and Schoolytics Green swatches with hex values](/img/newsela-colors-product.png "Newsela product color palette")
+![Newsela product color palette showing ELA Red, Social Studies Pink, STEM Orange, Formative Yellow, Writing Purple, and Schoolytics Green swatches with hex values](/img/brendanrusso_newselabrandsystem_productcolors.jpg "Newsela product color palette")
+
+![Newsela product lockups showing ELA, Social Studies, STEM, Formative, Writing, and Schoolytics](/img/brendanrusso_newselabrandsystem_productlockups.jpg "Newsela product lockups")
 
 Color also had to tell Newsela's products apart. ELA, Social Studies, STEM, Formative, and Schoolytics each got their own primary color (Red, Pink, Orange, Yellow, and Green, respectively), layered on top of the core Newsela palette and logo rather than replacing it. Each product also got its own lockup, built to the same sizing and line-weight rules as the primary logo, so a new one never felt like a one-off addition.
 
