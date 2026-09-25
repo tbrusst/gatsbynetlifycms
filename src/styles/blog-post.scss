@@ -300,7 +300,7 @@
 				  }
 		  }
 
-		      p:has(> img:only-child) {
+		      p:has(> span.gatsby-resp-image-wrapper:only-child) {
 				        max-width: 1250px;
 				        padding: 0;
 		  }
