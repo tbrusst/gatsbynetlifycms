@@ -22,41 +22,41 @@ So instead of a static guideline document, I built a system: a set of rules with
 
 #### A color system built for one brand and six products
 
-![Newsela primary color palette showing Newsela Blue, Neutral, Bisque, and Aqua swatches with hex values, next to a Back to School Kickoff webinar graphic built with the correct blue-led ratio](/img/brendanrusso_newselabrandsystem_primarycolorpalette.jpg "Newsela primary color palette")
+Color had to do two jobs: keep every product feeling like one Newsela, while still letting individual products stand apart. For the primary palette, I set a rule simple enough to apply without a designer reviewing every asset: Newsela Blue holds at least 50% of any general-brand design project, with Aqua and Bisque splitting the remaining 50%, all anchored by a Neutral scale running from true black to true white. No guesswork, no "does this feel balanced," just a ratio anyone could hit.
 
-Color had to do two jobs: keep every product feeling like one Newsela, while still letting individual products stand apart. For the primary palette, I set a rule simple enough to apply without a designer reviewing every asset: Newsela Blue (#0A6EFA) holds at least 50% of any general-brand design, with Aqua (#53D7F2) and Bisque (#F8D6A7) splitting the remaining 50%, all anchored by a Neutral scale running from true black to true white. No guesswork, no "does this feel balanced," just a ratio anyone could hit.
+![Newsela primary color palette showing Newsela Blue, Neutral, Bisque, and Aqua swatches with hex values, next to a Back to School Kickoff webinar graphic built with the correct blue-led ratio](/img/brendanrusso_newselabrandsystem_primarycolorpalette.jpg "Newsela primary color palette")
 
 #### Getting the balance right
 
-![Side-by-side comparison of incorrect color balance, a CODiE award graphic using too much lavender and purple, next to correct color balance, a Back to School Kickoff webinar graphic using the proper blue-led ratio](/img/brendanrusso_newselabrandsystem_colorbalanceexample.jpg "Incorrect versus correct Newsela color balance example")
-
 The rule mattered because the failure mode was real. A CODiE award graphic built before the system existed leaned almost entirely on Writing Purple, a product-specific accent color, so it read as off-brand and unbalanced. A Back to School Kickoff webinar graphic built after the system launched used the same blue-led ratio as everything else Newsela ships, so it immediately read as "us," even to someone who had never seen a Newsela style guide.
+
+![Side-by-side comparison of incorrect color balance, a CODiE award graphic using too much lavender and purple, next to correct color balance, a Back to School Kickoff webinar graphic using the proper blue-led ratio](/img/brendanrusso_newselabrandsystem_colorbalanceexample.jpg "Incorrect versus correct Newsela color balance example")
 
 #### A product layer on top of the core palette
 
-![Newsela product color palette showing ELA Red, Social Studies Pink, STEM Orange, Formative Yellow, Writing Purple, and Schoolytics Green swatches with hex values](/img/brendanrusso_newselabrandsystem_productcolors.jpg "Newsela product color palette")
-
 Color also had to tell Newsela's products apart. ELA, Social Studies, STEM, Formative, Writing, and Schoolytics each got their own primary color, layered on top of the core Newsela palette and logo rather than replacing it.
+
+![Newsela product color palette showing ELA Red, Social Studies Pink, STEM Orange, Formative Yellow, Writing Purple, and Schoolytics Green swatches with hex values](/img/brendanrusso_newselabrandsystem_productcolors.jpg "Newsela product color palette")
 
 #### Product lockups
 
-![Newsela product lockups for ELA, Social Studies, STEM, Formative, Writing, and Schoolytics, each pairing an icon with its wordmark inside its own product color](/img/brendanrusso_newselabrandsystem_productlockups.jpg "Newsela product lockups")
-
 Each product also got its own lockup: an icon paired with its wordmark, built to the same sizing and line-weight rules as the primary logo and set inside its own color chip pulled from the product palette. ELA, Social Studies, STEM, Formative, Writing, and Schoolytics all follow the exact same construction, so a new one never felt like a one-off addition bolted onto the system.
+
+![Newsela product lockups for ELA, Social Studies, STEM, Formative, Writing, and Schoolytics, each pairing an icon with its wordmark inside its own product color](/img/brendanrusso_newselabrandsystem_productlockups.jpg "Newsela product lockups")
 
 #### Typography, iconography, and tone
 
-![Newsela typography hierarchy showing headline, subhead, body, and caption styles](/img/newsela-typography.png "Newsela typography hierarchy")
-
 Brand guidelines aren't only about keeping color and type consistent, they carry a company's tone. Newsela is a tech company, but the brand needed to feel playful and witty, not corporate. I paired a serif display headline with a clean sans body, expressive enough for high-level brand moments like ads and event materials, structured enough to hold up in dense product and marketing copy.
 
-![Newsela icon set built on a consistent grid and line weight](/img/newsela-icons.png "Newsela icon library")
+![Newsela typography hierarchy showing headline, subhead, body, and caption styles](/img/newsela-typography.png "Newsela typography hierarchy")
 
 The icon system follows a strict grid and a consistent line weight, built to feel light and friendly rather than decorative.
 
-![Newsela graphic embellishments including brush strokes, patterns, and hand-drawn accents](/img/newsela-graphics-embellishments.png "Newsela graphic embellishments and pattern library")
+![Newsela icon set built on a consistent grid and line weight](/img/newsela-icons.png "Newsela icon library")
 
 To give the brand texture beyond flat color and type, I developed a library of brush-stroke and plaid-style pattern fills plus a set of hand-drawn embellishments (arrows, sparkles, underlines), with a simple rule that embellishments stay black or white next to photography and can only take on color around text, so they never compete with real content. That tone comes through most clearly in the illustration system, which is warm and human rather than the generic corporate figures a lot of edtech brands lean on.
+
+![Newsela graphic embellishments including brush strokes, patterns, and hand-drawn accents](/img/newsela-graphics-embellishments.png "Newsela graphic embellishments and pattern library")
 
 #### What this unlocked
 
