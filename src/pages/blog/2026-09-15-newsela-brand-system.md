@@ -7,10 +7,7 @@ description: Ed-Tech Brand System
 featuredpost: true
 featuredimage: /img/brendanrusso_newselabrandsystem_thumbnail.jpg
 bannerimage: /img/brendanrusso_newselabrandsystem_banner.jpg
-tags:
-  - Brand Design
-  - Creative Direction
-  - Design Systems
+tags: [Brand Design, Creative Direction, Design Systems]
 ---
 As Lead Designer at Newsela, I inherited a governance problem, not a visual one. Marketing, sales, education, and customer success all built their own decks and materials from Newsela's brand assets, but with no single source of truth, self-serve use drifted off-brand fast. Every team needed one reference that let them stay on-brand without routing everything through design.
 
@@ -64,6 +61,8 @@ The result was a modular brand system, covering color, product lockups, iconogra
 
 Brand work at this scale isn't about one beautiful artifact. It's about building enough shared decision-making into a system that dozens of people, most of whom aren't designers, can execute on-brand without you in the room.
 
+<div class="image-grid">
+
 ![Newsela Brand Sample 1](/img/brendanrusso_newselabrandsystem_brandsample_1.jpg "Newsela Brand Sample 1")
 
 ![Newsela Brand Sample 2](/img/brendanrusso_newselabrandsystem_brandsample_3.jpg "Newsela Brand Sample 2")
@@ -75,3 +74,5 @@ Brand work at this scale isn't about one beautiful artifact. It's about building
 ![Newsela Brand Sample 5](/img/brendanrusso_newselabrandsystem_5.jpg "Newsela Brand Sample 5")
 
 ![Newsela Brand Sample 6](/img/brendanrusso_newselabrandsystem_6.jpg "Newsela Brand Sample 6")
+
+</div>
