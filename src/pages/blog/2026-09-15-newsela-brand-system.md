@@ -70,8 +70,4 @@ Brand work at this scale isn't about one beautiful artifact. It's about building
 
 ![Newsela Brand Sample 2](/img/brendanrusso_newselabrandsystem_brandsample_3.jpg "Newsela Brand Sample 2")
 
-![Newsela Brand Sample 3](/img/brendanrusso_newselabrandsystem_brandsample_4.jpg "Newsela Brand Sample 3")
-
-![Newsela Brand Sample 4](/img/brendanrusso_newselabrandsystem_brandsample_2.jpg "Newsela Brand Sample 4")
-
 </div>
