@@ -65,6 +65,16 @@ const TemplateWrapper = ({ children }) => {
         ></link>
         <link rel="stylesheet" href="https://use.typekit.net/prl4uby.css"></link>
 
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link
+          rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossOrigin="anonymous"
+        />
+        <link
+          rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400;0,500;0,600;1,400&display=swap"
+        />
 
       </Helmet>
       <GlobalStyle />
