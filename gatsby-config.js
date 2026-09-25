@@ -72,6 +72,7 @@ module.exports = {
                                         options: {
                                                         // It's important to specify the maxWidth (in pixels) of
                                           // the content container as this plugin uses this as the
+                                            quality: 90,
                                           // base for generating different widths of each image.
                                           maxWidth: 2500,
                                         },
