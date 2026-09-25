@@ -26,28 +26,28 @@ The usability and accessibility audit surfaced the specific issues driving that 
 
 #### Rebuilding the architecture
 
-![Site map comparison showing the existing fragmented navigation structure next to the updated, simplified hierarchy organized around What's New, Products, Content, Training, Resources, and About Us](/img/brendanrusso_newselacom_sitemap.jpg "Newsela.com site map, before and after")
-
 Alongside a competitor analysis of sites like Actively Learn, CommonLit, and Calm for Business, the audit led to a full rework of the site map, collapsing a fragmented structure into a simplified hierarchy organized around What's New, Products, Content, Training, Resources, and About Us.
 
-The audit gave us a punch list, but the real work was the three years that followed. Newsela.com was a living product, not a project with an end date. We kept coming back to four design pillars: emphasis on brand and product story, product pages that show rather than just tell, navigation people can actually use, and trust built with data and real world use.
+![Site map comparison showing the existing fragmented navigation structure next to the updated, simplified hierarchy organized around What's New, Products, Content, Training, Resources, and About Us](/img/brendanrusso_newselacom_sitemap.jpg "Newsela.com site map, before and after")
+
+The audit gave us a punch list, but the real work was the three years that followed. Newsela.com was a living product, not a project with an end date. We kept coming back to four design pillars: **emphasis on brand and product story, product pages that show rather than just tell, navigation people can actually use, and trust built with data and real world use.**
 
 #### Telling the product story
 
-![Newsela Learning Suite hero section reading "Power your cross-curricular instruction with Newsela," with stats on learners, teachers, texts, and school reach](/img/brendanrusso_newselacom_storytelling.jpg "Newsela.com storytelling and hero redesign")
+The redesigned homepage led with the Newsela Learning Suite story, backed by real numbers: 47 million learners, 4 million teachers, over 18,000 texts, and roughly 90% of US schools reached.
 
-The redesigned homepage led with the Newsela Learning Suite story ("Power your cross-curricular instruction with Newsela"), backed by real numbers: 47 million learners, 4 million teachers, over 18,000 texts, and roughly 90% of US schools reached.
+![Newsela Learning Suite hero section reading "Power your cross-curricular instruction with Newsela," with stats on learners, teachers, texts, and school reach](/img/brendanrusso_newselacom_storytelling.jpg "Newsela.com storytelling and hero redesign")
 
 #### Navigation people can use
 
-![Redesigned mega menu navigation with Product Overview, Curriculum and Instruction, and Assessment Analytics and Attendance columns](/img/brendanrusso_newselacom_navigation.jpg "Newsela.com mega menu redesign")
-
 The new navigation replaced the old structure with a mega menu organized around how customers actually think about the product: Product Overview, Curriculum and Instruction, and Assessment Analytics and Attendance, all in one clear, scannable layout.
+
+![Redesigned mega menu navigation with Product Overview, Curriculum and Instruction, and Assessment Analytics and Attendance columns](/img/brendanrusso_newselacom_navigation.jpg "Newsela.com mega menu redesign")
 
 #### The live site
 
-![Final Newsela.com homepage reading "Accelerate student growth through the power of connected instruction, assessment, and data"](/img/brendanrusso_newselacom_livesite.jpg "Newsela.com final homepage design")
-
 The result is a homepage built to earn trust as much as explain the product, backed by logos from over 1,000 districts and testimonials from real educators, and landing on a single clear promise: accelerate student growth through the power of connected instruction, assessment, and data.
+
+![Final Newsela.com homepage reading "Accelerate student growth through the power of connected instruction, assessment, and data"](/img/brendanrusso_newselacom_livesite.jpg "Newsela.com final homepage design")
 
 This wasn't a one-time redesign so much as an ongoing design practice. Newsela.com kept evolving for three years after the initial audit, and every product launch, from Luna to Newsela STEM, shipped through the same navigation, component library, and design pillars this project established.
