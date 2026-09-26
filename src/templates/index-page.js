@@ -8,7 +8,7 @@ import ContactButton from "../components/ContactButton";
 import AboutMe from "../components/AboutMe";
 import Nav from "../components/Nav";
 
-import headshot from "../img/brendanrusso_portfolio_portrait.jpg";
+import headshot from "../img/image.png";
 import "../styles/index.scss";
 import "../styles/typography.scss";
 
